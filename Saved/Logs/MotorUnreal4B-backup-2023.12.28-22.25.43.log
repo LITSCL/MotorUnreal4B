@@ -1,0 +1,672 @@
+﻿Log file open, 12/28/23 09:31:03
+LogInit:Display: Running engine for game: MotorUnreal4B
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1961763729) SRandInit(-1961763729).
+LogInit: Using version manifest at CL 0 with build ID '5af06b4c-3232-42c8-80e0-46572b4b0bc8'
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.161681
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-0
+LogInit: Engine Version: 4.15.0-0+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-0+++UE4+Release-4.15
+LogInit: Net CL: 0
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Apr  2 2023 09:25:01
+LogInit: Compiled with Visual C++: 19.00.24210.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine 4 (4.15.0)/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2023.12.28-12.31.04:049][  0]LogInit: Selected Device Profile: [Windows]
+[2023.12.28-12.31.04:049][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.12.28-12.31.04:069][  0]LogInit: Computer: DESKTOP-GOSDJOG
+[2023.12.28-12.31.04:069][  0]LogInit: User: MelchioT
+[2023.12.28-12.31.04:069][  0]LogInit: CPU Page size=65536, Cores=6
+[2023.12.28-12.31.04:069][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.12.28-12.31.04:070][  0]LogMemory: Memory total: Physical=31.2GB (32GB approx)
+[2023.12.28-12.31.04:070][  0]LogMemory: Platform Memory Stats for Windows
+[2023.12.28-12.31.04:070][  0]LogMemory: Process Physical Memory: 265.16 MB used, 265.16 MB peak
+[2023.12.28-12.31.04:070][  0]LogMemory: Process Virtual Memory: 259.47 MB used, 259.47 MB peak
+[2023.12.28-12.31.04:070][  0]LogMemory: Physical Memory: 8006.31 MB used,  23969.37 MB free, 31975.68 MB total
+[2023.12.28-12.31.04:070][  0]LogMemory: Virtual Memory: 4751.31 MB used,  23969.37 MB free, 134217728.00 MB total
+[2023.12.28-12.31.04:186][  0]LogInit: Overriding culture en with editor configuration.
+[2023.12.28-12.31.05:016][  0]LogD3D11RHI: D3D11 adapters:
+[2023.12.28-12.31.05:077][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) Graphics' (Feature Level 11_0)
+[2023.12.28-12.31.05:077][  0]LogD3D11RHI:       495/0/15987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2023.12.28-12.31.05:081][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.12.28-12.31.05:081][  0]LogD3D11RHI:       0/0/15987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.12.28-12.31.05:081][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.12.28-12.31.05:097][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.12.28-12.31.05:097][  0]LogD3D11RHI:     GPU DeviceId: 0x1636 (for the marketing name, search the web for "GPU Device Id")
+[2023.12.28-12.31.05:097][  0]LogWindows: EnumDisplayDevices:
+[2023.12.28-12.31.05:098][  0]LogWindows:    0. 'AMD Radeon(TM) Graphics' (P:1 D:1)
+[2023.12.28-12.31.05:098][  0]LogWindows:    1. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2023.12.28-12.31.05:098][  0]LogWindows:    2. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2023.12.28-12.31.05:098][  0]LogWindows:    3. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2023.12.28-12.31.05:099][  0]LogWindows:    4. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2023.12.28-12.31.05:099][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2023.12.28-12.31.05:099][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) Graphics
+[2023.12.28-12.31.05:099][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2023.12.28-12.31.05:099][  0]LogD3D11RHI:      Driver Date: Unknown
+[2023.12.28-12.31.05:099][  0]LogRHI: Texture pool is 347 MB (70% of 495 MB)
+[2023.12.28-12.31.05:149][  0]LogD3D11RHI: Async texture creation enabled
+[2023.12.28-12.31.05:166][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2023.12.28-12.31.05:169][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Intermediate/Shaders/WorkingDirectory/5236/).
+[2023.12.28-12.31.05:169][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MelchioT/AppData/Local/Temp/UnrealShaderWorkingDir/12EB7EF94C22F2B5638556B5A6224D8F/'.
+[2023.12.28-12.31.05:169][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2023.12.28-12.31.06:366][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2023.12.28-12.31.06:432][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2023.12.28-12.31.06:501][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2023.12.28-12.31.06:572][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2023.12.28-12.31.06:626][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2023.12.28-12.31.06:688][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2023.12.28-12.31.06:750][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2023.12.28-12.31.06:822][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2023.12.28-12.31.06:878][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2023.12.28-12.31.06:950][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2023.12.28-12.31.07:026][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2023.12.28-12.31.07:102][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2023.12.28-12.31.07:174][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2023.12.28-12.31.07:236][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2023.12.28-12.31.07:296][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2023.12.28-12.31.07:366][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2023.12.28-12.31.07:424][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2023.12.28-12.31.07:476][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2023.12.28-12.31.07:600][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2023.12.28-12.31.07:641][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2023.12.28-12.31.07:641][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2023.12.28-12.31.08:185][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2023.12.28-12.31.08:274][  0]LogDerivedDataCache: Loaded boot cache 0.09s 50MB ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/Boot.ddc.
+[2023.12.28-12.31.08:274][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/Boot.ddc
+[2023.12.28-12.31.08:274][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.12.28-12.31.08:274][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.12.28-12.31.08:274][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.12.28-12.31.08:274][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2023.12.28-12.31.08:287][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2023.12.28-12.31.08:287][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.12.28-12.31.08:287][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.12.28-12.31.08:299][  0]LogSlate: Using Freetype 2.6.0
+[2023.12.28-12.31.08:300][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.12.28-12.31.08:301][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.12.28-12.31.08:631][  0]LogInit: Selected Device Profile: [Windows]
+[2023.12.28-12.31.08:634][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2023.12.28-12.31.08:902][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.12.28-12.31.08:914][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2023.12.28-12.31.08:914][  0]LogMeshUtilities: No automatic mesh merging module available
+[2023.12.28-12.31.08:914][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2023.12.28-12.31.09:914][  0]LogNetVersion: GetLocalNetworkVersion: CL: 0, ProjectName: motorunreal4b, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3893362438
+[2023.12.28-12.31.09:984][  0]LogAssetRegistry: FAssetRegistry took 0.0237 seconds to start up
+[2023.12.28-12.31.10:060][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.035504 seconds
+[2023.12.28-12.31.10:070][  0]LogUObjectArray: 32434 objects as part of root set at end of initial load.
+[2023.12.28-12.31.10:070][  0]LogUObjectAllocator: 7066632 out of 0 bytes used by permanent object pool.
+[2023.12.28-12.31.10:070][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.12.28-12.31.10:176][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2023.12.28-12.31.12:315][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.12.28-12.31.12:365][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.12.28-12.31.12:991][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2023.12.28-12.31.13:457][  0]SourceControl: Info Source control is disabled
+[2023.12.28-12.31.13:520][  0]SourceControl: Info Source control is disabled
+[2023.12.28-12.31.13:582][  0]SourceControl: Info Source control is disabled
+[2023.12.28-12.31.13:655][  0]SourceControl: Info Source control is disabled
+[2023.12.28-12.31.15:397][  0]LogEngine: Initializing Engine...
+[2023.12.28-12.31.15:398][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.12.28-12.31.15:669][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.12.28-12.31.15:689][  0]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.12.28-12.31.15:718][  0]LogInit: FAudioDevice initialized.
+[2023.12.28-12.31.15:760][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/Boot.ddc.
+[2023.12.28-12.31.15:774][  0]LogInit: Texture streaming: Enabled
+[2023.12.28-12.31.15:907][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.12.28-12.31.16:020][  0]LogInit: Transaction tracking system initialized
+[2023.12.28-12.31.16:473][  0]BlueprintLog: New page: Editor Load
+[2023.12.28-12.31.17:680][  0]LocalizationService: Info Localization service is disabled
+[2023.12.28-12.31.18:534][  0]LogConsoleResponse:Display: 
+[2023.12.28-12.31.18:697][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.12.28-12.31.18:697][  0]LogCook:Display: Mobile HDR setting 1
+[2023.12.28-12.31.19:625][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/' took 0.02s
+[2023.12.28-12.31.20:177][  0]SourceControl: Info Source control is disabled
+[2023.12.28-12.31.20:177][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.12.28-12.31.20:178][  0]LightingResults: New page: Lighting Build
+[2023.12.28-12.31.20:238][  0]MapCheck: New page: Map Check
+[2023.12.28-12.31.20:238][  0]LightingResults: New page: Lighting Build
+[2023.12.28-12.31.20:468][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2023.12.28-12.31.20:469][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2023.12.28-12.31.20:477][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.12.28-12.31.20:486][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.12.28-12.31.20:519][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.982ms to complete.
+[2023.12.28-12.31.20:520][  0]LogFileHelpers: Loading map 'Template_Default' took 0.342
+[2023.12.28-12.31.20:787][  0]LogCollectionManager: Loaded 0 collections in 0.002332 seconds
+[2023.12.28-12.31.20:888][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Collections/' took 0.01s
+[2023.12.28-12.31.20:889][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Developers/MelchioT/Collections/' took 0.01s
+[2023.12.28-12.31.20:889][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Collections/' took 0.01s
+[2023.12.28-12.31.20:889][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2023.12.28-12.31.20:901][  0]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2243 classes and 448 folders.
+[2023.12.28-12.31.20:906][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.12.28-12.31.20:906][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.12.28-12.31.20:996][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2023.12.28-12.31.21:581][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2023.12.28-12.31.21:646][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2023.12.28-12.31.21:722][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2023.12.28-12.31.21:735][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2023.12.28-12.31.21:830][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2023.12.28-12.31.21:831][  0]LogLoad: (Engine Initialization) Total time: 19.81 seconds
+[2023.12.28-12.31.21:831][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2023.12.28-12.31.21:831][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2023.12.28-12.31.22:171][  0]LogOcInput: OculusInput pre-init called
+[2023.12.28-12.31.22:190][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.12.28-12.31.22:192][  0]LogSlate: Took 0.000574 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.12.28-12.31.22:196][  0]LogSlate: Took 0.000635 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.12.28-12.31.22:212][  0]LogSlate: Took 0.011047 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.12.28-12.31.22:528][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2023.12.28-12.31.22:624][  0]LogSlate: Took 0.017508 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.12.28-12.31.22:741][  1]LogAssetRegistry: Asset discovery search completed in 12.7808 seconds
+[2023.12.28-12.31.22:741][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2023.12.28-12.31.22:741][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2023.12.28-12.32.05:800][342]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MotorUnreal4B
+
+[2023.12.28-12.32.05:800][342]LogTemp:Display: CWD: C:\Program Files\Unreal Engine 4 (4.15.0)\Engine\Binaries\DotNET\IOS
+
+[2023.12.28-12.32.05:800][342]LogTemp:Display: Initial Dir: C:\Program Files\Unreal Engine 4 (4.15.0)
+
+[2023.12.28-12.32.05:800][342]LogTemp:Display: Env CWD: C:\Program Files\Unreal Engine 4 (4.15.0)\Engine\Binaries\DotNET\IOS
+
+[2023.12.28-12.32.05:800][342]LogTemp:Display: BranchPath = DESKTOP-GOSDJOG/C/Program Files/Unreal Engine 4 (4.15.0)/Engine/Binaries --- GameBranchPath = DESKTOP-GOSDJOG/C/Program Files/Unreal Engine 4 (4.15.0)/Engine/Binaries
+
+[2023.12.28-12.32.05:835][344]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\MelchioT\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2023.12.28-12.32.05:835][344]LogTemp:Display:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2023.12.28-12.32.05:835][344]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2023.12.28-12.32.05:835][344]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+
+[2023.12.28-12.32.05:835][344]LogTemp:Display:    en System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2023.12.28-12.32.05:835][344]LogTemp:Display:    en iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2023.12.28-12.32.05:835][344]LogTemp:Display:    en iPhonePackager.Program.Main(String[] args)
+
+[2023.12.28-12.32.21:700][188]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2023.12.28-12.32.21:770][188]LogAIModule: Creating AISystem for world Nivel
+[2023.12.28-12.32.21:789][188]Cmd: MAP LOAD FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Nivel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.12.28-12.32.21:789][188]LightingResults: New page: Lighting Build
+[2023.12.28-12.32.21:791][188]LoadErrors: New page: Loading map: Nivel.umap
+[2023.12.28-12.32.21:791][188]MapCheck: New page: Map Check
+[2023.12.28-12.32.21:791][188]LightingResults: New page: Lighting Build
+[2023.12.28-12.32.21:804][188]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.12.28-12.32.21:822][188]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.12.28-12.32.21:852][188]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.128ms to complete.
+[2023.12.28-12.32.21:852][188]LogFileHelpers: Loading map 'Nivel' took 0.065
+[2023.12.28-12.32.34:020][858]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2023.12.28-12.32.34:549][858]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.12.28-12.32.34:699][858]LogSlate: Took 0.005957 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.12.28-12.32.34:799][859]LogSlate: Took 0.007123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.12.28-12.32.37:654][ 29]BlueprintLog: New page: Compile Disparo
+[2023.12.28-12.32.45:497][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio3/Disparo" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Disparo.uasset" SILENT=true
+[2023.12.28-12.32.45:538][490]LogSavePackage: Save=14.60ms
+[2023.12.28-12.32.45:538][490]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/DisparoC48148D04A8FC3F085FC14A06ACF9C8C.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Disparo.uasset'
+[2023.12.28-12.32.45:540][490]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Disparo.uasset
+[2023.12.28-12.32.52:747][882]BlueprintLog: New page: Compile Tanque
+[2023.12.28-12.32.53:426][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio3/Tanque" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Tanque.uasset" SILENT=true
+[2023.12.28-12.32.53:449][914]LogSavePackage: Save=15.56ms
+[2023.12.28-12.32.53:449][914]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/TanqueC9E7402D47A1010604B1C5B9F8D85FC4.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Tanque.uasset'
+[2023.12.28-12.32.53:451][914]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Tanque.uasset
+[2023.12.28-12.32.56:357][ 85]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.12.28-12.32.57:773][167]LogTemp: Repeting last play command: Selected Viewport
+[2023.12.28-12.32.57:786][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.28-12.32.57:788][167]PIE: New page: PIE session: Nivel (Dec 28, 2023, 6:32:57 AM)
+[2023.12.28-12.32.57:788][167]LogPlayLevel: Creating play world package: /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel
+[2023.12.28-12.32.57:790][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002543s)
+[2023.12.28-12.32.57:791][167]LogAIModule: Creating AISystem for world Nivel
+[2023.12.28-12.32.57:791][167]LogPlayLevel: PIE: World Init took: (0.001026s)
+[2023.12.28-12.32.57:792][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ejercicios/Ejercicio3/Nivel.Nivel to /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel.Nivel (0.003836s)
+[2023.12.28-12.32.57:816][167]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.12.28-12.32.57:833][167]LogInit: FAudioDevice initialized.
+[2023.12.28-12.32.57:906][167]LogLoad: Game class is 'GameModeBase'
+[2023.12.28-12.32.57:911][167]LogWorld: Bringing World /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel.Nivel up for play (max tick rate 60) at 2023.12.28-09.32.57
+[2023.12.28-12.32.57:911][167]LogWorld: Bringing up level for play took: 0.001192
+[2023.12.28-12.32.57:954][167]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2023.12.28-12.32.57:955][167]PIE: Info Play in editor start time for /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel 0.649
+[2023.12.28-12.33.16:692][243]LogSavePackage: Save=13.55ms
+[2023.12.28-12.33.16:692][243]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/ObstaculoEB7B9D254A03DFF82803A1821C9333A8.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Obstaculo.uasset'
+[2023.12.28-12.33.16:694][243]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Obstaculo.uasset
+[2023.12.28-12.33.26:526][771]LogSavePackage: Save=12.97ms
+[2023.12.28-12.33.26:526][771]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Reparacion8BACD18C465096DEF13CECAEF8EF9CD0.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Reparacion.uasset'
+[2023.12.28-12.33.26:528][771]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Reparacion.uasset
+[2023.12.28-12.33.29:652][918]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.12.28-12.33.58:650][534]LogSavePackage: Save=15.78ms
+[2023.12.28-12.33.58:650][534]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/13-_Enemigo_AddActorLocalOffset+Collision6D368114478252C2E2FE53ADC47C2E3A.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Contenido/Blueprints/13-_Enemigo_AddActorLocalOffset+Collision.uasset'
+[2023.12.28-12.33.58:652][534]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Contenido/Blueprints/13-_Enemigo_AddActorLocalOffset+Collision.uasset
+[2023.12.28-12.34.39:552][360]Cmd: MAP LOAD FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Nivel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.12.28-12.34.39:554][360]LightingResults: New page: Lighting Build
+[2023.12.28-12.34.39:555][360]LoadErrors: New page: Loading map: Nivel.umap
+[2023.12.28-12.34.39:556][360]MapCheck: New page: Map Check
+[2023.12.28-12.34.39:556][360]LightingResults: New page: Lighting Build
+[2023.12.28-12.34.39:584][360]LogAIModule: Creating AISystem for world Nivel
+[2023.12.28-12.34.39:592][360]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.12.28-12.34.39:618][360]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.12.28-12.34.39:654][360]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 35.145ms to complete.
+[2023.12.28-12.34.39:657][360]LogFileHelpers: Loading map 'Nivel' took 0.106
+[2023.12.28-12.34.50:508][947]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.12.28-12.35.08:051][923]LogSavePackage: Save=13.32ms
+[2023.12.28-12.35.08:051][923]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Obstaculo79A629764CDD62D4EC64E0A6474A43AE.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Obstaculo.uasset'
+[2023.12.28-12.35.08:053][923]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Obstaculo.uasset
+[2023.12.28-12.35.23:137][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio3/Disparo" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Disparo.uasset" SILENT=true
+[2023.12.28-12.35.23:158][794]LogSavePackage: Save=13.94ms
+[2023.12.28-12.35.23:158][794]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/DisparoD0C694914A151CA9B5E76F9AE4715FCE.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Disparo.uasset'
+[2023.12.28-12.35.23:161][794]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Disparo.uasset
+[2023.12.28-12.35.32:463][309]LogSavePackage: Save=12.72ms
+[2023.12.28-12.35.32:463][309]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Reparacion266C8B33413E1133C5AFA893118AABF0.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Reparacion.uasset'
+[2023.12.28-12.35.32:465][309]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Reparacion.uasset
+[2023.12.28-12.35.43:372][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio3/Tanque" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Tanque.uasset" SILENT=true
+[2023.12.28-12.35.43:395][936]LogSavePackage: Save=15.69ms
+[2023.12.28-12.35.43:395][936]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Tanque99C5290847132B04BDA04E81CD8C58EA.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Tanque.uasset'
+[2023.12.28-12.35.43:397][936]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Tanque.uasset
+[2023.12.28-12.35.46:383][114]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2023.12.28-12.35.46:712][126]LogSavePackage: Save=28.99ms
+[2023.12.28-12.35.46:712][126]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Nivel5607C3C7497F0E7114C6D7A7105F4A00.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Nivel.umap'
+[2023.12.28-12.35.46:714][126]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Nivel.umap
+[2023.12.28-12.35.47:738][186]LogTemp: Repeting last play command: Selected Viewport
+[2023.12.28-12.35.47:746][186]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.28-12.35.47:746][186]LogPlayLevel: [PlayLevel] Compiling Disparo before play...
+[2023.12.28-12.35.47:818][186]LogPlayLevel: [PlayLevel] Compiling Obstaculo before play...
+[2023.12.28-12.35.47:888][186]LogPlayLevel: [PlayLevel] Compiling Reparacion before play...
+[2023.12.28-12.35.47:958][186]LogPlayLevel: [PlayLevel] Compiling Tanque before play...
+[2023.12.28-12.35.48:032][186]LogPlayLevel: [PlayLevel] Compiling 13-_Enemigo_AddActorLocalOffset+Collision before play...
+[2023.12.28-12.35.48:118][186]LogPlayLevel: PlayLevel: Blueprint regeneration took 371 ms (5 blueprints)
+[2023.12.28-12.35.48:118][186]PIE: New page: PIE session: Nivel (Dec 28, 2023, 6:35:48 AM)
+[2023.12.28-12.35.48:118][186]LogPlayLevel: Creating play world package: /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel
+[2023.12.28-12.35.48:120][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001864s)
+[2023.12.28-12.35.48:120][186]LogAIModule: Creating AISystem for world Nivel
+[2023.12.28-12.35.48:120][186]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2023.12.28-12.35.48:120][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ejercicios/Ejercicio3/Nivel.Nivel to /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel.Nivel (0.002746s)
+[2023.12.28-12.35.48:147][186]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.12.28-12.35.48:162][186]LogInit: FAudioDevice initialized.
+[2023.12.28-12.35.48:197][186]LogLoad: Game class is 'GameModeBase'
+[2023.12.28-12.35.48:200][186]LogWorld: Bringing World /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel.Nivel up for play (max tick rate 60) at 2023.12.28-09.35.48
+[2023.12.28-12.35.48:200][186]LogWorld: Bringing up level for play took: 0.001209
+[2023.12.28-12.35.48:201][186]PIE: Info Play in editor start time for /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel 0.895
+[2023.12.28-12.36.04:658][118]LogSavePackage: Save=13.00ms
+[2023.12.28-12.36.04:658][118]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Reparacion348548D64A1FCCA2496E6B89EDEB2DB9.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Reparacion.uasset'
+[2023.12.28-12.36.04:660][118]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Reparacion.uasset
+[2023.12.28-12.36.06:737][243]LogTemp: Repeting last play command: Selected Viewport
+[2023.12.28-12.36.06:745][243]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.28-12.36.06:745][243]LogPlayLevel: [PlayLevel] Compiling Reparacion before play...
+[2023.12.28-12.36.06:832][243]LogPlayLevel: PlayLevel: Blueprint regeneration took 87 ms (1 blueprints)
+[2023.12.28-12.36.06:832][243]PIE: New page: PIE session: Nivel (Dec 28, 2023, 6:36:06 AM)
+[2023.12.28-12.36.06:832][243]LogPlayLevel: Creating play world package: /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel
+[2023.12.28-12.36.06:834][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001707s)
+[2023.12.28-12.36.06:835][243]LogAIModule: Creating AISystem for world Nivel
+[2023.12.28-12.36.06:835][243]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2023.12.28-12.36.06:835][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ejercicios/Ejercicio3/Nivel.Nivel to /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel.Nivel (0.002780s)
+[2023.12.28-12.36.06:862][243]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.12.28-12.36.06:878][243]LogInit: FAudioDevice initialized.
+[2023.12.28-12.36.06:913][243]LogLoad: Game class is 'GameModeBase'
+[2023.12.28-12.36.06:916][243]LogWorld: Bringing World /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel.Nivel up for play (max tick rate 60) at 2023.12.28-09.36.06
+[2023.12.28-12.36.06:916][243]LogWorld: Bringing up level for play took: 0.001203
+[2023.12.28-12.36.06:917][243]PIE: Info Play in editor start time for /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel -0.389
+[2023.12.28-12.36.24:521][268]LogEditorViewport: Clicking on Actor (LMB): Disparo_C (Disparo)
+[2023.12.28-12.36.31:678][680]LogSavePackage: Save=25.69ms
+[2023.12.28-12.36.31:678][680]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Nivel37CC979E4BC4A7DE15A1089F2660703B.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Nivel.umap'
+[2023.12.28-12.36.31:680][680]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Nivel.umap
+[2023.12.28-12.36.32:570][732]LogTemp: Repeting last play command: Selected Viewport
+[2023.12.28-12.36.32:578][732]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.28-12.36.32:578][732]PIE: New page: PIE session: Nivel (Dec 28, 2023, 6:36:32 AM)
+[2023.12.28-12.36.32:578][732]LogPlayLevel: Creating play world package: /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel
+[2023.12.28-12.36.32:580][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001767s)
+[2023.12.28-12.36.32:580][732]LogAIModule: Creating AISystem for world Nivel
+[2023.12.28-12.36.32:581][732]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2023.12.28-12.36.32:581][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ejercicios/Ejercicio3/Nivel.Nivel to /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel.Nivel (0.002869s)
+[2023.12.28-12.36.32:607][732]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.12.28-12.36.32:624][732]LogInit: FAudioDevice initialized.
+[2023.12.28-12.36.32:660][732]LogLoad: Game class is 'GameModeBase'
+[2023.12.28-12.36.32:663][732]LogWorld: Bringing World /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel.Nivel up for play (max tick rate 60) at 2023.12.28-09.36.32
+[2023.12.28-12.36.32:663][732]LogWorld: Bringing up level for play took: 0.001090
+[2023.12.28-12.36.32:664][732]PIE: Info Play in editor start time for /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel -0.642
+[2023.12.28-12.36.38:417][ 61]LogEditorViewport: Clicking on Actor (LMB): Disparo_C (Disparo)
+[2023.12.28-12.36.40:431][174]LogSavePackage: Save=25.67ms
+[2023.12.28-12.36.40:431][174]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Nivel7C053D284055D29175EF4B8097ADEED6.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Nivel.umap'
+[2023.12.28-12.36.40:433][174]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio3/Nivel.umap
+[2023.12.28-12.36.41:147][215]LogTemp: Repeting last play command: Selected Viewport
+[2023.12.28-12.36.41:155][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.28-12.36.41:155][215]PIE: New page: PIE session: Nivel (Dec 28, 2023, 6:36:41 AM)
+[2023.12.28-12.36.41:155][215]LogPlayLevel: Creating play world package: /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel
+[2023.12.28-12.36.41:157][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001785s)
+[2023.12.28-12.36.41:158][215]LogAIModule: Creating AISystem for world Nivel
+[2023.12.28-12.36.41:158][215]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2023.12.28-12.36.41:158][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ejercicios/Ejercicio3/Nivel.Nivel to /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel.Nivel (0.002728s)
+[2023.12.28-12.36.41:184][215]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.12.28-12.36.41:200][215]LogInit: FAudioDevice initialized.
+[2023.12.28-12.36.41:233][215]LogLoad: Game class is 'GameModeBase'
+[2023.12.28-12.36.41:236][215]LogWorld: Bringing World /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel.Nivel up for play (max tick rate 60) at 2023.12.28-09.36.41
+[2023.12.28-12.36.41:236][215]LogWorld: Bringing up level for play took: 0.001075
+[2023.12.28-12.36.41:237][215]PIE: Info Play in editor start time for /Game/Ejercicios/Ejercicio3/UEDPIE_0_Nivel -0.069
+[2023.12.28-12.37.00:901][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.12.28-12.37.01:370][401]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.12.28-12.37.02:032][438]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.12.28-12.37.25:661][609]LogAIModule: Creating AISystem for world 12-Blueprint12+13+14
+[2023.12.28-12.37.27:299][609]LogSavePackage: Save=17.93ms
+[2023.12.28-12.37.27:299][609]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/12-_Curacion_AddActorLocalOffset+Collision465D594B410856503737A68ADAFF15EF.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Contenido/Blueprints/12-_Curacion_AddActorLocalOffset+Collision.uasset'
+[2023.12.28-12.37.27:301][609]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Contenido/Blueprints/12-_Curacion_AddActorLocalOffset+Collision.uasset
+[2023.12.28-12.37.27:303][609]Cmd: MAP LOAD FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Contenido/Levels/12-Blueprint12+13+14.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.12.28-12.37.27:303][609]LightingResults: New page: Lighting Build
+[2023.12.28-12.37.27:305][609]LoadErrors: New page: Loading map: 12-Blueprint12+13+14.umap
+[2023.12.28-12.37.27:306][609]MapCheck: New page: Map Check
+[2023.12.28-12.37.27:306][609]LightingResults: New page: Lighting Build
+[2023.12.28-12.37.27:330][609]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.12.28-12.37.27:349][609]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.12.28-12.37.27:383][609]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.946ms to complete.
+[2023.12.28-12.37.27:383][609]LogFileHelpers: Loading map '12-Blueprint12+13+14' took 0.081
+[2023.12.28-12.37.29:606][740]LogTemp: Repeting last play command: Selected Viewport
+[2023.12.28-12.37.29:615][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.28-12.37.29:615][740]PIE: New page: PIE session: 12-Blueprint12+13+14 (Dec 28, 2023, 6:37:29 AM)
+[2023.12.28-12.37.29:615][740]LogPlayLevel: Creating play world package: /Game/Contenido/Levels/UEDPIE_0_12-Blueprint12+13+14
+[2023.12.28-12.37.29:617][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001905s)
+[2023.12.28-12.37.29:618][740]LogAIModule: Creating AISystem for world 12-Blueprint12+13+14
+[2023.12.28-12.37.29:618][740]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2023.12.28-12.37.29:618][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Contenido/Levels/12-Blueprint12+13+14.12-Blueprint12+13+14 to /Game/Contenido/Levels/UEDPIE_0_12-Blueprint12+13+14.12-Blueprint12+13+14 (0.003023s)
+[2023.12.28-12.37.29:641][740]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.12.28-12.37.29:660][740]LogInit: FAudioDevice initialized.
+[2023.12.28-12.37.29:696][740]LogLoad: Game class is 'GameModeBase'
+[2023.12.28-12.37.29:699][740]LogWorld: Bringing World /Game/Contenido/Levels/UEDPIE_0_12-Blueprint12+13+14.12-Blueprint12+13+14 up for play (max tick rate 60) at 2023.12.28-09.37.29
+[2023.12.28-12.37.29:699][740]LogWorld: Bringing up level for play took: 0.001205
+[2023.12.28-12.37.29:700][740]PIE: Info Play in editor start time for /Game/Contenido/Levels/UEDPIE_0_12-Blueprint12+13+14 0.394
+[2023.12.28-12.37.44:218][601]LogSavePackage: Save=28.10ms
+[2023.12.28-12.37.44:218][601]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/12-Blueprint12+13+149E8CB50C4976233E2D5BF986AD2EFA35.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Contenido/Levels/12-Blueprint12+13+14.umap'
+[2023.12.28-12.37.44:220][601]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Contenido/Levels/12-Blueprint12+13+14.umap
+[2023.12.28-12.37.50:074][912]Cmd: QUIT_EDITOR
+[2023.12.28-12.37.51:096][912]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2023.12.28-12.37.51:116][912]LogExit: Preparing to exit.
+[2023.12.28-12.37.51:692][912]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/' was aborted.
+[2023.12.28-12.37.51:719][912]LogExit: Editor shut down
+[2023.12.28-12.37.51:719][912]LogExit: Transaction tracking system shut down
+[2023.12.28-12.37.51:797][912]LogObj: Freed 0b from 0 cluster array pools.
+[2023.12.28-12.37.51:797][912]LogExit: Object subsystem successfully closed.
+[2023.12.28-12.37.51:813][912]LogD3D11RHI: Shutdown
+[2023.12.28-12.37.51:813][912]LogD3D11RHI: CleanupD3DDevice
+[2023.12.28-12.37.51:931][912]LogD3D11RHI: ~FD3D11DynamicRHI
+[2023.12.28-12.37.51:942][912]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (488)
+[2023.12.28-12.37.51:942][912]LogModuleManager: Shutting down and abandoning module BlueprintGraph (486)
+[2023.12.28-12.37.51:942][912]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (484)
+[2023.12.28-12.37.51:943][912]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (482)
+[2023.12.28-12.37.51:943][912]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (480)
+[2023.12.28-12.37.51:943][912]LogModuleManager: Shutting down and abandoning module CrashTracker (478)
+[2023.12.28-12.37.51:943][912]LogModuleManager: Shutting down and abandoning module SceneOutliner (476)
+[2023.12.28-12.37.51:943][912]LogModuleManager: Shutting down and abandoning module AddContentDialog (474)
+[2023.12.28-12.37.51:943][912]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Unreal Engine 4 (4.15.0)/FeaturePacks/' was aborted.
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module WidgetCarousel (473)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module EditorWidgets (470)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module CollectionManager (468)
+[2023.12.28-12.37.51:944][912]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Collections/' was aborted.
+[2023.12.28-12.37.51:944][912]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Developers/MelchioT/Collections/' was aborted.
+[2023.12.28-12.37.51:944][912]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Collections/' was aborted.
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module StatsViewer (466)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module FoliageEdit (464)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module LandscapeEditor (462)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (460)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module ActorPickerMode (458)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module GeometryMode (456)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module TextureAlignMode (454)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module BspMode (452)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module HardwareSurvey (450)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (448)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module AutomationWorker (446)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (444)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (442)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module PlacementMode (441)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (438)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (436)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module MfMediaFactory (434)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module MfMediaEditor (432)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (430)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (428)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (426)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module Media (425)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (422)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module CharacterAI (420)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module AudioCapture (418)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module SequenceRecorder (417)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module SmartSnapping (414)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module SessionServices (412)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module ViewportSnapping (410)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module ViewportInteraction (408)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module LogVisualizer (406)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module IntroTutorials (404)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (403)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (400)
+[2023.12.28-12.37.51:944][912]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (398)
+[2023.12.28-12.37.51:945][912]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (396)
+[2023.12.28-12.37.51:945][912]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (394)
+[2023.12.28-12.37.51:945][912]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (393)
+[2023.12.28-12.37.52:421][912]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (390)
+[2023.12.28-12.37.52:421][912]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (388)
+[2023.12.28-12.37.52:421][912]LogModuleManager: Shutting down and abandoning module InputBindingEditor (386)
+[2023.12.28-12.37.52:421][912]LogModuleManager: Shutting down and abandoning module NiagaraEditor (384)
+[2023.12.28-12.37.52:421][912]LogModuleManager: Shutting down and abandoning module MergeActors (382)
+[2023.12.28-12.37.52:421][912]LogModuleManager: Shutting down and abandoning module SizeMap (380)
+[2023.12.28-12.37.52:421][912]LogModuleManager: Shutting down and abandoning module TreeMap (378)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module ReferenceViewer (376)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (374)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module LocalizationService (373)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module HardwareTargeting (370)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (368)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module UndoHistory (366)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module UserFeedback (364)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module XmlParser (362)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module Blutility (360)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (358)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (357)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (354)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module SettingsEditor (352)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module ProjectLauncher (350)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module SessionFrontend (348)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module ProfilerClient (346)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module DeviceManager (344)
+[2023.12.28-12.37.52:422][912]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (343)
+[2023.12.28-12.37.52:466][912]LogModuleManager: Shutting down and abandoning module AutomationController (340)
+[2023.12.28-12.37.52:466][912]LogModuleManager: Shutting down and abandoning module AutomationWindow (338)
+[2023.12.28-12.37.52:466][912]LogModuleManager: Shutting down and abandoning module Layers (336)
+[2023.12.28-12.37.52:466][912]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (334)
+[2023.12.28-12.37.52:466][912]LogModuleManager: Shutting down and abandoning module DetailCustomizations (332)
+[2023.12.28-12.37.52:466][912]LogModuleManager: Shutting down and abandoning module PackagesDialog (330)
+[2023.12.28-12.37.52:466][912]LogModuleManager: Shutting down and abandoning module Persona (328)
+[2023.12.28-12.37.52:466][912]LogModuleManager: Shutting down and abandoning module AnimGraph (327)
+[2023.12.28-12.37.52:466][912]LogModuleManager: Shutting down and abandoning module Kismet (324)
+[2023.12.28-12.37.52:472][912]LogModuleManager: Shutting down and abandoning module GraphEditor (322)
+[2023.12.28-12.37.52:472][912]LogModuleManager: Shutting down and abandoning module ClassViewer (320)
+[2023.12.28-12.37.52:472][912]LogModuleManager: Shutting down and abandoning module Toolbox (318)
+[2023.12.28-12.37.52:472][912]LogModuleManager: Shutting down and abandoning module ModuleUI (316)
+[2023.12.28-12.37.52:472][912]LogModuleManager: Shutting down and abandoning module MovieSceneTools (314)
+[2023.12.28-12.37.52:472][912]LogModuleManager: Shutting down and abandoning module OutputLog (312)
+[2023.12.28-12.37.52:472][912]LogModuleManager: Shutting down and abandoning module GammaUI (310)
+[2023.12.28-12.37.52:472][912]LogModuleManager: Shutting down and abandoning module Documentation (308)
+[2023.12.28-12.37.52:472][912]LogModuleManager: Shutting down and abandoning module Niagara (306)
+[2023.12.28-12.37.52:472][912]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (304)
+[2023.12.28-12.37.52:472][912]LogModuleManager: Shutting down and abandoning module AnalyticsET (302)
+[2023.12.28-12.37.52:472][912]LogModuleManager: Shutting down and abandoning module PortalServices (300)
+[2023.12.28-12.37.52:472][912]LogModuleManager: Shutting down and abandoning module PortalRpc (298)
+[2023.12.28-12.37.52:472][912]LogModuleManager: Shutting down and abandoning module MessagingRpc (296)
+[2023.12.28-12.37.52:472][912]LogModuleManager: Shutting down and abandoning module AIModule (294)
+[2023.12.28-12.37.52:473][912]LogModuleManager: Shutting down and abandoning module GameplayDebugger (293)
+[2023.12.28-12.37.52:473][912]LogModuleManager: Shutting down and abandoning module AITestSuite (291)
+[2023.12.28-12.37.52:473][912]LogModuleManager: Shutting down and abandoning module ProfilerService (288)
+[2023.12.28-12.37.52:616][912]LogModuleManager: Shutting down and abandoning module TaskGraph (286)
+[2023.12.28-12.37.52:616][912]LogModuleManager: Shutting down and abandoning module SteamVRController (284)
+[2023.12.28-12.37.52:616][912]LogModuleManager: Shutting down and abandoning module SteamVR (282)
+[2023.12.28-12.37.52:616][912]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (280)
+[2023.12.28-12.37.52:616][912]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (278)
+[2023.12.28-12.37.52:616][912]LogModuleManager: Shutting down and abandoning module OculusLibrary (276)
+[2023.12.28-12.37.52:616][912]LogModuleManager: Shutting down and abandoning module OculusInput (274)
+[2023.12.28-12.37.52:616][912]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (272)
+[2023.12.28-12.37.52:616][912]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (270)
+[2023.12.28-12.37.52:616][912]LogModuleManager: Shutting down and abandoning module CableComponent (268)
+[2023.12.28-12.37.52:616][912]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (266)
+[2023.12.28-12.37.52:616][912]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (262)
+[2023.12.28-12.37.52:616][912]LogModuleManager: Shutting down and abandoning module HTML5Networking (260)
+[2023.12.28-12.37.52:616][912]LogModuleManager: Shutting down and abandoning module AlembicImporter (258)
+[2023.12.28-12.37.52:616][912]LogModuleManager: Shutting down and abandoning module AlembicLibrary (257)
+[2023.12.28-12.37.52:616][912]LogModuleManager: Shutting down and abandoning module GeometryCache (256)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (255)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (250)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module SuperSearch (249)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (246)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module PluginBrowser (244)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (242)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module EpicSurvey (240)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (238)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module DesktopPlatform (237)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module UObjectPlugin (234)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (232)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (230)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module GitSourceControl (228)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module SourceControl (227)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (224)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (222)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (220)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module Paper2DEditor (218)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module MeshPaint (217)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module LevelEditor (215)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (214)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module MainFrame (212)
+[2023.12.28-12.37.52:617][912]LogModuleManager: Shutting down and abandoning module HotReload (211)
+[2023.12.28-12.37.52:618][912]LogModuleManager: Shutting down and abandoning module ContentBrowser (207)
+[2023.12.28-12.37.52:618][912]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (204)
+[2023.12.28-12.37.52:619][912]LogModuleManager: Shutting down and abandoning module PhysXVehicles (202)
+[2023.12.28-12.37.52:619][912]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (200)
+[2023.12.28-12.37.52:619][912]LogModuleManager: Shutting down and abandoning module UdpMessaging (198)
+[2023.12.28-12.37.52:720][912]LogModuleManager: Shutting down and abandoning module TcpMessaging (196)
+[2023.12.28-12.37.52:821][912]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (194)
+[2023.12.28-12.37.52:821][912]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (192)
+[2023.12.28-12.37.52:821][912]LogModuleManager: Shutting down and abandoning module FacialAnimation (190)
+[2023.12.28-12.37.52:821][912]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (188)
+[2023.12.28-12.37.52:821][912]LogModuleManager: Shutting down and abandoning module Paper2D (186)
+[2023.12.28-12.37.52:821][912]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (184)
+[2023.12.28-12.37.52:821][912]LogModuleManager: Shutting down and abandoning module WmfMedia (182)
+[2023.12.28-12.37.52:823][912]LogModuleManager: Shutting down and abandoning module MfMedia (180)
+[2023.12.28-12.37.52:823][912]LogModuleManager: Shutting down and abandoning module MediaAssets (178)
+[2023.12.28-12.37.52:823][912]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (176)
+[2023.12.28-12.37.52:823][912]LogModuleManager: Shutting down and abandoning module VREditor (174)
+[2023.12.28-12.37.52:823][912]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (172)
+[2023.12.28-12.37.52:823][912]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (170)
+[2023.12.28-12.37.52:823][912]LogModuleManager: Shutting down and abandoning module FunctionalTesting (168)
+[2023.12.28-12.37.52:823][912]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (166)
+[2023.12.28-12.37.52:823][912]LogModuleManager: Shutting down and abandoning module UMG (164)
+[2023.12.28-12.37.52:823][912]LogModuleManager: Shutting down and abandoning module UMGEditor (163)
+[2023.12.28-12.37.52:823][912]LogModuleManager: Shutting down and abandoning module Sequencer (162)
+[2023.12.28-12.37.52:823][912]LogModuleManager: Shutting down and abandoning module AssetTools (160)
+[2023.12.28-12.37.52:823][912]LogModuleManager: Shutting down and abandoning module MessageLog (159)
+[2023.12.28-12.37.52:823][912]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (158)
+[2023.12.28-12.37.52:823][912]LogModuleManager: Shutting down and abandoning module SlateReflector (152)
+[2023.12.28-12.37.52:823][912]LogModuleManager: Shutting down and abandoning module Slate (150)
+[2023.12.28-12.37.52:823][912]LogModuleManager: Shutting down and abandoning module EditorStyle (148)
+[2023.12.28-12.37.52:825][912]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (146)
+[2023.12.28-12.37.52:825][912]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (144)
+[2023.12.28-12.37.52:825][912]LogModuleManager: Shutting down and abandoning module XAudio2 (142)
+[2023.12.28-12.37.52:825][912]LogModuleManager: Shutting down and abandoning module Networking (140)
+[2023.12.28-12.37.52:825][912]LogModuleManager: Shutting down and abandoning module Core (136)
+[2023.12.28-12.37.52:825][912]LogModuleManager: Shutting down and abandoning module AssetRegistry (134)
+[2023.12.28-12.37.52:876][912]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2023.12.28-12.37.52:876][912]LogDirectoryWatcher: A directory notification for '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/' was aborted.
+[2023.12.28-12.37.52:876][912]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2023.12.28-12.37.52:876][912]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (133)
+[2023.12.28-12.37.52:877][912]LogModuleManager: Shutting down and abandoning module KismetCompiler (130)
+[2023.12.28-12.37.52:877][912]LogModuleManager: Shutting down and abandoning module PhysXFormats (128)
+[2023.12.28-12.37.52:877][912]LogModuleManager: Shutting down and abandoning module MeshUtilities (126)
+[2023.12.28-12.37.52:877][912]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (125)
+[2023.12.28-12.37.52:877][912]LogModuleManager: Shutting down and abandoning module PropertyEditor (123)
+[2023.12.28-12.37.52:877][912]LogModuleManager: Shutting down and abandoning module DerivedDataCache (120)
+[2023.12.28-12.37.52:878][912]LogDerivedDataCache: Shutdown
+[2023.12.28-12.37.52:878][912]LogModuleManager: Shutting down and abandoning module TargetPlatform (118)
+[2023.12.28-12.37.52:878][912]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (117)
+[2023.12.28-12.37.52:878][912]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (115)
+[2023.12.28-12.37.52:878][912]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (113)
+[2023.12.28-12.37.52:878][912]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (111)
+[2023.12.28-12.37.52:878][912]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (109)
+[2023.12.28-12.37.52:878][912]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (107)
+[2023.12.28-12.37.52:878][912]LogModuleManager: Shutting down and abandoning module ImageWrapper (106)
+[2023.12.28-12.37.52:878][912]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (103)
+[2023.12.28-12.37.52:878][912]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (101)
+[2023.12.28-12.37.52:878][912]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (99)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (97)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (95)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (93)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (91)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module Messaging (89)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (87)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (85)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (79)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (77)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (75)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (73)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (71)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (69)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (63)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (61)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (59)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (55)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (53)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (51)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module InputCore (48)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module Settings (46)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module OculusRift (44)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (42)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (40)
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (36)
+[2023.12.28-12.37.52:879][912]LogOnline:Display: Unloading online subsystem: NULL
+[2023.12.28-12.37.52:879][912]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2023.12.28-12.37.52:879][912]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2023.12.28-12.37.52:879][912]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B03925068-4E36-0DA6-2BB7-64AD062B96AF%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.15.0-0%2B%2B%2BUE4%2BRelease-4.15&UserID=aa7ec4a94460bf88f1f872b01bef9583%7C8cfcda83180144cdb9bb2bc7d773924e%7C775b68d6-d1f3-44da-96ce-dab51d83f808&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2023.12.28-12.37.52:890][912]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2023.12.28-12.37.52:892][912]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2023.12.28-12.37.52:892][912]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2023.12.28-12.37.52:892][912]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2023.12.28-12.37.52:892][912]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2023.12.28-12.37.52:892][912]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2023.12.28-12.37.52:893][912]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2023.12.28-12.37.52:893][912]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2023.12.28-12.37.52:893][912]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2023.12.28-12.37.52:893][912]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2023.12.28-12.37.52:893][912]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2023.12.28-12.37.52:893][912]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2023.12.28-12.37.52:893][912]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2023.12.28-12.37.52:893][912]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2023.12.28-12.37.52:893][912]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2023.12.28-12.37.52:893][912]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2023.12.28-12.37.52:897][912]LogExit: Exiting.
+[2023.12.28-12.37.52:904][912]Log file closed, 12/28/23 09:37:52
