@@ -1,10 +1,10 @@
-﻿Log file open, 01/05/24 14:37:01
+﻿Log file open, 01/06/24 09:26:28
 LogInit:Display: Running engine for game: MotorUnreal4B
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-446016994) SRandInit(-446016994).
+LogInit:Display: RandInit(-1390854787) SRandInit(-1390854787).
 LogInit: Using version manifest at CL 0 with build ID '5af06b4c-3232-42c8-80e0-46572b4b0bc8'
 LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.124878
+LogStats: Stats thread started at 0.137211
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -49,502 +49,1117 @@ LogInit: Base directory: C:/Program Files/Unreal Engine 4 (4.15.0)/Engine/Binari
 LogInit: Installed Engine Build: 0
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2024.01.05-17.37.01:595][  0]LogInit: Selected Device Profile: [Windows]
-[2024.01.05-17.37.01:595][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2024.01.05-17.37.01:601][  0]LogInit: Computer: DESKTOP-GOSDJOG
-[2024.01.05-17.37.01:601][  0]LogInit: User: MelchioT
-[2024.01.05-17.37.01:601][  0]LogInit: CPU Page size=65536, Cores=6
-[2024.01.05-17.37.01:601][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2024.01.05-17.37.01:601][  0]LogMemory: Memory total: Physical=31.2GB (32GB approx)
-[2024.01.05-17.37.01:601][  0]LogMemory: Platform Memory Stats for Windows
-[2024.01.05-17.37.01:601][  0]LogMemory: Process Physical Memory: 264.09 MB used, 264.09 MB peak
-[2024.01.05-17.37.01:601][  0]LogMemory: Process Virtual Memory: 268.57 MB used, 268.57 MB peak
-[2024.01.05-17.37.01:601][  0]LogMemory: Physical Memory: 8585.92 MB used,  23389.75 MB free, 31975.68 MB total
-[2024.01.05-17.37.01:601][  0]LogMemory: Virtual Memory: 4760.25 MB used,  23389.75 MB free, 134217728.00 MB total
-[2024.01.05-17.37.01:686][  0]LogInit: Overriding culture en with editor configuration.
-[2024.01.05-17.37.02:253][  0]LogD3D11RHI: D3D11 adapters:
-[2024.01.05-17.37.02:288][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) Graphics' (Feature Level 11_0)
-[2024.01.05-17.37.02:288][  0]LogD3D11RHI:       495/0/15987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2024.01.05-17.37.02:290][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2024.01.05-17.37.02:290][  0]LogD3D11RHI:       0/0/15987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2024.01.05-17.37.02:292][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2024.01.05-17.37.02:292][  0]LogD3D11RHI:       0/0/15987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2024.01.05-17.37.02:292][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2024.01.05-17.37.02:298][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2024.01.05-17.37.02:298][  0]LogD3D11RHI:     GPU DeviceId: 0x1636 (for the marketing name, search the web for "GPU Device Id")
-[2024.01.05-17.37.02:298][  0]LogWindows: EnumDisplayDevices:
-[2024.01.05-17.37.02:298][  0]LogWindows:    0. 'Microsoft Basic Display Driver' (P:0 D:0)
-[2024.01.05-17.37.02:299][  0]LogWindows:    1. 'AMD Radeon(TM) Graphics' (P:1 D:1)
-[2024.01.05-17.37.02:299][  0]LogWindows:    2. 'AMD Radeon(TM) Graphics' (P:0 D:0)
-[2024.01.05-17.37.02:299][  0]LogWindows:    3. 'AMD Radeon(TM) Graphics' (P:0 D:0)
-[2024.01.05-17.37.02:299][  0]LogWindows:    4. 'AMD Radeon(TM) Graphics' (P:0 D:0)
-[2024.01.05-17.37.02:299][  0]LogWindows:    5. 'AMD Radeon(TM) Graphics' (P:0 D:0)
-[2024.01.05-17.37.02:299][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2024.01.05-17.37.02:299][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) Graphics
-[2024.01.05-17.37.02:299][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2024.01.05-17.37.02:299][  0]LogD3D11RHI:      Driver Date: Unknown
-[2024.01.05-17.37.02:299][  0]LogRHI: Texture pool is 347 MB (70% of 495 MB)
-[2024.01.05-17.37.02:340][  0]LogD3D11RHI: Async texture creation enabled
-[2024.01.05-17.37.02:354][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
-[2024.01.05-17.37.02:356][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Intermediate/Shaders/WorkingDirectory/3348/).
-[2024.01.05-17.37.02:357][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MelchioT/AppData/Local/Temp/UnrealShaderWorkingDir/06B9B3FA4F0DDB407E35B7A18CAF0BBE/'.
-[2024.01.05-17.37.02:357][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2024.01.05-17.37.03:170][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2024.01.05-17.37.03:220][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2024.01.05-17.37.03:270][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2024.01.05-17.37.03:321][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2024.01.05-17.37.03:364][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2024.01.05-17.37.03:414][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2024.01.05-17.37.03:464][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2024.01.05-17.37.03:514][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2024.01.05-17.37.03:557][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2024.01.05-17.37.03:607][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2024.01.05-17.37.03:657][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2024.01.05-17.37.03:708][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2024.01.05-17.37.03:759][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2024.01.05-17.37.03:808][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2024.01.05-17.37.03:857][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2024.01.05-17.37.03:905][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2024.01.05-17.37.03:954][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2024.01.05-17.37.03:991][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2024.01.05-17.37.04:088][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2024.01.05-17.37.04:122][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2024.01.05-17.37.04:123][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2024.01.05-17.37.04:564][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2024.01.05-17.37.04:602][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/Boot.ddc.
-[2024.01.05-17.37.04:602][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/Boot.ddc
-[2024.01.05-17.37.04:602][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2024.01.05-17.37.04:602][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2024.01.05-17.37.04:602][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2024.01.05-17.37.04:602][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2024.01.05-17.37.04:614][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
-[2024.01.05-17.37.04:614][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2024.01.05-17.37.04:614][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2024.01.05-17.37.04:622][  0]LogSlate: Using Freetype 2.6.0
-[2024.01.05-17.37.04:623][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2024.01.05-17.37.04:623][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2024.01.05-17.37.04:833][  0]LogInit: Selected Device Profile: [Windows]
-[2024.01.05-17.37.04:836][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2024.01.05-17.37.05:018][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2024.01.05-17.37.05:027][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2024.01.05-17.37.05:027][  0]LogMeshUtilities: No automatic mesh merging module available
-[2024.01.05-17.37.05:027][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2024.01.05-17.37.05:589][  0]LogNetVersion: GetLocalNetworkVersion: CL: 0, ProjectName: motorunreal4b, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3893362438
-[2024.01.05-17.37.05:637][  0]LogAssetRegistry: FAssetRegistry took 0.0226 seconds to start up
-[2024.01.05-17.37.05:672][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.010650 seconds
-[2024.01.05-17.37.05:678][  0]LogUObjectArray: 32434 objects as part of root set at end of initial load.
-[2024.01.05-17.37.05:678][  0]LogUObjectAllocator: 7066632 out of 0 bytes used by permanent object pool.
-[2024.01.05-17.37.05:678][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2024.01.05-17.37.05:745][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2024.01.05-17.37.07:213][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2024.01.05-17.37.07:258][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2024.01.05-17.37.07:710][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2024.01.05-17.37.08:067][  0]SourceControl: Info Source control is disabled
-[2024.01.05-17.37.08:111][  0]SourceControl: Info Source control is disabled
-[2024.01.05-17.37.08:159][  0]SourceControl: Info Source control is disabled
-[2024.01.05-17.37.08:207][  0]SourceControl: Info Source control is disabled
-[2024.01.05-17.37.09:474][  0]LogEngine: Initializing Engine...
-[2024.01.05-17.37.09:475][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2024.01.05-17.37.09:678][  0]LogAIModule: Creating AISystem for world Untitled
-[2024.01.05-17.37.09:693][  0]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2024.01.05-17.37.10:334][  0]LogInit: FAudioDevice initialized.
-[2024.01.05-17.37.10:359][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/Boot.ddc.
-[2024.01.05-17.37.10:365][  0]LogInit: Texture streaming: Enabled
-[2024.01.05-17.37.10:467][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2024.01.05-17.37.10:553][  0]LogInit: Transaction tracking system initialized
-[2024.01.05-17.37.10:905][  0]BlueprintLog: New page: Editor Load
-[2024.01.05-17.37.11:800][  0]LocalizationService: Info Localization service is disabled
-[2024.01.05-17.37.12:458][  0]LogConsoleResponse:Display: 
-[2024.01.05-17.37.12:566][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2024.01.05-17.37.12:566][  0]LogCook:Display: Mobile HDR setting 1
-[2024.01.05-17.37.12:841][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/' took 0.01s
-[2024.01.05-17.37.13:609][  0]SourceControl: Info Source control is disabled
-[2024.01.05-17.37.13:609][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2024.01.05-17.37.13:609][  0]LightingResults: New page: Lighting Build
-[2024.01.05-17.37.13:649][  0]MapCheck: New page: Map Check
-[2024.01.05-17.37.13:649][  0]LightingResults: New page: Lighting Build
-[2024.01.05-17.37.13:816][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2024.01.05-17.37.13:817][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2024.01.05-17.37.13:821][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2024.01.05-17.37.13:826][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2024.01.05-17.37.13:855][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.805ms to complete.
-[2024.01.05-17.37.13:855][  0]LogFileHelpers: Loading map 'Template_Default' took 0.246
-[2024.01.05-17.37.14:037][  0]LogCollectionManager: Loaded 0 collections in 0.001392 seconds
-[2024.01.05-17.37.14:119][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Collections/' took 0.01s
-[2024.01.05-17.37.14:119][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Developers/MelchioT/Collections/' took 0.01s
-[2024.01.05-17.37.14:119][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Collections/' took 0.01s
-[2024.01.05-17.37.14:119][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2024.01.05-17.37.14:128][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2243 classes and 448 folders.
-[2024.01.05-17.37.14:131][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2024.01.05-17.37.14:131][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2024.01.05-17.37.14:196][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2024.01.05-17.37.14:223][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2024.01.05-17.37.14:267][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2024.01.05-17.37.14:356][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2024.01.05-17.37.14:365][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2024.01.05-17.37.14:434][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2024.01.05-17.37.14:435][  0]LogLoad: (Engine Initialization) Total time: 14.27 seconds
-[2024.01.05-17.37.14:435][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
-[2024.01.05-17.37.14:435][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2024.01.05-17.37.14:453][  0]LogOcInput: OculusInput pre-init called
-[2024.01.05-17.37.14:471][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2024.01.05-17.37.14:473][  0]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2024.01.05-17.37.14:475][  0]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2024.01.05-17.37.14:479][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2024.01.05-17.37.14:583][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
-[2024.01.05-17.37.14:700][  1]LogAssetRegistry: Asset discovery search completed in 9.0860 seconds
-[2024.01.05-17.37.14:700][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2024.01.05-17.37.14:700][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
-[2024.01.05-17.37.22:123][442]LogActorFactory: Actor Factory created free_car_1
-[2024.01.05-17.37.22:322][453]LogActorFactory: Actor Factory created free_car_1
-[2024.01.05-17.37.24:283][565]Cmd: TRANSACTION UNDO
-[2024.01.05-17.37.24:283][565]LogEditorTransaction: Undo Create Actors
-[2024.01.05-17.37.24:295][565]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2024.01.05-17.37.30:798][951]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2024.01.05-17.37.31:342][952]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:175).
-[2024.01.05-17.37.43:747][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelos/free_car_1" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Modelos/free_car_1.uasset" SILENT=true
-[2024.01.05-17.37.43:775][512]LogSavePackage: Save=10.14ms
-[2024.01.05-17.37.43:775][512]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/free_car_11BE04E3B4BFA07C8E2901FB3A41FF523.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Modelos/free_car_1.uasset'
-[2024.01.05-17.37.43:777][512]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Modelos/free_car_1.uasset
-[2024.01.05-17.37.46:203][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2024.01.05-17.37.46:571][614]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2024.01.05-17.39.18:328][919]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
-[2024.01.05-17.39.18:813][919]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2024.01.05-17.39.26:677][ 62]LogSlate: Took 0.000316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2024.01.05-17.41.06:660][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio16/Auto" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio16/Auto.uasset" SILENT=true
-[2024.01.05-17.41.06:675][935]LogSavePackage: Save=14.33ms
-[2024.01.05-17.41.06:675][935]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Auto535C93094BDBD06237DE5182BDCB93D6.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio16/Auto.uasset'
-[2024.01.05-17.41.06:676][935]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio16/Auto.uasset
-[2024.01.05-17.42.08:763][503]BlueprintLog: New page: Compile Auto
-[2024.01.05-17.42.10:692][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio16/Auto" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio16/Auto.uasset" SILENT=true
-[2024.01.05-17.42.10:722][551]LogSavePackage: Save=13.10ms
-[2024.01.05-17.42.10:722][551]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/AutoB742ECB14653622BB235B2A94DB0F36D.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio16/Auto.uasset'
-[2024.01.05-17.42.10:723][551]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio16/Auto.uasset
-[2024.01.05-17.42.16:691][773]LogTemp: Repeting last play command: Selected Viewport
-[2024.01.05-17.42.16:705][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2024.01.05-17.42.16:705][773]PIE: New page: PIE session: Untitled_1 (Jan 5, 2024, 11:42:16 AM)
-[2024.01.05-17.42.16:705][773]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2024.01.05-17.42.16:706][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001540s)
-[2024.01.05-17.42.16:707][773]LogAIModule: Creating AISystem for world Untitled_1
-[2024.01.05-17.42.16:707][773]LogPlayLevel: PIE: World Init took: (0.000825s)
-[2024.01.05-17.42.16:707][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002570s)
-[2024.01.05-17.42.16:732][773]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2024.01.05-17.42.16:748][773]LogInit: FAudioDevice initialized.
-[2024.01.05-17.42.16:802][773]LogLoad: Game class is 'GameModeBase'
-[2024.01.05-17.42.16:804][773]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2024.01.05-14.42.16
-[2024.01.05-17.42.16:805][773]LogWorld: Bringing up level for play took: 0.000913
-[2024.01.05-17.42.16:844][773]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2024.01.05-17.42.16:845][773]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.726
-[2024.01.05-17.43.01:180][810]LogEditorViewport: Clicking on Actor (LMB): Auto_C (Auto)
-[2024.01.05-17.43.07:930][ 93]LogEditorViewport: Clicking on Actor (LMB): Auto_C (Auto)
-[2024.01.05-17.43.34:372][ 40]Cmd: TRANSACTION UNDO
-[2024.01.05-17.43.34:372][ 40]LogEditorTransaction: Undo Set actor location
-[2024.01.05-17.43.46:539][478]LogTemp: Repeting last play command: Selected Viewport
-[2024.01.05-17.43.46:553][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2024.01.05-17.43.46:553][478]PIE: New page: PIE session: Untitled_1 (Jan 5, 2024, 11:43:46 AM)
-[2024.01.05-17.43.46:553][478]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2024.01.05-17.43.46:555][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002145s)
-[2024.01.05-17.43.46:556][478]LogAIModule: Creating AISystem for world Untitled_1
-[2024.01.05-17.43.46:556][478]LogPlayLevel: PIE: World Init took: (0.001097s)
-[2024.01.05-17.43.46:557][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003536s)
-[2024.01.05-17.43.46:585][478]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2024.01.05-17.43.46:600][478]LogInit: FAudioDevice initialized.
-[2024.01.05-17.43.46:636][478]LogLoad: Game class is 'GameModeBase'
-[2024.01.05-17.43.46:639][478]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2024.01.05-14.43.46
-[2024.01.05-17.43.46:639][478]LogWorld: Bringing up level for play took: 0.000902
-[2024.01.05-17.43.46:640][478]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.522
-[2024.01.05-17.43.50:369][622]LogEditorViewport: Clicking on Actor (LMB): Auto_C (Auto)
-[2024.01.05-17.44.11:619][209]LogSavePackage: Save=24.71ms
-[2024.01.05-17.44.11:619][209]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/NivelB31FE09B4F2E7C091F293B878D4598C0.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio16/Nivel.umap'
-[2024.01.05-17.44.11:621][209]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio16/Nivel.umap
-[2024.01.05-17.44.11:647][209]LogFileHelpers: Saving map 'Nivel' took 0.229
-[2024.01.05-17.44.12:925][248]Cmd: MAP LOAD FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio16/Nivel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2024.01.05-17.44.12:925][248]LightingResults: New page: Lighting Build
-[2024.01.05-17.44.12:926][248]LoadErrors: New page: Loading map: Nivel.umap
-[2024.01.05-17.44.12:927][248]MapCheck: New page: Map Check
-[2024.01.05-17.44.12:927][248]LightingResults: New page: Lighting Build
-[2024.01.05-17.44.12:967][248]LogAIModule: Creating AISystem for world Nivel
-[2024.01.05-17.44.13:017][248]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2024.01.05-17.44.13:039][248]Cmd: MAP CHECKDEP NOCLEARLOG
-[2024.01.05-17.44.13:076][248]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.316ms to complete.
-[2024.01.05-17.44.13:076][248]LogFileHelpers: Loading map 'Nivel' took 0.153
-[2024.01.05-17.44.14:005][282]LogTemp: Repeting last play command: Selected Viewport
-[2024.01.05-17.44.14:018][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2024.01.05-17.44.14:018][282]PIE: New page: PIE session: Nivel (Jan 5, 2024, 11:44:14 AM)
-[2024.01.05-17.44.14:018][282]LogPlayLevel: Creating play world package: /Game/Ejercicios/Ejercicio16/UEDPIE_0_Nivel
-[2024.01.05-17.44.14:020][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001779s)
-[2024.01.05-17.44.14:021][282]LogAIModule: Creating AISystem for world Nivel
-[2024.01.05-17.44.14:021][282]LogPlayLevel: PIE: World Init took: (0.000814s)
-[2024.01.05-17.44.14:021][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ejercicios/Ejercicio16/Nivel.Nivel to /Game/Ejercicios/Ejercicio16/UEDPIE_0_Nivel.Nivel (0.002792s)
-[2024.01.05-17.44.14:044][282]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2024.01.05-17.44.14:059][282]LogInit: FAudioDevice initialized.
-[2024.01.05-17.44.14:090][282]LogLoad: Game class is 'GameModeBase'
-[2024.01.05-17.44.14:093][282]LogWorld: Bringing World /Game/Ejercicios/Ejercicio16/UEDPIE_0_Nivel.Nivel up for play (max tick rate 60) at 2024.01.05-14.44.14
-[2024.01.05-17.44.14:093][282]LogWorld: Bringing up level for play took: 0.000913
-[2024.01.05-17.44.14:094][282]PIE: Info Play in editor start time for /Game/Ejercicios/Ejercicio16/UEDPIE_0_Nivel -0.025
-[2024.01.05-17.44.31:365][222]Cmd: QUIT_EDITOR
-[2024.01.05-17.44.31:869][222]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2024.01.05-17.44.31:890][222]LogExit: Preparing to exit.
-[2024.01.05-17.44.32:594][222]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/' was aborted.
-[2024.01.05-17.44.32:618][222]LogExit: Editor shut down
-[2024.01.05-17.44.32:618][222]LogExit: Transaction tracking system shut down
-[2024.01.05-17.44.32:707][222]LogObj: Freed 0b from 0 cluster array pools.
-[2024.01.05-17.44.32:708][222]LogExit: Object subsystem successfully closed.
-[2024.01.05-17.44.32:732][222]LogD3D11RHI: Shutdown
-[2024.01.05-17.44.32:732][222]LogD3D11RHI: CleanupD3DDevice
-[2024.01.05-17.44.32:858][222]LogD3D11RHI: ~FD3D11DynamicRHI
-[2024.01.05-17.44.32:868][222]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (490)
-[2024.01.05-17.44.32:868][222]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (488)
-[2024.01.05-17.44.32:868][222]LogModuleManager: Shutting down and abandoning module BlueprintGraph (486)
-[2024.01.05-17.44.32:868][222]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (484)
-[2024.01.05-17.44.32:868][222]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (482)
-[2024.01.05-17.44.32:868][222]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (480)
-[2024.01.05-17.44.32:868][222]LogModuleManager: Shutting down and abandoning module CrashTracker (478)
-[2024.01.05-17.44.32:868][222]LogModuleManager: Shutting down and abandoning module SceneOutliner (476)
-[2024.01.05-17.44.32:868][222]LogModuleManager: Shutting down and abandoning module AddContentDialog (474)
-[2024.01.05-17.44.32:868][222]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Unreal Engine 4 (4.15.0)/FeaturePacks/' was aborted.
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module WidgetCarousel (473)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module EditorWidgets (470)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module CollectionManager (468)
-[2024.01.05-17.44.32:869][222]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Collections/' was aborted.
-[2024.01.05-17.44.32:869][222]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Developers/MelchioT/Collections/' was aborted.
-[2024.01.05-17.44.32:869][222]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Collections/' was aborted.
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module StatsViewer (466)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module FoliageEdit (464)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module LandscapeEditor (462)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (460)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module ActorPickerMode (458)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module GeometryMode (456)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module TextureAlignMode (454)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module BspMode (452)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module HardwareSurvey (450)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (448)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module AutomationWorker (446)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (444)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (442)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module PlacementMode (441)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (438)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (436)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module MfMediaFactory (434)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module MfMediaEditor (432)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (430)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (428)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (426)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module Media (425)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (422)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module CharacterAI (420)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module AudioCapture (418)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module SequenceRecorder (417)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module SmartSnapping (414)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module SessionServices (412)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module ViewportSnapping (410)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module ViewportInteraction (408)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module LogVisualizer (406)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module IntroTutorials (404)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (403)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (400)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (398)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (396)
-[2024.01.05-17.44.32:869][222]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (394)
-[2024.01.05-17.44.32:870][222]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (393)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (390)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (388)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module InputBindingEditor (386)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module NiagaraEditor (384)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module MergeActors (382)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module SizeMap (380)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module TreeMap (378)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module ReferenceViewer (376)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (374)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module LocalizationService (373)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module HardwareTargeting (370)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (368)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module UndoHistory (366)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module UserFeedback (364)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module XmlParser (362)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module Blutility (360)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (358)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (357)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (354)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module SettingsEditor (352)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module ProjectLauncher (350)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module SessionFrontend (348)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module ProfilerClient (346)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module DeviceManager (344)
-[2024.01.05-17.44.33:403][222]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (343)
-[2024.01.05-17.44.33:445][222]LogModuleManager: Shutting down and abandoning module AutomationController (340)
-[2024.01.05-17.44.33:445][222]LogModuleManager: Shutting down and abandoning module AutomationWindow (338)
-[2024.01.05-17.44.33:445][222]LogModuleManager: Shutting down and abandoning module Layers (336)
-[2024.01.05-17.44.33:445][222]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (334)
-[2024.01.05-17.44.33:445][222]LogModuleManager: Shutting down and abandoning module DetailCustomizations (332)
-[2024.01.05-17.44.33:445][222]LogModuleManager: Shutting down and abandoning module PackagesDialog (330)
-[2024.01.05-17.44.33:445][222]LogModuleManager: Shutting down and abandoning module Persona (328)
-[2024.01.05-17.44.33:445][222]LogModuleManager: Shutting down and abandoning module AnimGraph (327)
-[2024.01.05-17.44.33:445][222]LogModuleManager: Shutting down and abandoning module Kismet (324)
-[2024.01.05-17.44.33:450][222]LogModuleManager: Shutting down and abandoning module GraphEditor (322)
-[2024.01.05-17.44.33:450][222]LogModuleManager: Shutting down and abandoning module ClassViewer (320)
-[2024.01.05-17.44.33:451][222]LogModuleManager: Shutting down and abandoning module Toolbox (318)
-[2024.01.05-17.44.33:451][222]LogModuleManager: Shutting down and abandoning module ModuleUI (316)
-[2024.01.05-17.44.33:451][222]LogModuleManager: Shutting down and abandoning module MovieSceneTools (314)
-[2024.01.05-17.44.33:451][222]LogModuleManager: Shutting down and abandoning module OutputLog (312)
-[2024.01.05-17.44.33:451][222]LogModuleManager: Shutting down and abandoning module GammaUI (310)
-[2024.01.05-17.44.33:451][222]LogModuleManager: Shutting down and abandoning module Documentation (308)
-[2024.01.05-17.44.33:451][222]LogModuleManager: Shutting down and abandoning module Niagara (306)
-[2024.01.05-17.44.33:451][222]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (304)
-[2024.01.05-17.44.33:451][222]LogModuleManager: Shutting down and abandoning module AnalyticsET (302)
-[2024.01.05-17.44.33:452][222]LogModuleManager: Shutting down and abandoning module PortalServices (300)
-[2024.01.05-17.44.33:452][222]LogModuleManager: Shutting down and abandoning module PortalRpc (298)
-[2024.01.05-17.44.33:452][222]LogModuleManager: Shutting down and abandoning module MessagingRpc (296)
-[2024.01.05-17.44.33:452][222]LogModuleManager: Shutting down and abandoning module AIModule (294)
-[2024.01.05-17.44.33:452][222]LogModuleManager: Shutting down and abandoning module GameplayDebugger (293)
-[2024.01.05-17.44.33:452][222]LogModuleManager: Shutting down and abandoning module AITestSuite (291)
-[2024.01.05-17.44.33:452][222]LogModuleManager: Shutting down and abandoning module ProfilerService (288)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module TaskGraph (286)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module SteamVRController (284)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module SteamVR (282)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (280)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (278)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module OculusLibrary (276)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module OculusInput (274)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (272)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (270)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module CableComponent (268)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (266)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (262)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module HTML5Networking (260)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module AlembicImporter (258)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module AlembicLibrary (257)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module GeometryCache (256)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (255)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (250)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module SuperSearch (249)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (246)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module PluginBrowser (244)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (242)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module EpicSurvey (240)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (238)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module DesktopPlatform (237)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module UObjectPlugin (234)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (232)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (230)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module GitSourceControl (228)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module SourceControl (227)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (224)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (222)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (220)
-[2024.01.05-17.44.33:562][222]LogModuleManager: Shutting down and abandoning module Paper2DEditor (218)
-[2024.01.05-17.44.33:563][222]LogModuleManager: Shutting down and abandoning module MeshPaint (217)
-[2024.01.05-17.44.33:563][222]LogModuleManager: Shutting down and abandoning module LevelEditor (215)
-[2024.01.05-17.44.33:563][222]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (214)
-[2024.01.05-17.44.33:563][222]LogModuleManager: Shutting down and abandoning module MainFrame (212)
-[2024.01.05-17.44.33:563][222]LogModuleManager: Shutting down and abandoning module HotReload (211)
-[2024.01.05-17.44.33:564][222]LogModuleManager: Shutting down and abandoning module ContentBrowser (207)
-[2024.01.05-17.44.33:564][222]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (204)
-[2024.01.05-17.44.33:564][222]LogModuleManager: Shutting down and abandoning module PhysXVehicles (202)
-[2024.01.05-17.44.33:564][222]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (200)
-[2024.01.05-17.44.33:564][222]LogModuleManager: Shutting down and abandoning module UdpMessaging (198)
-[2024.01.05-17.44.33:666][222]LogModuleManager: Shutting down and abandoning module TcpMessaging (196)
-[2024.01.05-17.44.33:767][222]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (194)
-[2024.01.05-17.44.33:767][222]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (192)
-[2024.01.05-17.44.33:767][222]LogModuleManager: Shutting down and abandoning module FacialAnimation (190)
-[2024.01.05-17.44.33:767][222]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (188)
-[2024.01.05-17.44.33:767][222]LogModuleManager: Shutting down and abandoning module Paper2D (186)
-[2024.01.05-17.44.33:767][222]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (184)
-[2024.01.05-17.44.33:767][222]LogModuleManager: Shutting down and abandoning module WmfMedia (182)
-[2024.01.05-17.44.33:769][222]LogModuleManager: Shutting down and abandoning module MfMedia (180)
-[2024.01.05-17.44.33:769][222]LogModuleManager: Shutting down and abandoning module MediaAssets (178)
-[2024.01.05-17.44.33:769][222]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (176)
-[2024.01.05-17.44.33:769][222]LogModuleManager: Shutting down and abandoning module VREditor (174)
-[2024.01.05-17.44.33:769][222]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (172)
-[2024.01.05-17.44.33:769][222]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (170)
-[2024.01.05-17.44.33:769][222]LogModuleManager: Shutting down and abandoning module FunctionalTesting (168)
-[2024.01.05-17.44.33:769][222]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (166)
-[2024.01.05-17.44.33:769][222]LogModuleManager: Shutting down and abandoning module UMG (164)
-[2024.01.05-17.44.33:769][222]LogModuleManager: Shutting down and abandoning module UMGEditor (163)
-[2024.01.05-17.44.33:769][222]LogModuleManager: Shutting down and abandoning module Sequencer (162)
-[2024.01.05-17.44.33:769][222]LogModuleManager: Shutting down and abandoning module AssetTools (160)
-[2024.01.05-17.44.33:769][222]LogModuleManager: Shutting down and abandoning module MessageLog (159)
-[2024.01.05-17.44.33:769][222]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (158)
-[2024.01.05-17.44.33:769][222]LogModuleManager: Shutting down and abandoning module SlateReflector (152)
-[2024.01.05-17.44.33:769][222]LogModuleManager: Shutting down and abandoning module Slate (150)
-[2024.01.05-17.44.33:769][222]LogModuleManager: Shutting down and abandoning module EditorStyle (148)
-[2024.01.05-17.44.33:771][222]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (146)
-[2024.01.05-17.44.33:771][222]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (144)
-[2024.01.05-17.44.33:771][222]LogModuleManager: Shutting down and abandoning module XAudio2 (142)
-[2024.01.05-17.44.33:771][222]LogModuleManager: Shutting down and abandoning module Networking (140)
-[2024.01.05-17.44.33:771][222]LogModuleManager: Shutting down and abandoning module Core (136)
-[2024.01.05-17.44.33:771][222]LogModuleManager: Shutting down and abandoning module AssetRegistry (134)
-[2024.01.05-17.44.33:916][222]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2024.01.05-17.44.33:916][222]LogDirectoryWatcher: A directory notification for '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/' was aborted.
-[2024.01.05-17.44.33:916][222]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2024.01.05-17.44.33:916][222]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (133)
-[2024.01.05-17.44.33:917][222]LogModuleManager: Shutting down and abandoning module KismetCompiler (130)
-[2024.01.05-17.44.33:917][222]LogModuleManager: Shutting down and abandoning module PhysXFormats (128)
-[2024.01.05-17.44.33:917][222]LogModuleManager: Shutting down and abandoning module MeshUtilities (126)
-[2024.01.05-17.44.33:917][222]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (125)
-[2024.01.05-17.44.33:917][222]LogModuleManager: Shutting down and abandoning module PropertyEditor (123)
-[2024.01.05-17.44.33:917][222]LogModuleManager: Shutting down and abandoning module DerivedDataCache (120)
-[2024.01.05-17.44.33:953][222]LogDerivedDataCache: Shutdown
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module TargetPlatform (118)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (117)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (115)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (113)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (111)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (109)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (107)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module ImageWrapper (106)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (103)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (101)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (99)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (97)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (95)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (93)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (91)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module Messaging (89)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (87)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (85)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (79)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (77)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (75)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (73)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (71)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (69)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (63)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (61)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (59)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
-[2024.01.05-17.44.33:953][222]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (55)
-[2024.01.05-17.44.33:954][222]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (53)
-[2024.01.05-17.44.33:954][222]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (51)
-[2024.01.05-17.44.33:954][222]LogModuleManager: Shutting down and abandoning module InputCore (48)
-[2024.01.05-17.44.33:954][222]LogModuleManager: Shutting down and abandoning module Settings (46)
-[2024.01.05-17.44.33:954][222]LogModuleManager: Shutting down and abandoning module OculusRift (44)
-[2024.01.05-17.44.33:954][222]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (42)
-[2024.01.05-17.44.33:954][222]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (40)
-[2024.01.05-17.44.33:954][222]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (36)
-[2024.01.05-17.44.33:954][222]LogOnline:Display: Unloading online subsystem: NULL
-[2024.01.05-17.44.33:954][222]LogModuleManager: Shutting down and abandoning module HTTP (35)
-[2024.01.05-17.44.33:954][222]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2024.01.05-17.44.33:954][222]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4D0D2968-4422-8A84-39EA-6F9A699519A4%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.15.0-0%2B%2B%2BUE4%2BRelease-4.15&UserID=aa7ec4a94460bf88f1f872b01bef9583%7C8cfcda83180144cdb9bb2bc7d773924e%7C775b68d6-d1f3-44da-96ce-dab51d83f808&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
-[2024.01.05-17.44.33:961][222]LogModuleManager: Shutting down and abandoning module SSL (34)
-[2024.01.05-17.44.33:963][222]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2024.01.05-17.44.33:963][222]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2024.01.05-17.44.33:963][222]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2024.01.05-17.44.33:963][222]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2024.01.05-17.44.33:963][222]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2024.01.05-17.44.33:964][222]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2024.01.05-17.44.33:964][222]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2024.01.05-17.44.33:964][222]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2024.01.05-17.44.33:964][222]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2024.01.05-17.44.33:964][222]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2024.01.05-17.44.33:964][222]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2024.01.05-17.44.33:964][222]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2024.01.05-17.44.33:964][222]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2024.01.05-17.44.33:964][222]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2024.01.05-17.44.33:964][222]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2024.01.05-17.44.33:967][222]LogExit: Exiting.
-[2024.01.05-17.44.33:977][222]Log file closed, 01/05/24 14:44:33
+[2024.01.06-12.26.28:463][  0]LogInit: Selected Device Profile: [Windows]
+[2024.01.06-12.26.28:463][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2024.01.06-12.26.28:477][  0]LogInit: Computer: DESKTOP-GOSDJOG
+[2024.01.06-12.26.28:477][  0]LogInit: User: MelchioT
+[2024.01.06-12.26.28:477][  0]LogInit: CPU Page size=65536, Cores=6
+[2024.01.06-12.26.28:477][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.01.06-12.26.28:478][  0]LogMemory: Memory total: Physical=31.2GB (32GB approx)
+[2024.01.06-12.26.28:478][  0]LogMemory: Platform Memory Stats for Windows
+[2024.01.06-12.26.28:478][  0]LogMemory: Process Physical Memory: 264.12 MB used, 264.12 MB peak
+[2024.01.06-12.26.28:478][  0]LogMemory: Process Virtual Memory: 268.50 MB used, 268.50 MB peak
+[2024.01.06-12.26.28:478][  0]LogMemory: Physical Memory: 9018.43 MB used,  22957.25 MB free, 31975.68 MB total
+[2024.01.06-12.26.28:478][  0]LogMemory: Virtual Memory: 4760.25 MB used,  22957.25 MB free, 134217728.00 MB total
+[2024.01.06-12.26.28:567][  0]LogInit: Overriding culture en with editor configuration.
+[2024.01.06-12.26.29:178][  0]LogD3D11RHI: D3D11 adapters:
+[2024.01.06-12.26.29:215][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) Graphics' (Feature Level 11_0)
+[2024.01.06-12.26.29:215][  0]LogD3D11RHI:       495/0/15987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2024.01.06-12.26.29:218][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.01.06-12.26.29:218][  0]LogD3D11RHI:       0/0/15987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.01.06-12.26.29:220][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.01.06-12.26.29:220][  0]LogD3D11RHI:       0/0/15987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.01.06-12.26.29:220][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2024.01.06-12.26.29:227][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.01.06-12.26.29:228][  0]LogD3D11RHI:     GPU DeviceId: 0x1636 (for the marketing name, search the web for "GPU Device Id")
+[2024.01.06-12.26.29:228][  0]LogWindows: EnumDisplayDevices:
+[2024.01.06-12.26.29:228][  0]LogWindows:    0. 'Microsoft Basic Display Driver' (P:0 D:0)
+[2024.01.06-12.26.29:228][  0]LogWindows:    1. 'AMD Radeon(TM) Graphics' (P:1 D:1)
+[2024.01.06-12.26.29:228][  0]LogWindows:    2. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2024.01.06-12.26.29:229][  0]LogWindows:    3. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2024.01.06-12.26.29:229][  0]LogWindows:    4. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2024.01.06-12.26.29:229][  0]LogWindows:    5. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2024.01.06-12.26.29:229][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2024.01.06-12.26.29:229][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) Graphics
+[2024.01.06-12.26.29:229][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2024.01.06-12.26.29:229][  0]LogD3D11RHI:      Driver Date: Unknown
+[2024.01.06-12.26.29:229][  0]LogRHI: Texture pool is 347 MB (70% of 495 MB)
+[2024.01.06-12.26.29:273][  0]LogD3D11RHI: Async texture creation enabled
+[2024.01.06-12.26.29:288][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2024.01.06-12.26.29:290][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Intermediate/Shaders/WorkingDirectory/11648/).
+[2024.01.06-12.26.29:290][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MelchioT/AppData/Local/Temp/UnrealShaderWorkingDir/C94D902C42569F6EF20EDFADD4872F4B/'.
+[2024.01.06-12.26.29:290][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2024.01.06-12.26.30:191][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2024.01.06-12.26.30:251][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2024.01.06-12.26.30:313][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2024.01.06-12.26.30:375][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2024.01.06-12.26.30:426][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2024.01.06-12.26.30:480][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2024.01.06-12.26.30:534][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2024.01.06-12.26.30:594][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2024.01.06-12.26.30:641][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2024.01.06-12.26.30:695][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2024.01.06-12.26.30:745][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2024.01.06-12.26.30:796][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2024.01.06-12.26.30:846][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2024.01.06-12.26.30:898][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2024.01.06-12.26.30:962][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2024.01.06-12.26.31:031][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2024.01.06-12.26.31:087][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2024.01.06-12.26.31:136][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2024.01.06-12.26.31:242][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2024.01.06-12.26.31:283][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2024.01.06-12.26.31:283][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2024.01.06-12.26.31:892][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2024.01.06-12.26.32:043][  0]LogDerivedDataCache: Loaded boot cache 0.15s 50MB ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/Boot.ddc.
+[2024.01.06-12.26.32:043][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/Boot.ddc
+[2024.01.06-12.26.32:043][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.01.06-12.26.32:043][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2024.01.06-12.26.32:043][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.01.06-12.26.32:043][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2024.01.06-12.26.32:055][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2024.01.06-12.26.32:055][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2024.01.06-12.26.32:055][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2024.01.06-12.26.32:064][  0]LogSlate: Using Freetype 2.6.0
+[2024.01.06-12.26.32:065][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.01.06-12.26.32:065][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.01.06-12.26.32:276][  0]LogInit: Selected Device Profile: [Windows]
+[2024.01.06-12.26.32:278][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2024.01.06-12.26.32:480][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.01.06-12.26.32:491][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2024.01.06-12.26.32:491][  0]LogMeshUtilities: No automatic mesh merging module available
+[2024.01.06-12.26.32:491][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2024.01.06-12.26.33:090][  0]LogNetVersion: GetLocalNetworkVersion: CL: 0, ProjectName: motorunreal4b, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3893362438
+[2024.01.06-12.26.33:138][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2024.01.06-12.26.33:182][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.017813 seconds
+[2024.01.06-12.26.33:191][  0]LogUObjectArray: 32434 objects as part of root set at end of initial load.
+[2024.01.06-12.26.33:191][  0]LogUObjectAllocator: 7066640 out of 0 bytes used by permanent object pool.
+[2024.01.06-12.26.33:191][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.01.06-12.26.33:271][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2024.01.06-12.26.34:790][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.01.06-12.26.34:836][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.01.06-12.26.35:283][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2024.01.06-12.26.35:646][  0]SourceControl: Info Source control is disabled
+[2024.01.06-12.26.35:689][  0]SourceControl: Info Source control is disabled
+[2024.01.06-12.26.35:738][  0]SourceControl: Info Source control is disabled
+[2024.01.06-12.26.35:786][  0]SourceControl: Info Source control is disabled
+[2024.01.06-12.26.37:072][  0]LogEngine: Initializing Engine...
+[2024.01.06-12.26.37:073][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.01.06-12.26.37:291][  0]LogAIModule: Creating AISystem for world Untitled
+[2024.01.06-12.26.37:310][  0]LogInit: XAudio2 using 'Auriculares (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.01.06-12.26.37:336][  0]LogInit: FAudioDevice initialized.
+[2024.01.06-12.26.37:362][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/Boot.ddc.
+[2024.01.06-12.26.37:368][  0]LogInit: Texture streaming: Enabled
+[2024.01.06-12.26.37:479][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2024.01.06-12.26.37:566][  0]LogInit: Transaction tracking system initialized
+[2024.01.06-12.26.37:941][  0]BlueprintLog: New page: Editor Load
+[2024.01.06-12.26.38:858][  0]LocalizationService: Info Localization service is disabled
+[2024.01.06-12.26.39:577][  0]LogConsoleResponse:Display: 
+[2024.01.06-12.26.39:717][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2024.01.06-12.26.39:717][  0]LogCook:Display: Mobile HDR setting 1
+[2024.01.06-12.26.40:864][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/' took 0.02s
+[2024.01.06-12.26.40:912][  0]SourceControl: Info Source control is disabled
+[2024.01.06-12.26.40:912][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.01.06-12.26.40:912][  0]LightingResults: New page: Lighting Build
+[2024.01.06-12.26.40:957][  0]MapCheck: New page: Map Check
+[2024.01.06-12.26.40:957][  0]LightingResults: New page: Lighting Build
+[2024.01.06-12.26.41:143][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2024.01.06-12.26.41:144][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2024.01.06-12.26.41:148][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.06-12.26.41:155][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.06-12.26.41:184][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.077ms to complete.
+[2024.01.06-12.26.41:184][  0]LogFileHelpers: Loading map 'Template_Default' took 0.272
+[2024.01.06-12.26.41:415][  0]LogCollectionManager: Loaded 0 collections in 0.001607 seconds
+[2024.01.06-12.26.41:518][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Collections/' took 0.01s
+[2024.01.06-12.26.41:518][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Developers/MelchioT/Collections/' took 0.01s
+[2024.01.06-12.26.41:518][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Collections/' took 0.01s
+[2024.01.06-12.26.41:518][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2024.01.06-12.26.41:530][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2243 classes and 448 folders.
+[2024.01.06-12.26.41:537][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.01.06-12.26.41:537][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.01.06-12.26.41:614][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2024.01.06-12.26.42:034][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2024.01.06-12.26.42:101][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2024.01.06-12.26.42:295][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2024.01.06-12.26.42:312][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2024.01.06-12.26.42:412][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2024.01.06-12.26.42:413][  0]LogLoad: (Engine Initialization) Total time: 16.08 seconds
+[2024.01.06-12.26.42:413][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2024.01.06-12.26.42:413][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2024.01.06-12.26.42:753][  0]LogOcInput: OculusInput pre-init called
+[2024.01.06-12.26.42:777][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.01.06-12.26.42:779][  0]LogSlate: Took 0.000828 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.01.06-12.26.42:789][  0]LogSlate: Took 0.000905 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.01.06-12.26.42:819][  0]LogSlate: Took 0.018983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.01.06-12.26.43:202][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2024.01.06-12.26.43:786][  2]LogAssetRegistry: Asset discovery search completed in 10.6703 seconds
+[2024.01.06-12.26.43:786][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2024.01.06-12.26.43:786][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2024.01.06-12.32.56:349][431]LogSlate: Took 0.015904 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2024.01.06-12.32.56:411][431]LogAIModule: Creating AISystem for world Nivel
+[2024.01.06-12.32.56:432][431]Cmd: MAP LOAD FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio16/Nivel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.01.06-12.32.56:432][431]LightingResults: New page: Lighting Build
+[2024.01.06-12.32.56:434][431]LoadErrors: New page: Loading map: Nivel.umap
+[2024.01.06-12.32.56:435][431]MapCheck: New page: Map Check
+[2024.01.06-12.32.56:435][431]LightingResults: New page: Lighting Build
+[2024.01.06-12.32.56:497][431]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.06-12.32.56:518][431]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.06-12.32.56:550][431]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.857ms to complete.
+[2024.01.06-12.32.56:550][431]LogFileHelpers: Loading map 'Nivel' took 0.119
+[2024.01.06-12.34.17:090][674]LogAIModule: Creating AISystem for world Nivel_2
+[2024.01.06-12.34.41:121][ 94]LogMetaData: Removing '/Game/Ejercicios/Ejercicio17/Auto_2.SKEL_Auto_2_C:UserConstructionScript' ref from Metadata '/Game/Ejercicios/Ejercicio16/Auto_2.PackageMetaData'
+[2024.01.06-12.34.41:121][ 94]LogMetaData: Removing '/Game/Ejercicios/Ejercicio17/Auto_2.SKEL_Auto_2_C:StaticMesh' ref from Metadata '/Game/Ejercicios/Ejercicio16/Auto_2.PackageMetaData'
+[2024.01.06-12.34.41:121][ 94]LogMetaData: Removing '/Game/Ejercicios/Ejercicio17/Auto_2.SKEL_Auto_2_C' ref from Metadata '/Game/Ejercicios/Ejercicio16/Auto_2.PackageMetaData'
+[2024.01.06-12.34.41:121][ 94]LogMetaData: Removing '/Game/Ejercicios/Ejercicio17/Auto_2.Auto_2_C' ref from Metadata '/Game/Ejercicios/Ejercicio16/Auto_2.PackageMetaData'
+[2024.01.06-12.34.41:121][ 94]LogMetaData: Removing '/Game/Ejercicios/Ejercicio17/Auto_2.Auto_2_C:StaticMesh' ref from Metadata '/Game/Ejercicios/Ejercicio16/Auto_2.PackageMetaData'
+[2024.01.06-12.34.41:121][ 94]LogMetaData: Removing '/Game/Ejercicios/Ejercicio17/Auto_2.Auto_2_C:UserConstructionScript' ref from Metadata '/Game/Ejercicios/Ejercicio16/Auto_2.PackageMetaData'
+[2024.01.06-12.34.41:168][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio17/Auto_2" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Auto_2.uasset" SILENT=true
+[2024.01.06-12.34.41:179][ 94]LogSavePackage: Save=9.66ms
+[2024.01.06-12.34.41:179][ 94]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Auto_2E05EC379479C7048B7F6FDA43C357AD2.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Auto_2.uasset'
+[2024.01.06-12.34.41:181][ 94]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Auto_2.uasset
+[2024.01.06-12.34.41:247][ 94]LogSavePackage: Save=23.43ms
+[2024.01.06-12.34.41:247][ 94]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Nivel_25B7B8C1840B69A5CB977D0B4DA7C5682.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel_2.umap'
+[2024.01.06-12.34.41:248][ 94]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel_2.umap
+[2024.01.06-12.34.41:251][ 94]LogFileHelpers: Saving map 'Nivel_2' took 0.067
+[2024.01.06-12.34.46:284][382]LogSavePackage: Save=23.93ms
+[2024.01.06-12.34.46:284][382]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Nivel8D6D424F4DF96AC79A6DE297F433CFF2.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel.umap'
+[2024.01.06-12.34.46:286][382]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel.umap
+[2024.01.06-12.34.46:288][382]LogFileHelpers: Saving map 'Nivel' took 0.068
+[2024.01.06-12.34.49:191][546]LogMetaData: Removing '/Game/Ejercicios/Ejercicio17/Auto.Auto_C' ref from Metadata '/Game/Ejercicios/Ejercicio17/Auto_2.PackageMetaData'
+[2024.01.06-12.34.49:191][546]LogMetaData: Removing '/Game/Ejercicios/Ejercicio17/Auto.SKEL_Auto_C' ref from Metadata '/Game/Ejercicios/Ejercicio17/Auto_2.PackageMetaData'
+[2024.01.06-12.34.49:214][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio17/Auto" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Auto.uasset" SILENT=true
+[2024.01.06-12.34.49:224][546]LogSavePackage: Save=9.18ms
+[2024.01.06-12.34.49:224][546]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/AutoC29731DF49EB727B4BF693BFFBE1D724.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Auto.uasset'
+[2024.01.06-12.34.49:226][546]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Auto.uasset
+[2024.01.06-12.34.51:476][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio16/Auto_2" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio16/Auto_2.uasset" SILENT=true
+[2024.01.06-12.34.51:478][598]LogSavePackage: Save=1.17ms
+[2024.01.06-12.34.51:479][598]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Auto_2C207F27E479FCFF6C049088EA4EBE962.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio16/Auto_2.uasset'
+[2024.01.06-12.34.51:480][598]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio16/Auto_2.uasset
+[2024.01.06-12.34.51:481][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio16/Nivel_2" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio16/Nivel_2.uasset" SILENT=true
+[2024.01.06-12.34.51:483][598]LogSavePackage: Save=1.02ms
+[2024.01.06-12.34.51:483][598]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Nivel_29980D65542A4CAF0ABB150BA2B7E3D0B.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio16/Nivel_2.uasset'
+[2024.01.06-12.34.51:484][598]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio16/Nivel_2.uasset
+[2024.01.06-12.34.51:584][598]LogSavePackage: Save=23.09ms
+[2024.01.06-12.34.51:584][598]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Nivel1777A99D421C0599125C2CA9D79CA6E8.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel.umap'
+[2024.01.06-12.34.51:586][598]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel.umap
+[2024.01.06-12.34.51:588][598]LogFileHelpers: Saving map 'Nivel' took 0.103
+[2024.01.06-12.34.51:590][598]Cmd: MAP LOAD FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.01.06-12.34.51:590][598]LightingResults: New page: Lighting Build
+[2024.01.06-12.34.51:592][598]LoadErrors: New page: Loading map: Nivel.umap
+[2024.01.06-12.34.51:592][598]MapCheck: New page: Map Check
+[2024.01.06-12.34.51:592][598]LightingResults: New page: Lighting Build
+[2024.01.06-12.34.51:661][598]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.06-12.34.51:664][598]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.01.06-12.34.51:689][598]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.06-12.34.51:719][598]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.83ms to complete.
+[2024.01.06-12.34.51:719][598]LogFileHelpers: Loading map 'Nivel' took 0.130
+[2024.01.06-12.34.53:093][648]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2024.01.06-12.34.53:791][648]LogSlate: Took 0.005829 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.01.06-12.34.59:735][985]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:1638).
+[2024.01.06-12.35.03:732][114]LogSavePackage: Save=24.30ms
+[2024.01.06-12.35.03:732][114]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Nivel5EEC697A4391794A42EE03A64BBCBA0B.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel.umap'
+[2024.01.06-12.35.03:734][114]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel.umap
+[2024.01.06-12.35.03:758][114]LogFileHelpers: Saving map 'Nivel' took 0.110
+[2024.01.06-12.35.03:760][114]Cmd: MAP LOAD FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.01.06-12.35.03:760][114]LightingResults: New page: Lighting Build
+[2024.01.06-12.35.03:762][114]LoadErrors: New page: Loading map: Nivel.umap
+[2024.01.06-12.35.03:762][114]MapCheck: New page: Map Check
+[2024.01.06-12.35.03:762][114]LightingResults: New page: Lighting Build
+[2024.01.06-12.35.03:781][114]LogAIModule: Creating AISystem for world Nivel
+[2024.01.06-12.35.03:858][114]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.06-12.35.03:882][114]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.06-12.35.03:915][114]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.375ms to complete.
+[2024.01.06-12.35.03:916][114]LogFileHelpers: Loading map 'Nivel' took 0.156
+[2024.01.06-12.35.05:042][179]Cmd: MAP LOAD FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.01.06-12.35.05:043][179]LightingResults: New page: Lighting Build
+[2024.01.06-12.35.05:044][179]LoadErrors: New page: Loading map: Nivel.umap
+[2024.01.06-12.35.05:044][179]MapCheck: New page: Map Check
+[2024.01.06-12.35.05:044][179]LightingResults: New page: Lighting Build
+[2024.01.06-12.35.05:062][179]LogAIModule: Creating AISystem for world Nivel
+[2024.01.06-12.35.05:150][179]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.06-12.35.05:172][179]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.06-12.35.05:203][179]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.12ms to complete.
+[2024.01.06-12.35.05:205][179]LogFileHelpers: Loading map 'Nivel' took 0.162
+[2024.01.06-12.35.13:082][642]Cmd: MAP LOAD FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.01.06-12.35.13:082][642]LightingResults: New page: Lighting Build
+[2024.01.06-12.35.13:083][642]LoadErrors: New page: Loading map: Nivel.umap
+[2024.01.06-12.35.13:084][642]MapCheck: New page: Map Check
+[2024.01.06-12.35.13:084][642]LightingResults: New page: Lighting Build
+[2024.01.06-12.35.13:102][642]LogAIModule: Creating AISystem for world Nivel
+[2024.01.06-12.35.13:205][642]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.06-12.35.13:227][642]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.06-12.35.13:259][642]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.319ms to complete.
+[2024.01.06-12.35.13:259][642]LogFileHelpers: Loading map 'Nivel' took 0.178
+[2024.01.06-12.37.10:464][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio17/Rojo" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Rojo.uasset" SILENT=true
+[2024.01.06-12.37.10:474][ 72]LogSavePackage: Save=9.56ms
+[2024.01.06-12.37.10:474][ 72]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Rojo23267B3E406729A7B2B04FB98CCA6C5B.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Rojo.uasset'
+[2024.01.06-12.37.10:475][ 72]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Rojo.uasset
+[2024.01.06-12.37.23:525][239]LogMaterial: Missing cached shader map for material Rojo, compiling. 
+[2024.01.06-12.37.23:525][239]LogTemp:Display: Added material ShaderMap 0x0000022AFDACD280 with Material 0x0000022AEBF33600 to ShaderMapsBeingCompiled
+[2024.01.06-12.37.23:539][239]LogTemp:Display: Kicking off shader compilation for Rojo, GameThreadShaderMap 0x0000022AFDACD280
+[2024.01.06-12.37.23:632][239]LogMaterial: Missing cached shader map for material Rojo, compiling. 
+[2024.01.06-12.37.23:632][239]LogTemp:Display: Added material ShaderMap 0x0000022A924F8800 with Material 0x0000022AEBF33600 to ShaderMapsBeingCompiled
+[2024.01.06-12.37.23:639][239]LogTemp:Display: Kicking off shader compilation for Rojo, GameThreadShaderMap 0x0000022A924F8800
+[2024.01.06-12.37.23:639][239]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.37.25:181][296]LogTemp:Display: Finished compile of shader map 0x0000022A924F8800
+[2024.01.06-12.37.25:181][296]LogTemp:Display: Shader map Rojo complete, GameThreadShaderMap 0x0000022A924F8800, marking material Rojo as finished
+[2024.01.06-12.37.25:181][296]LogTemp:Display: Marking material as finished 0x0000022AEBF33600
+[2024.01.06-12.39.10:746][316]LogMaterial: Missing cached shader map for material Rojo, compiling. 
+[2024.01.06-12.39.10:747][316]LogTemp:Display: Added material ShaderMap 0x0000022A8337F580 with Material 0x0000022AEBF33600 to ShaderMapsBeingCompiled
+[2024.01.06-12.39.10:753][316]LogTemp:Display: Kicking off shader compilation for Rojo, GameThreadShaderMap 0x0000022A8337F580
+[2024.01.06-12.39.10:754][316]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.39.10:754][316]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2024.01.06-12.39.10:755][316]LogTemp:Display: Added material ShaderMap 0x0000022A92840F00 with Material 0x0000022A83564700 to ShaderMapsBeingCompiled
+[2024.01.06-12.39.10:756][316]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x0000022A92840F00
+[2024.01.06-12.39.11:629][354]LogTemp:Display: Finished compile of shader map 0x0000022A92840F00
+[2024.01.06-12.39.11:629][354]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x0000022A92840F00, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2024.01.06-12.39.11:629][354]LogTemp:Display: Marking material as finished 0x0000022A83564700
+[2024.01.06-12.39.11:647][355]LogTemp:Display: Finished compile of shader map 0x0000022A8337F580
+[2024.01.06-12.39.11:647][355]LogTemp:Display: Shader map Rojo complete, GameThreadShaderMap 0x0000022A8337F580, marking material Rojo as finished
+[2024.01.06-12.39.11:647][355]LogTemp:Display: Marking material as finished 0x0000022AEBF33600
+[2024.01.06-12.39.36:830][631]LogMaterial: Missing cached shader map for material Rojo, compiling. 
+[2024.01.06-12.39.36:831][631]LogTemp:Display: Added material ShaderMap 0x0000022AEBB37200 with Material 0x0000022AEBF33600 to ShaderMapsBeingCompiled
+[2024.01.06-12.39.36:837][631]LogTemp:Display: Kicking off shader compilation for Rojo, GameThreadShaderMap 0x0000022AEBB37200
+[2024.01.06-12.39.36:838][631]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.39.36:872][631]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2024.01.06-12.39.36:873][631]LogTemp:Display: Added material ShaderMap 0x0000022A928B7C80 with Material 0x0000022A82EDEB00 to ShaderMapsBeingCompiled
+[2024.01.06-12.39.36:875][631]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x0000022A928B7C80
+[2024.01.06-12.39.37:673][668]LogTemp:Display: Finished compile of shader map 0x0000022A928B7C80
+[2024.01.06-12.39.37:673][668]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x0000022A928B7C80, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2024.01.06-12.39.37:673][668]LogTemp:Display: Marking material as finished 0x0000022A82EDEB00
+[2024.01.06-12.39.37:691][669]LogTemp:Display: Finished compile of shader map 0x0000022AEBB37200
+[2024.01.06-12.39.37:691][669]LogTemp:Display: Shader map Rojo complete, GameThreadShaderMap 0x0000022AEBB37200, marking material Rojo as finished
+[2024.01.06-12.39.37:691][669]LogTemp:Display: Marking material as finished 0x0000022AEBF33600
+[2024.01.06-12.40.26:751][274]LogMaterial: Missing cached shader map for material Rojo, compiling. 
+[2024.01.06-12.40.26:752][274]LogTemp:Display: Added material ShaderMap 0x0000022B00DA7580 with Material 0x0000022AEBF33600 to ShaderMapsBeingCompiled
+[2024.01.06-12.40.26:758][274]LogTemp:Display: Kicking off shader compilation for Rojo, GameThreadShaderMap 0x0000022B00DA7580
+[2024.01.06-12.40.26:759][274]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.40.26:786][274]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2024.01.06-12.40.26:786][274]LogTemp:Display: Added material ShaderMap 0x0000022ADA50D600 with Material 0x0000022A83555000 to ShaderMapsBeingCompiled
+[2024.01.06-12.40.26:789][274]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x0000022ADA50D600
+[2024.01.06-12.40.27:621][309]LogTemp:Display: Finished compile of shader map 0x0000022ADA50D600
+[2024.01.06-12.40.27:621][309]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x0000022ADA50D600, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2024.01.06-12.40.27:621][309]LogTemp:Display: Marking material as finished 0x0000022A83555000
+[2024.01.06-12.40.27:639][310]LogTemp:Display: Finished compile of shader map 0x0000022B00DA7580
+[2024.01.06-12.40.27:639][310]LogTemp:Display: Shader map Rojo complete, GameThreadShaderMap 0x0000022B00DA7580, marking material Rojo as finished
+[2024.01.06-12.40.27:639][310]LogTemp:Display: Marking material as finished 0x0000022AEBF33600
+[2024.01.06-12.40.27:657][311]LogMaterial: Missing cached shader map for material Rojo, compiling. 
+[2024.01.06-12.40.27:658][311]LogTemp:Display: Added material ShaderMap 0x0000022ADA50FC80 with Material 0x0000022AEBF33600 to ShaderMapsBeingCompiled
+[2024.01.06-12.40.27:665][311]LogTemp:Display: Kicking off shader compilation for Rojo, GameThreadShaderMap 0x0000022ADA50FC80
+[2024.01.06-12.40.27:665][311]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.40.27:697][311]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2024.01.06-12.40.27:698][311]LogTemp:Display: Added material ShaderMap 0x0000022A922F3200 with Material 0x0000022A925BDF00 to ShaderMapsBeingCompiled
+[2024.01.06-12.40.27:700][311]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x0000022A922F3200
+[2024.01.06-12.40.28:195][329]LogTemp:Display: Finished compile of shader map 0x0000022ADA50FC80
+[2024.01.06-12.40.28:195][329]LogTemp:Display: Shader map Rojo complete, GameThreadShaderMap 0x0000022ADA50FC80, marking material Rojo as finished
+[2024.01.06-12.40.28:195][329]LogTemp:Display: Marking material as finished 0x0000022AEBF33600
+[2024.01.06-12.40.28:197][329]LogTemp:Display: Finished compile of shader map 0x0000022A922F3200
+[2024.01.06-12.40.28:198][329]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x0000022A922F3200, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2024.01.06-12.40.28:198][329]LogTemp:Display: Marking material as finished 0x0000022A925BDF00
+[2024.01.06-12.40.31:299][440]LogMaterial: Missing cached shader map for material Rojo, compiling. 
+[2024.01.06-12.40.31:300][440]LogTemp:Display: Added material ShaderMap 0x0000022A833BB200 with Material 0x0000022AEBF33600 to ShaderMapsBeingCompiled
+[2024.01.06-12.40.31:306][440]LogTemp:Display: Kicking off shader compilation for Rojo, GameThreadShaderMap 0x0000022A833BB200
+[2024.01.06-12.40.31:307][440]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.40.31:334][440]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2024.01.06-12.40.31:335][440]LogTemp:Display: Added material ShaderMap 0x0000022ADA50FC80 with Material 0x0000022A83555F00 to ShaderMapsBeingCompiled
+[2024.01.06-12.40.31:337][440]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x0000022ADA50FC80
+[2024.01.06-12.40.31:799][456]LogTemp:Display: Finished compile of shader map 0x0000022A833BB200
+[2024.01.06-12.40.31:799][456]LogTemp:Display: Shader map Rojo complete, GameThreadShaderMap 0x0000022A833BB200, marking material Rojo as finished
+[2024.01.06-12.40.31:799][456]LogTemp:Display: Marking material as finished 0x0000022AEBF33600
+[2024.01.06-12.40.31:801][456]LogTemp:Display: Finished compile of shader map 0x0000022ADA50FC80
+[2024.01.06-12.40.31:801][456]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x0000022ADA50FC80, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2024.01.06-12.40.31:801][456]LogTemp:Display: Marking material as finished 0x0000022A83555F00
+[2024.01.06-12.40.32:882][521]LogMaterial: Missing cached shader map for material Rojo, compiling. 
+[2024.01.06-12.40.32:882][521]LogTemp:Display: Added material ShaderMap 0x0000022ADA50F200 with Material 0x0000022AEBF33600 to ShaderMapsBeingCompiled
+[2024.01.06-12.40.32:889][521]LogTemp:Display: Kicking off shader compilation for Rojo, GameThreadShaderMap 0x0000022ADA50F200
+[2024.01.06-12.40.32:889][521]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.40.32:915][521]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2024.01.06-12.40.32:916][521]LogTemp:Display: Added material ShaderMap 0x0000022A833BB200 with Material 0x0000022A91F9C700 to ShaderMapsBeingCompiled
+[2024.01.06-12.40.32:919][521]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x0000022A833BB200
+[2024.01.06-12.40.33:400][537]LogTemp:Display: Finished compile of shader map 0x0000022ADA50F200
+[2024.01.06-12.40.33:400][537]LogTemp:Display: Shader map Rojo complete, GameThreadShaderMap 0x0000022ADA50F200, marking material Rojo as finished
+[2024.01.06-12.40.33:400][537]LogTemp:Display: Marking material as finished 0x0000022AEBF33600
+[2024.01.06-12.40.33:401][537]LogTemp:Display: Finished compile of shader map 0x0000022A833BB200
+[2024.01.06-12.40.33:401][537]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x0000022A833BB200, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2024.01.06-12.40.33:401][537]LogTemp:Display: Marking material as finished 0x0000022A91F9C700
+[2024.01.06-12.40.43:081][700]LogMaterial: Missing cached shader map for material Rojo, compiling. 
+[2024.01.06-12.40.43:082][700]LogTemp:Display: Added material ShaderMap 0x0000022A922F3C80 with Material 0x0000022AEBF33600 to ShaderMapsBeingCompiled
+[2024.01.06-12.40.43:089][700]LogTemp:Display: Kicking off shader compilation for Rojo, GameThreadShaderMap 0x0000022A922F3C80
+[2024.01.06-12.40.43:089][700]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.40.43:123][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2024.01.06-12.40.43:124][700]LogTemp:Display: Added material ShaderMap 0x0000022B00DA7580 with Material 0x0000022A91F9C700 to ShaderMapsBeingCompiled
+[2024.01.06-12.40.43:127][700]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x0000022B00DA7580
+[2024.01.06-12.40.43:655][724]LogTemp:Display: Finished compile of shader map 0x0000022A922F3C80
+[2024.01.06-12.40.43:655][724]LogTemp:Display: Shader map Rojo complete, GameThreadShaderMap 0x0000022A922F3C80, marking material Rojo as finished
+[2024.01.06-12.40.43:655][724]LogTemp:Display: Marking material as finished 0x0000022AEBF33600
+[2024.01.06-12.40.43:657][724]LogTemp:Display: Finished compile of shader map 0x0000022B00DA7580
+[2024.01.06-12.40.43:657][724]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x0000022B00DA7580, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2024.01.06-12.40.43:657][724]LogTemp:Display: Marking material as finished 0x0000022A91F9C700
+[2024.01.06-12.41.16:870][577]LogMaterialEditor: Saving and Compiling material Rojo
+[2024.01.06-12.41.17:293][577]LogMaterial: Missing cached shader map for material Rojo, compiling. 
+[2024.01.06-12.41.17:294][577]LogTemp:Display: Added material ShaderMap 0x0000022B00DE2080 with Material 0x0000022AEBF33600 to ShaderMapsBeingCompiled
+[2024.01.06-12.41.17:309][577]LogTemp:Display: Kicking off shader compilation for Rojo, GameThreadShaderMap 0x0000022B00DE2080
+[2024.01.06-12.41.17:309][577]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.41.17:333][577]LogMaterial: Missing cached shader map for material Rojo, compiling. 
+[2024.01.06-12.41.17:334][577]LogTemp:Display: Added material ShaderMap 0x0000022A83DA0B80 with Material 0x0000022A81C10D00 to ShaderMapsBeingCompiled
+[2024.01.06-12.41.17:354][577]LogTemp:Display: Kicking off shader compilation for Rojo, GameThreadShaderMap 0x0000022A83DA0B80
+[2024.01.06-12.41.17:357][577]LogMaterial: Missing cached shader map for material Rojo, compiling. 
+[2024.01.06-12.41.17:358][577]LogTemp:Display: Added material ShaderMap 0x0000022A833BB900 with Material 0x0000022A81C10D00 to ShaderMapsBeingCompiled
+[2024.01.06-12.41.17:374][577]LogTemp:Display: Kicking off shader compilation for Rojo, GameThreadShaderMap 0x0000022A833BB900
+[2024.01.06-12.41.17:375][577]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.41.17:398][577]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Rojo, compiling. 
+[2024.01.06-12.41.17:398][577]LogTemp:Display: Added material ShaderMap 0x0000022B00DE2B00 with Material 0x0000022A83565C00 to ShaderMapsBeingCompiled
+[2024.01.06-12.41.18:031][577]LogTemp:Display: Finished compile of shader map 0x0000022B00DE2B00
+[2024.01.06-12.41.18:031][577]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Rojo complete, GameThreadShaderMap 0x0000022B00DE2B00, marking material FDebugViewModeMaterialProxy Rojo as finished
+[2024.01.06-12.41.18:031][577]LogTemp:Display: Marking material as finished 0x0000022A83565C00
+[2024.01.06-12.41.18:035][577]TextureStreamingBuild:Display: Compiling optional shaders took 0.643 seconds.
+[2024.01.06-12.41.19:187][577]LogTemp:Display: Finished compile of shader map 0x0000022A833BB900
+[2024.01.06-12.41.19:187][577]LogTemp:Display: Shader map Rojo complete, GameThreadShaderMap 0x0000022A833BB900, marking material Rojo as finished
+[2024.01.06-12.41.19:187][577]LogTemp:Display: Marking material as finished 0x0000022A81C10D00
+[2024.01.06-12.41.19:194][577]LogTemp:Display: Finished compile of shader map 0x0000022B00DE2080
+[2024.01.06-12.41.19:194][577]LogTemp:Display: Shader map Rojo complete, GameThreadShaderMap 0x0000022B00DE2080, marking material Rojo as finished
+[2024.01.06-12.41.19:194][577]LogTemp:Display: Marking material as finished 0x0000022AEBF33600
+[2024.01.06-12.41.19:230][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio17/Rojo" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Rojo.uasset" SILENT=true
+[2024.01.06-12.41.19:258][577]LogSavePackage: Save=10.87ms
+[2024.01.06-12.41.19:258][577]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Rojo3E2AD5384D5B15BCABBB67B20C17104A.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Rojo.uasset'
+[2024.01.06-12.41.19:260][577]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Rojo.uasset
+[2024.01.06-12.42.45:066][830]LogSlate: Took 0.012749 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.01.06-12.43.18:117][131]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2024.01.06-12.44.25:848][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio17/Auto" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Auto.uasset" SILENT=true
+[2024.01.06-12.44.25:874][180]LogSavePackage: Save=8.97ms
+[2024.01.06-12.44.25:874][180]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/AutoCBA22AFB496099ED72FBE7941B828F77.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Auto.uasset'
+[2024.01.06-12.44.25:876][180]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Auto.uasset
+[2024.01.06-12.45.13:567][376]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ejercicios/Ejercicio17/Nivel' took 0.013
+[2024.01.06-12.45.13:571][376]LogSavePackage: Save=1.45ms
+[2024.01.06-12.45.13:571][376]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/NewMaterial_Auto158499E674A503870CB0097B4733DA8AD.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Autosaves/Game/Ejercicios/Ejercicio17/NewMaterial_Auto1.uasset'
+[2024.01.06-12.45.13:572][376]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Autosaves/Game/Ejercicios/Ejercicio17/NewMaterial_Auto1.uasset
+[2024.01.06-12.45.13:572][376]LogFileHelpers: Auto-saving content packages took 0.004
+[2024.01.06-12.47.42:173][338]LogMaterial: Missing cached shader map for material Azul, compiling. 
+[2024.01.06-12.47.42:173][338]LogTemp:Display: Added material ShaderMap 0x0000022B00306400 with Material 0x0000022B008AB380 to ShaderMapsBeingCompiled
+[2024.01.06-12.47.42:181][338]LogTemp:Display: Kicking off shader compilation for Azul, GameThreadShaderMap 0x0000022B00306400
+[2024.01.06-12.47.42:259][338]LogMaterial: Missing cached shader map for material Azul, compiling. 
+[2024.01.06-12.47.42:260][338]LogTemp:Display: Added material ShaderMap 0x0000022AC4838480 with Material 0x0000022B008AB380 to ShaderMapsBeingCompiled
+[2024.01.06-12.47.42:268][338]LogTemp:Display: Kicking off shader compilation for Azul, GameThreadShaderMap 0x0000022AC4838480
+[2024.01.06-12.47.42:268][338]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.47.43:311][389]LogTemp:Display: Finished compile of shader map 0x0000022AC4838480
+[2024.01.06-12.47.43:311][389]LogTemp:Display: Shader map Azul complete, GameThreadShaderMap 0x0000022AC4838480, marking material Azul as finished
+[2024.01.06-12.47.43:311][389]LogTemp:Display: Marking material as finished 0x0000022B008AB380
+[2024.01.06-12.47.55:265][101]LogMaterial: Missing cached shader map for material Azul, compiling. 
+[2024.01.06-12.47.55:266][101]LogTemp:Display: Added material ShaderMap 0x0000022B09E7CF00 with Material 0x0000022B008AB380 to ShaderMapsBeingCompiled
+[2024.01.06-12.47.55:276][101]LogTemp:Display: Kicking off shader compilation for Azul, GameThreadShaderMap 0x0000022B09E7CF00
+[2024.01.06-12.47.55:276][101]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.47.55:278][101]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2024.01.06-12.47.55:278][101]LogTemp:Display: Added material ShaderMap 0x0000022AC3B14F00 with Material 0x0000022A85631300 to ShaderMapsBeingCompiled
+[2024.01.06-12.47.55:280][101]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_1, GameThreadShaderMap 0x0000022AC3B14F00
+[2024.01.06-12.47.55:841][132]LogTemp:Display: Finished compile of shader map 0x0000022AC3B14F00
+[2024.01.06-12.47.55:841][132]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_1 complete, GameThreadShaderMap 0x0000022AC3B14F00, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_1 as finished
+[2024.01.06-12.47.55:841][132]LogTemp:Display: Marking material as finished 0x0000022A85631300
+[2024.01.06-12.47.55:859][133]LogTemp:Display: Finished compile of shader map 0x0000022B09E7CF00
+[2024.01.06-12.47.55:859][133]LogTemp:Display: Shader map Azul complete, GameThreadShaderMap 0x0000022B09E7CF00, marking material Azul as finished
+[2024.01.06-12.47.55:859][133]LogTemp:Display: Marking material as finished 0x0000022B008AB380
+[2024.01.06-12.47.57:425][227]LogMaterial: Missing cached shader map for material Azul, compiling. 
+[2024.01.06-12.47.57:425][227]LogTemp:Display: Added material ShaderMap 0x0000022ABE1AA780 with Material 0x0000022B008AB380 to ShaderMapsBeingCompiled
+[2024.01.06-12.47.57:432][227]LogTemp:Display: Kicking off shader compilation for Azul, GameThreadShaderMap 0x0000022ABE1AA780
+[2024.01.06-12.47.57:432][227]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.47.57:464][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2024.01.06-12.47.57:464][227]LogTemp:Display: Added material ShaderMap 0x0000022A92ECE400 with Material 0x0000022B01FCB400 to ShaderMapsBeingCompiled
+[2024.01.06-12.47.57:466][227]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_1, GameThreadShaderMap 0x0000022A92ECE400
+[2024.01.06-12.47.57:946][250]LogTemp:Display: Finished compile of shader map 0x0000022A92ECE400
+[2024.01.06-12.47.57:946][250]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_1 complete, GameThreadShaderMap 0x0000022A92ECE400, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_1 as finished
+[2024.01.06-12.47.57:946][250]LogTemp:Display: Marking material as finished 0x0000022B01FCB400
+[2024.01.06-12.47.57:965][251]LogTemp:Display: Finished compile of shader map 0x0000022ABE1AA780
+[2024.01.06-12.47.57:965][251]LogTemp:Display: Shader map Azul complete, GameThreadShaderMap 0x0000022ABE1AA780, marking material Azul as finished
+[2024.01.06-12.47.57:965][251]LogTemp:Display: Marking material as finished 0x0000022B008AB380
+[2024.01.06-12.48.13:853][202]LogMaterial: Missing cached shader map for material Azul, compiling. 
+[2024.01.06-12.48.13:854][202]LogTemp:Display: Added material ShaderMap 0x0000022ACA1F6B00 with Material 0x0000022B008AB380 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.13:860][202]LogTemp:Display: Kicking off shader compilation for Azul, GameThreadShaderMap 0x0000022ACA1F6B00
+[2024.01.06-12.48.13:860][202]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.48.13:887][202]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2024.01.06-12.48.13:887][202]LogTemp:Display: Added material ShaderMap 0x0000022A920AC100 with Material 0x0000022ABE15D900 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.13:890][202]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_1, GameThreadShaderMap 0x0000022A920AC100
+[2024.01.06-12.48.14:380][225]LogTemp:Display: Finished compile of shader map 0x0000022A920AC100
+[2024.01.06-12.48.14:380][225]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_1 complete, GameThreadShaderMap 0x0000022A920AC100, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_1 as finished
+[2024.01.06-12.48.14:380][225]LogTemp:Display: Marking material as finished 0x0000022ABE15D900
+[2024.01.06-12.48.14:399][226]LogTemp:Display: Finished compile of shader map 0x0000022ACA1F6B00
+[2024.01.06-12.48.14:399][226]LogTemp:Display: Shader map Azul complete, GameThreadShaderMap 0x0000022ACA1F6B00, marking material Azul as finished
+[2024.01.06-12.48.14:399][226]LogTemp:Display: Marking material as finished 0x0000022B008AB380
+[2024.01.06-12.48.14:864][254]LogMaterial: Missing cached shader map for material Azul, compiling. 
+[2024.01.06-12.48.14:865][254]LogTemp:Display: Added material ShaderMap 0x0000022A92ECC800 with Material 0x0000022B008AB380 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.14:871][254]LogTemp:Display: Kicking off shader compilation for Azul, GameThreadShaderMap 0x0000022A92ECC800
+[2024.01.06-12.48.14:871][254]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.48.14:903][254]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2024.01.06-12.48.14:903][254]LogTemp:Display: Added material ShaderMap 0x0000022ACA1F6B00 with Material 0x0000022ACA49F100 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.14:905][254]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_1, GameThreadShaderMap 0x0000022ACA1F6B00
+[2024.01.06-12.48.15:387][274]LogTemp:Display: Finished compile of shader map 0x0000022ACA1F6B00
+[2024.01.06-12.48.15:387][274]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_1 complete, GameThreadShaderMap 0x0000022ACA1F6B00, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_1 as finished
+[2024.01.06-12.48.15:387][274]LogTemp:Display: Marking material as finished 0x0000022ACA49F100
+[2024.01.06-12.48.15:405][275]LogTemp:Display: Finished compile of shader map 0x0000022A92ECC800
+[2024.01.06-12.48.15:405][275]LogTemp:Display: Shader map Azul complete, GameThreadShaderMap 0x0000022A92ECC800, marking material Azul as finished
+[2024.01.06-12.48.15:405][275]LogTemp:Display: Marking material as finished 0x0000022B008AB380
+[2024.01.06-12.48.27:998][ 30]LogMaterial: Missing cached shader map for material Azul, compiling. 
+[2024.01.06-12.48.27:998][ 30]LogTemp:Display: Added material ShaderMap 0x0000022A9245D600 with Material 0x0000022B008AB380 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.28:005][ 30]LogTemp:Display: Kicking off shader compilation for Azul, GameThreadShaderMap 0x0000022A9245D600
+[2024.01.06-12.48.28:005][ 30]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.48.28:032][ 30]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2024.01.06-12.48.28:032][ 30]LogTemp:Display: Added material ShaderMap 0x0000022A92370F00 with Material 0x0000022ABE15D300 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.28:035][ 30]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_1, GameThreadShaderMap 0x0000022A92370F00
+[2024.01.06-12.48.28:545][ 53]LogTemp:Display: Finished compile of shader map 0x0000022A92370F00
+[2024.01.06-12.48.28:545][ 53]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_1 complete, GameThreadShaderMap 0x0000022A92370F00, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_1 as finished
+[2024.01.06-12.48.28:545][ 53]LogTemp:Display: Marking material as finished 0x0000022ABE15D300
+[2024.01.06-12.48.28:563][ 54]LogTemp:Display: Finished compile of shader map 0x0000022A9245D600
+[2024.01.06-12.48.28:563][ 54]LogTemp:Display: Shader map Azul complete, GameThreadShaderMap 0x0000022A9245D600, marking material Azul as finished
+[2024.01.06-12.48.28:563][ 54]LogTemp:Display: Marking material as finished 0x0000022B008AB380
+[2024.01.06-12.48.29:195][ 92]LogMaterial: Missing cached shader map for material Azul, compiling. 
+[2024.01.06-12.48.29:195][ 92]LogTemp:Display: Added material ShaderMap 0x0000022A92372780 with Material 0x0000022B008AB380 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.29:202][ 92]LogTemp:Display: Kicking off shader compilation for Azul, GameThreadShaderMap 0x0000022A92372780
+[2024.01.06-12.48.29:202][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.48.29:232][ 92]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2024.01.06-12.48.29:233][ 92]LogTemp:Display: Added material ShaderMap 0x0000022ACA1F6B00 with Material 0x0000022ABE15D300 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.29:235][ 92]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_1, GameThreadShaderMap 0x0000022ACA1F6B00
+[2024.01.06-12.48.29:751][115]LogTemp:Display: Finished compile of shader map 0x0000022ACA1F6B00
+[2024.01.06-12.48.29:751][115]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_1 complete, GameThreadShaderMap 0x0000022ACA1F6B00, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_1 as finished
+[2024.01.06-12.48.29:751][115]LogTemp:Display: Marking material as finished 0x0000022ABE15D300
+[2024.01.06-12.48.29:752][115]LogTemp:Display: Finished compile of shader map 0x0000022A92372780
+[2024.01.06-12.48.29:752][115]LogTemp:Display: Shader map Azul complete, GameThreadShaderMap 0x0000022A92372780, marking material Azul as finished
+[2024.01.06-12.48.29:752][115]LogTemp:Display: Marking material as finished 0x0000022B008AB380
+[2024.01.06-12.48.30:268][146]LogMaterial: Missing cached shader map for material Azul, compiling. 
+[2024.01.06-12.48.30:268][146]LogTemp:Display: Added material ShaderMap 0x0000022ACA1F4F00 with Material 0x0000022B008AB380 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.30:275][146]LogTemp:Display: Kicking off shader compilation for Azul, GameThreadShaderMap 0x0000022ACA1F4F00
+[2024.01.06-12.48.30:275][146]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.48.30:305][146]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2024.01.06-12.48.30:306][146]LogTemp:Display: Added material ShaderMap 0x0000022A928AFC80 with Material 0x0000022B09EE2B00 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.30:308][146]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_1, GameThreadShaderMap 0x0000022A928AFC80
+[2024.01.06-12.48.30:821][171]LogTemp:Display: Finished compile of shader map 0x0000022A928AFC80
+[2024.01.06-12.48.30:821][171]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_1 complete, GameThreadShaderMap 0x0000022A928AFC80, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_1 as finished
+[2024.01.06-12.48.30:821][171]LogTemp:Display: Marking material as finished 0x0000022B09EE2B00
+[2024.01.06-12.48.30:853][173]LogTemp:Display: Finished compile of shader map 0x0000022ACA1F4F00
+[2024.01.06-12.48.30:853][173]LogTemp:Display: Shader map Azul complete, GameThreadShaderMap 0x0000022ACA1F4F00, marking material Azul as finished
+[2024.01.06-12.48.30:853][173]LogTemp:Display: Marking material as finished 0x0000022B008AB380
+[2024.01.06-12.48.31:902][235]LogMaterialEditor: Saving and Compiling material Azul
+[2024.01.06-12.48.32:327][235]LogMaterial: Missing cached shader map for material Azul, compiling. 
+[2024.01.06-12.48.32:328][235]LogTemp:Display: Added material ShaderMap 0x0000022AEBCBAB00 with Material 0x0000022B008AB380 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.32:341][235]LogTemp:Display: Kicking off shader compilation for Azul, GameThreadShaderMap 0x0000022AEBCBAB00
+[2024.01.06-12.48.32:342][235]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.48.32:364][235]LogMaterial: Missing cached shader map for material Azul, compiling. 
+[2024.01.06-12.48.32:364][235]LogTemp:Display: Added material ShaderMap 0x0000022A925CCF00 with Material 0x0000022A8562BA00 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.32:387][235]LogTemp:Display: Kicking off shader compilation for Azul, GameThreadShaderMap 0x0000022A925CCF00
+[2024.01.06-12.48.32:390][235]LogMaterial: Missing cached shader map for material Azul, compiling. 
+[2024.01.06-12.48.32:390][235]LogTemp:Display: Added material ShaderMap 0x0000022ACA1E5280 with Material 0x0000022A8562BA00 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.32:403][235]LogTemp:Display: Kicking off shader compilation for Azul, GameThreadShaderMap 0x0000022ACA1E5280
+[2024.01.06-12.48.32:404][235]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.48.32:429][235]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Azul, compiling. 
+[2024.01.06-12.48.32:430][235]LogTemp:Display: Added material ShaderMap 0x0000022A84077C80 with Material 0x0000022ACA2ABD00 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.32:720][235]LogTemp:Display: Finished compile of shader map 0x0000022A84077C80
+[2024.01.06-12.48.32:720][235]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Azul complete, GameThreadShaderMap 0x0000022A84077C80, marking material FDebugViewModeMaterialProxy Azul as finished
+[2024.01.06-12.48.32:720][235]LogTemp:Display: Marking material as finished 0x0000022ACA2ABD00
+[2024.01.06-12.48.32:724][235]TextureStreamingBuild:Display: Compiling optional shaders took 0.300 seconds.
+[2024.01.06-12.48.33:851][235]LogTemp:Display: Finished compile of shader map 0x0000022ACA1E5280
+[2024.01.06-12.48.33:851][235]LogTemp:Display: Shader map Azul complete, GameThreadShaderMap 0x0000022ACA1E5280, marking material Azul as finished
+[2024.01.06-12.48.33:851][235]LogTemp:Display: Marking material as finished 0x0000022A8562BA00
+[2024.01.06-12.48.33:858][235]LogTemp:Display: Finished compile of shader map 0x0000022AEBCBAB00
+[2024.01.06-12.48.33:858][235]LogTemp:Display: Shader map Azul complete, GameThreadShaderMap 0x0000022AEBCBAB00, marking material Azul as finished
+[2024.01.06-12.48.33:858][235]LogTemp:Display: Marking material as finished 0x0000022B008AB380
+[2024.01.06-12.48.33:891][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio17/Azul" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Azul.uasset" SILENT=true
+[2024.01.06-12.48.33:903][235]LogSavePackage: Save=9.75ms
+[2024.01.06-12.48.33:903][235]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Azul89FAF0FE4A972ADF75FDF99E14396AEC.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Azul.uasset'
+[2024.01.06-12.48.33:904][235]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Azul.uasset
+[2024.01.06-12.48.39:485][545]LogMaterial: Missing cached shader map for material Blanco, compiling. 
+[2024.01.06-12.48.39:486][545]LogTemp:Display: Added material ShaderMap 0x0000022AEBEF5600 with Material 0x0000022ADA1A9D00 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.39:494][545]LogTemp:Display: Kicking off shader compilation for Blanco, GameThreadShaderMap 0x0000022AEBEF5600
+[2024.01.06-12.48.39:556][545]LogMaterial: Missing cached shader map for material Blanco, compiling. 
+[2024.01.06-12.48.39:557][545]LogTemp:Display: Added material ShaderMap 0x0000022B002E4800 with Material 0x0000022ADA1A9D00 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.39:564][545]LogTemp:Display: Kicking off shader compilation for Blanco, GameThreadShaderMap 0x0000022B002E4800
+[2024.01.06-12.48.39:564][545]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.48.40:111][559]LogTemp:Display: Finished compile of shader map 0x0000022B002E4800
+[2024.01.06-12.48.40:111][559]LogTemp:Display: Shader map Blanco complete, GameThreadShaderMap 0x0000022B002E4800, marking material Blanco as finished
+[2024.01.06-12.48.40:111][559]LogTemp:Display: Marking material as finished 0x0000022ADA1A9D00
+[2024.01.06-12.48.43:273][746]LogMaterial: Missing cached shader map for material Blanco, compiling. 
+[2024.01.06-12.48.43:274][746]LogTemp:Display: Added material ShaderMap 0x0000022AEB671D00 with Material 0x0000022ADA1A9D00 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.43:281][746]LogTemp:Display: Kicking off shader compilation for Blanco, GameThreadShaderMap 0x0000022AEB671D00
+[2024.01.06-12.48.43:281][746]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.48.43:282][746]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2024.01.06-12.48.43:282][746]LogTemp:Display: Added material ShaderMap 0x0000022B07823900 with Material 0x0000022B0792D600 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.43:283][746]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_2, GameThreadShaderMap 0x0000022B07823900
+[2024.01.06-12.48.43:817][769]LogTemp:Display: Finished compile of shader map 0x0000022B07823900
+[2024.01.06-12.48.43:817][769]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_2 complete, GameThreadShaderMap 0x0000022B07823900, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_2 as finished
+[2024.01.06-12.48.43:817][769]LogTemp:Display: Marking material as finished 0x0000022B0792D600
+[2024.01.06-12.48.43:843][770]LogTemp:Display: Finished compile of shader map 0x0000022AEB671D00
+[2024.01.06-12.48.43:843][770]LogTemp:Display: Shader map Blanco complete, GameThreadShaderMap 0x0000022AEB671D00, marking material Blanco as finished
+[2024.01.06-12.48.43:843][770]LogTemp:Display: Marking material as finished 0x0000022ADA1A9D00
+[2024.01.06-12.48.44:952][836]LogMaterial: Missing cached shader map for material Blanco, compiling. 
+[2024.01.06-12.48.44:952][836]LogTemp:Display: Added material ShaderMap 0x0000022A9285FC80 with Material 0x0000022ADA1A9D00 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.44:959][836]LogTemp:Display: Kicking off shader compilation for Blanco, GameThreadShaderMap 0x0000022A9285FC80
+[2024.01.06-12.48.44:959][836]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.48.44:989][836]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2024.01.06-12.48.44:990][836]LogTemp:Display: Added material ShaderMap 0x0000022B07823C80 with Material 0x0000022B07827A00 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.44:992][836]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_2, GameThreadShaderMap 0x0000022B07823C80
+[2024.01.06-12.48.45:496][856]LogTemp:Display: Finished compile of shader map 0x0000022B07823C80
+[2024.01.06-12.48.45:496][856]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_2 complete, GameThreadShaderMap 0x0000022B07823C80, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_2 as finished
+[2024.01.06-12.48.45:496][856]LogTemp:Display: Marking material as finished 0x0000022B07827A00
+[2024.01.06-12.48.45:522][857]LogTemp:Display: Finished compile of shader map 0x0000022A9285FC80
+[2024.01.06-12.48.45:522][857]LogTemp:Display: Shader map Blanco complete, GameThreadShaderMap 0x0000022A9285FC80, marking material Blanco as finished
+[2024.01.06-12.48.45:522][857]LogTemp:Display: Marking material as finished 0x0000022ADA1A9D00
+[2024.01.06-12.48.49:190][ 76]LogMaterial: Missing cached shader map for material Blanco, compiling. 
+[2024.01.06-12.48.49:190][ 76]LogTemp:Display: Added material ShaderMap 0x0000022AC42DD980 with Material 0x0000022ADA1A9D00 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.49:197][ 76]LogTemp:Display: Kicking off shader compilation for Blanco, GameThreadShaderMap 0x0000022AC42DD980
+[2024.01.06-12.48.49:197][ 76]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.48.49:225][ 76]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2024.01.06-12.48.49:226][ 76]LogTemp:Display: Added material ShaderMap 0x0000022A85AD6E80 with Material 0x0000022B002D6500 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.49:229][ 76]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_2, GameThreadShaderMap 0x0000022A85AD6E80
+[2024.01.06-12.48.49:759][ 98]LogTemp:Display: Finished compile of shader map 0x0000022A85AD6E80
+[2024.01.06-12.48.49:759][ 98]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_2 complete, GameThreadShaderMap 0x0000022A85AD6E80, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_2 as finished
+[2024.01.06-12.48.49:759][ 98]LogTemp:Display: Marking material as finished 0x0000022B002D6500
+[2024.01.06-12.48.49:784][ 99]LogTemp:Display: Finished compile of shader map 0x0000022AC42DD980
+[2024.01.06-12.48.49:784][ 99]LogTemp:Display: Shader map Blanco complete, GameThreadShaderMap 0x0000022AC42DD980, marking material Blanco as finished
+[2024.01.06-12.48.49:784][ 99]LogTemp:Display: Marking material as finished 0x0000022ADA1A9D00
+[2024.01.06-12.48.55:315][419]LogMaterialEditor: Saving and Compiling material Blanco
+[2024.01.06-12.48.55:732][419]LogMaterial: Missing cached shader map for material Blanco, compiling. 
+[2024.01.06-12.48.55:732][419]LogTemp:Display: Added material ShaderMap 0x0000022A8525CB80 with Material 0x0000022ADA1A9D00 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.55:747][419]LogTemp:Display: Kicking off shader compilation for Blanco, GameThreadShaderMap 0x0000022A8525CB80
+[2024.01.06-12.48.55:748][419]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.48.55:771][419]LogMaterial: Missing cached shader map for material Blanco, compiling. 
+[2024.01.06-12.48.55:772][419]LogTemp:Display: Added material ShaderMap 0x0000022B004F9280 with Material 0x0000022A80474400 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.55:795][419]LogTemp:Display: Kicking off shader compilation for Blanco, GameThreadShaderMap 0x0000022B004F9280
+[2024.01.06-12.48.55:797][419]LogMaterial: Missing cached shader map for material Blanco, compiling. 
+[2024.01.06-12.48.55:799][419]LogTemp:Display: Added material ShaderMap 0x0000022A83BE4F00 with Material 0x0000022A80474400 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.55:819][419]LogTemp:Display: Kicking off shader compilation for Blanco, GameThreadShaderMap 0x0000022A83BE4F00
+[2024.01.06-12.48.55:820][419]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.48.55:849][419]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Blanco, compiling. 
+[2024.01.06-12.48.55:850][419]LogTemp:Display: Added material ShaderMap 0x0000022AEBA9F580 with Material 0x0000022B008AC100 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.56:140][419]LogTemp:Display: Finished compile of shader map 0x0000022AEBA9F580
+[2024.01.06-12.48.56:140][419]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Blanco complete, GameThreadShaderMap 0x0000022AEBA9F580, marking material FDebugViewModeMaterialProxy Blanco as finished
+[2024.01.06-12.48.56:140][419]LogTemp:Display: Marking material as finished 0x0000022B008AC100
+[2024.01.06-12.48.56:144][419]TextureStreamingBuild:Display: Compiling optional shaders took 0.302 seconds.
+[2024.01.06-12.48.57:358][419]LogTemp:Display: Finished compile of shader map 0x0000022A83BE4F00
+[2024.01.06-12.48.57:358][419]LogTemp:Display: Shader map Blanco complete, GameThreadShaderMap 0x0000022A83BE4F00, marking material Blanco as finished
+[2024.01.06-12.48.57:358][419]LogTemp:Display: Marking material as finished 0x0000022A80474400
+[2024.01.06-12.48.57:365][419]LogTemp:Display: Finished compile of shader map 0x0000022A8525CB80
+[2024.01.06-12.48.57:365][419]LogTemp:Display: Shader map Blanco complete, GameThreadShaderMap 0x0000022A8525CB80, marking material Blanco as finished
+[2024.01.06-12.48.57:365][419]LogTemp:Display: Marking material as finished 0x0000022ADA1A9D00
+[2024.01.06-12.48.57:396][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio17/Blanco" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Blanco.uasset" SILENT=true
+[2024.01.06-12.48.57:407][419]LogSavePackage: Save=9.28ms
+[2024.01.06-12.48.57:407][419]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/BlancoA9B354AA49AD4BC754878DAED385AF6F.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Blanco.uasset'
+[2024.01.06-12.48.57:409][419]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Blanco.uasset
+[2024.01.06-12.48.59:140][507]LogMaterial: Missing cached shader map for material Negro, compiling. 
+[2024.01.06-12.48.59:141][507]LogTemp:Display: Added material ShaderMap 0x0000022B00893580 with Material 0x0000022A833BF600 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.59:148][507]LogTemp:Display: Kicking off shader compilation for Negro, GameThreadShaderMap 0x0000022B00893580
+[2024.01.06-12.48.59:208][507]LogMaterial: Missing cached shader map for material Negro, compiling. 
+[2024.01.06-12.48.59:208][507]LogTemp:Display: Added material ShaderMap 0x0000022AB6E26400 with Material 0x0000022A833BF600 to ShaderMapsBeingCompiled
+[2024.01.06-12.48.59:215][507]LogTemp:Display: Kicking off shader compilation for Negro, GameThreadShaderMap 0x0000022AB6E26400
+[2024.01.06-12.48.59:215][507]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.48.59:739][521]LogTemp:Display: Finished compile of shader map 0x0000022AB6E26400
+[2024.01.06-12.48.59:739][521]LogTemp:Display: Shader map Negro complete, GameThreadShaderMap 0x0000022AB6E26400, marking material Negro as finished
+[2024.01.06-12.48.59:739][521]LogTemp:Display: Marking material as finished 0x0000022A833BF600
+[2024.01.06-12.49.02:434][680]LogMaterial: Missing cached shader map for material Negro, compiling. 
+[2024.01.06-12.49.02:435][680]LogTemp:Display: Added material ShaderMap 0x0000022A84C13580 with Material 0x0000022A833BF600 to ShaderMapsBeingCompiled
+[2024.01.06-12.49.02:442][680]LogTemp:Display: Kicking off shader compilation for Negro, GameThreadShaderMap 0x0000022A84C13580
+[2024.01.06-12.49.02:442][680]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.49.02:443][680]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2024.01.06-12.49.02:443][680]LogTemp:Display: Added material ShaderMap 0x0000022AFF404800 with Material 0x0000022ACECFDC00 to ShaderMapsBeingCompiled
+[2024.01.06-12.49.02:444][680]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_3, GameThreadShaderMap 0x0000022AFF404800
+[2024.01.06-12.49.02:982][702]LogTemp:Display: Finished compile of shader map 0x0000022AFF404800
+[2024.01.06-12.49.02:982][702]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_3 complete, GameThreadShaderMap 0x0000022AFF404800, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_3 as finished
+[2024.01.06-12.49.02:982][702]LogTemp:Display: Marking material as finished 0x0000022ACECFDC00
+[2024.01.06-12.49.03:010][703]LogTemp:Display: Finished compile of shader map 0x0000022A84C13580
+[2024.01.06-12.49.03:010][703]LogTemp:Display: Shader map Negro complete, GameThreadShaderMap 0x0000022A84C13580, marking material Negro as finished
+[2024.01.06-12.49.03:010][703]LogTemp:Display: Marking material as finished 0x0000022A833BF600
+[2024.01.06-12.49.04:102][768]LogMaterial: Missing cached shader map for material Negro, compiling. 
+[2024.01.06-12.49.04:103][768]LogTemp:Display: Added material ShaderMap 0x0000022AFFE6C800 with Material 0x0000022A833BF600 to ShaderMapsBeingCompiled
+[2024.01.06-12.49.04:109][768]LogTemp:Display: Kicking off shader compilation for Negro, GameThreadShaderMap 0x0000022AFFE6C800
+[2024.01.06-12.49.04:110][768]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.49.04:137][768]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2024.01.06-12.49.04:138][768]LogTemp:Display: Added material ShaderMap 0x0000022B000C8800 with Material 0x0000022A85CD0D00 to ShaderMapsBeingCompiled
+[2024.01.06-12.49.04:141][768]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_3, GameThreadShaderMap 0x0000022B000C8800
+[2024.01.06-12.49.04:658][789]LogTemp:Display: Finished compile of shader map 0x0000022B000C8800
+[2024.01.06-12.49.04:658][789]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_3 complete, GameThreadShaderMap 0x0000022B000C8800, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_3 as finished
+[2024.01.06-12.49.04:658][789]LogTemp:Display: Marking material as finished 0x0000022A85CD0D00
+[2024.01.06-12.49.04:678][790]LogTemp:Display: Finished compile of shader map 0x0000022AFFE6C800
+[2024.01.06-12.49.04:678][790]LogTemp:Display: Shader map Negro complete, GameThreadShaderMap 0x0000022AFFE6C800, marking material Negro as finished
+[2024.01.06-12.49.04:678][790]LogTemp:Display: Marking material as finished 0x0000022A833BF600
+[2024.01.06-12.49.08:048][986]LogMaterialEditor: Saving and Compiling material Negro
+[2024.01.06-12.49.08:464][986]LogMaterial: Missing cached shader map for material Negro, compiling. 
+[2024.01.06-12.49.08:464][986]LogTemp:Display: Added material ShaderMap 0x0000022B09F69600 with Material 0x0000022A833BF600 to ShaderMapsBeingCompiled
+[2024.01.06-12.49.08:479][986]LogTemp:Display: Kicking off shader compilation for Negro, GameThreadShaderMap 0x0000022B09F69600
+[2024.01.06-12.49.08:479][986]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.49.08:503][986]LogMaterial: Missing cached shader map for material Negro, compiling. 
+[2024.01.06-12.49.08:504][986]LogTemp:Display: Added material ShaderMap 0x0000022AB6E24100 with Material 0x0000022A81BF5300 to ShaderMapsBeingCompiled
+[2024.01.06-12.49.08:528][986]LogTemp:Display: Kicking off shader compilation for Negro, GameThreadShaderMap 0x0000022AB6E24100
+[2024.01.06-12.49.08:530][986]LogMaterial: Missing cached shader map for material Negro, compiling. 
+[2024.01.06-12.49.08:532][986]LogTemp:Display: Added material ShaderMap 0x0000022ACB02CF00 with Material 0x0000022A81BF5300 to ShaderMapsBeingCompiled
+[2024.01.06-12.49.08:551][986]LogTemp:Display: Kicking off shader compilation for Negro, GameThreadShaderMap 0x0000022ACB02CF00
+[2024.01.06-12.49.08:553][986]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.49.08:579][986]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Negro, compiling. 
+[2024.01.06-12.49.08:580][986]LogTemp:Display: Added material ShaderMap 0x0000022A82E93580 with Material 0x0000022AB9ABC700 to ShaderMapsBeingCompiled
+[2024.01.06-12.49.08:879][986]LogTemp:Display: Finished compile of shader map 0x0000022A82E93580
+[2024.01.06-12.49.08:879][986]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Negro complete, GameThreadShaderMap 0x0000022A82E93580, marking material FDebugViewModeMaterialProxy Negro as finished
+[2024.01.06-12.49.08:879][986]LogTemp:Display: Marking material as finished 0x0000022AB9ABC700
+[2024.01.06-12.49.08:883][986]TextureStreamingBuild:Display: Compiling optional shaders took 0.310 seconds.
+[2024.01.06-12.49.10:052][986]LogTemp:Display: Finished compile of shader map 0x0000022ACB02CF00
+[2024.01.06-12.49.10:052][986]LogTemp:Display: Shader map Negro complete, GameThreadShaderMap 0x0000022ACB02CF00, marking material Negro as finished
+[2024.01.06-12.49.10:052][986]LogTemp:Display: Marking material as finished 0x0000022A81BF5300
+[2024.01.06-12.49.10:059][986]LogTemp:Display: Finished compile of shader map 0x0000022B09F69600
+[2024.01.06-12.49.10:059][986]LogTemp:Display: Shader map Negro complete, GameThreadShaderMap 0x0000022B09F69600, marking material Negro as finished
+[2024.01.06-12.49.10:059][986]LogTemp:Display: Marking material as finished 0x0000022A833BF600
+[2024.01.06-12.49.10:092][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio17/Negro" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Negro.uasset" SILENT=true
+[2024.01.06-12.49.10:102][986]LogSavePackage: Save=9.13ms
+[2024.01.06-12.49.10:102][986]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Negro8DA0270543EBA557DD24288CBECD5E46.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Negro.uasset'
+[2024.01.06-12.49.10:103][986]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Negro.uasset
+[2024.01.06-12.50.06:520][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio17/Auto" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Auto.uasset" SILENT=true
+[2024.01.06-12.50.06:544][630]LogSavePackage: Save=9.01ms
+[2024.01.06-12.50.06:544][630]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Auto11AC2FD14B6E0E8082FE1BA477EDEBBB.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Auto.uasset'
+[2024.01.06-12.50.06:546][630]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Auto.uasset
+[2024.01.06-12.50.14:401][ 85]LogMaterial: Missing cached shader map for material Amarillo, compiling. 
+[2024.01.06-12.50.14:402][ 85]LogTemp:Display: Added material ShaderMap 0x0000022B0013F900 with Material 0x0000022B00714B80 to ShaderMapsBeingCompiled
+[2024.01.06-12.50.14:409][ 85]LogTemp:Display: Kicking off shader compilation for Amarillo, GameThreadShaderMap 0x0000022B0013F900
+[2024.01.06-12.50.14:498][ 85]LogMaterial: Missing cached shader map for material Amarillo, compiling. 
+[2024.01.06-12.50.14:498][ 85]LogTemp:Display: Added material ShaderMap 0x0000022A921E5980 with Material 0x0000022B00714B80 to ShaderMapsBeingCompiled
+[2024.01.06-12.50.14:506][ 85]LogTemp:Display: Kicking off shader compilation for Amarillo, GameThreadShaderMap 0x0000022A921E5980
+[2024.01.06-12.50.14:506][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.50.15:556][123]LogTemp:Display: Finished compile of shader map 0x0000022A921E5980
+[2024.01.06-12.50.15:556][123]LogTemp:Display: Shader map Amarillo complete, GameThreadShaderMap 0x0000022A921E5980, marking material Amarillo as finished
+[2024.01.06-12.50.15:556][123]LogTemp:Display: Marking material as finished 0x0000022B00714B80
+[2024.01.06-12.50.17:556][242]LogMaterial: Missing cached shader map for material Amarillo, compiling. 
+[2024.01.06-12.50.17:557][242]LogTemp:Display: Added material ShaderMap 0x0000022A8E8BF200 with Material 0x0000022B00714B80 to ShaderMapsBeingCompiled
+[2024.01.06-12.50.17:563][242]LogTemp:Display: Kicking off shader compilation for Amarillo, GameThreadShaderMap 0x0000022A8E8BF200
+[2024.01.06-12.50.17:564][242]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.50.18:108][268]LogTemp:Display: Finished compile of shader map 0x0000022A8E8BF200
+[2024.01.06-12.50.18:108][268]LogTemp:Display: Shader map Amarillo complete, GameThreadShaderMap 0x0000022A8E8BF200, marking material Amarillo as finished
+[2024.01.06-12.50.18:108][268]LogTemp:Display: Marking material as finished 0x0000022B00714B80
+[2024.01.06-12.50.18:825][311]LogEditorTransaction: Undo Material Editor: New Expression
+[2024.01.06-12.50.18:827][311]LogMaterial: Missing cached shader map for material Amarillo, compiling. 
+[2024.01.06-12.50.18:828][311]LogTemp:Display: Added material ShaderMap 0x0000022B0CBB7200 with Material 0x0000022B00714B80 to ShaderMapsBeingCompiled
+[2024.01.06-12.50.18:834][311]LogTemp:Display: Kicking off shader compilation for Amarillo, GameThreadShaderMap 0x0000022B0CBB7200
+[2024.01.06-12.50.18:842][311]LogMaterial: Missing cached shader map for material Amarillo, compiling. 
+[2024.01.06-12.50.18:843][311]LogTemp:Display: Added material ShaderMap 0x0000022A8E992080 with Material 0x0000022B00714B80 to ShaderMapsBeingCompiled
+[2024.01.06-12.50.18:851][311]LogTemp:Display: Kicking off shader compilation for Amarillo, GameThreadShaderMap 0x0000022A8E992080
+[2024.01.06-12.50.18:851][311]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.50.19:223][320]LogTemp:Display: Finished compile of shader map 0x0000022B0CBB7200
+[2024.01.06-12.50.19:223][320]LogTemp:Display: Shader map Amarillo complete, GameThreadShaderMap 0x0000022B0CBB7200, marking material Amarillo as finished
+[2024.01.06-12.50.19:223][320]LogTemp:Display: Marking material as finished 0x0000022B00714B80
+[2024.01.06-12.50.19:584][334]LogTemp:Display: Finished compile of shader map 0x0000022A8E992080
+[2024.01.06-12.50.19:584][334]LogTemp:Display: Shader map Amarillo complete, GameThreadShaderMap 0x0000022A8E992080, marking material Amarillo as finished
+[2024.01.06-12.50.19:584][334]LogTemp:Display: Marking material as finished 0x0000022B00714B80
+[2024.01.06-12.50.21:846][469]LogMaterial: Missing cached shader map for material Amarillo, compiling. 
+[2024.01.06-12.50.21:847][469]LogTemp:Display: Added material ShaderMap 0x0000022B0CAE4480 with Material 0x0000022B00714B80 to ShaderMapsBeingCompiled
+[2024.01.06-12.50.21:853][469]LogTemp:Display: Kicking off shader compilation for Amarillo, GameThreadShaderMap 0x0000022B0CAE4480
+[2024.01.06-12.50.21:854][469]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.50.21:854][469]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2024.01.06-12.50.21:855][469]LogTemp:Display: Added material ShaderMap 0x0000022B0CB14100 with Material 0x0000022AFFB78100 to ShaderMapsBeingCompiled
+[2024.01.06-12.50.21:856][469]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_4, GameThreadShaderMap 0x0000022B0CB14100
+[2024.01.06-12.50.22:399][493]LogTemp:Display: Finished compile of shader map 0x0000022B0CB14100
+[2024.01.06-12.50.22:399][493]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_4 complete, GameThreadShaderMap 0x0000022B0CB14100, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_4 as finished
+[2024.01.06-12.50.22:399][493]LogTemp:Display: Marking material as finished 0x0000022AFFB78100
+[2024.01.06-12.50.22:432][495]LogTemp:Display: Finished compile of shader map 0x0000022B0CAE4480
+[2024.01.06-12.50.22:432][495]LogTemp:Display: Shader map Amarillo complete, GameThreadShaderMap 0x0000022B0CAE4480, marking material Amarillo as finished
+[2024.01.06-12.50.22:432][495]LogTemp:Display: Marking material as finished 0x0000022B00714B80
+[2024.01.06-12.50.24:538][621]LogMaterial: Missing cached shader map for material Amarillo, compiling. 
+[2024.01.06-12.50.24:539][621]LogTemp:Display: Added material ShaderMap 0x0000022AFFB31980 with Material 0x0000022B00714B80 to ShaderMapsBeingCompiled
+[2024.01.06-12.50.24:545][621]LogTemp:Display: Kicking off shader compilation for Amarillo, GameThreadShaderMap 0x0000022AFFB31980
+[2024.01.06-12.50.24:545][621]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.50.24:574][621]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2024.01.06-12.50.24:575][621]LogTemp:Display: Added material ShaderMap 0x0000022A82C70480 with Material 0x0000022A806AFA00 to ShaderMapsBeingCompiled
+[2024.01.06-12.50.24:577][621]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_4, GameThreadShaderMap 0x0000022A82C70480
+[2024.01.06-12.50.25:085][642]LogTemp:Display: Finished compile of shader map 0x0000022A82C70480
+[2024.01.06-12.50.25:085][642]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_4 complete, GameThreadShaderMap 0x0000022A82C70480, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_4 as finished
+[2024.01.06-12.50.25:085][642]LogTemp:Display: Marking material as finished 0x0000022A806AFA00
+[2024.01.06-12.50.25:119][644]LogTemp:Display: Finished compile of shader map 0x0000022AFFB31980
+[2024.01.06-12.50.25:119][644]LogTemp:Display: Shader map Amarillo complete, GameThreadShaderMap 0x0000022AFFB31980, marking material Amarillo as finished
+[2024.01.06-12.50.25:119][644]LogTemp:Display: Marking material as finished 0x0000022B00714B80
+[2024.01.06-12.50.34:013][176]LogMaterial: Missing cached shader map for material Amarillo, compiling. 
+[2024.01.06-12.50.34:013][176]LogTemp:Display: Added material ShaderMap 0x0000022AFFB33900 with Material 0x0000022B00714B80 to ShaderMapsBeingCompiled
+[2024.01.06-12.50.34:020][176]LogTemp:Display: Kicking off shader compilation for Amarillo, GameThreadShaderMap 0x0000022AFFB33900
+[2024.01.06-12.50.34:020][176]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.50.34:052][176]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2024.01.06-12.50.34:053][176]LogTemp:Display: Added material ShaderMap 0x0000022AFF1A0100 with Material 0x0000022AFFB79600 to ShaderMapsBeingCompiled
+[2024.01.06-12.50.34:055][176]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_4, GameThreadShaderMap 0x0000022AFF1A0100
+[2024.01.06-12.50.34:570][197]LogTemp:Display: Finished compile of shader map 0x0000022AFF1A0100
+[2024.01.06-12.50.34:570][197]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_4 complete, GameThreadShaderMap 0x0000022AFF1A0100, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_4 as finished
+[2024.01.06-12.50.34:570][197]LogTemp:Display: Marking material as finished 0x0000022AFFB79600
+[2024.01.06-12.50.34:592][198]LogTemp:Display: Finished compile of shader map 0x0000022AFFB33900
+[2024.01.06-12.50.34:592][198]LogTemp:Display: Shader map Amarillo complete, GameThreadShaderMap 0x0000022AFFB33900, marking material Amarillo as finished
+[2024.01.06-12.50.34:592][198]LogTemp:Display: Marking material as finished 0x0000022B00714B80
+[2024.01.06-12.50.34:832][212]LogMaterial: Missing cached shader map for material Amarillo, compiling. 
+[2024.01.06-12.50.34:832][212]LogTemp:Display: Added material ShaderMap 0x0000022B0CA62780 with Material 0x0000022B00714B80 to ShaderMapsBeingCompiled
+[2024.01.06-12.50.34:839][212]LogTemp:Display: Kicking off shader compilation for Amarillo, GameThreadShaderMap 0x0000022B0CA62780
+[2024.01.06-12.50.34:839][212]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.50.34:871][212]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2024.01.06-12.50.34:872][212]LogTemp:Display: Added material ShaderMap 0x0000022AFFB33900 with Material 0x0000022AFF021300 to ShaderMapsBeingCompiled
+[2024.01.06-12.50.34:874][212]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_4, GameThreadShaderMap 0x0000022AFFB33900
+[2024.01.06-12.50.35:436][233]LogTemp:Display: Finished compile of shader map 0x0000022AFFB33900
+[2024.01.06-12.50.35:436][233]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_4 complete, GameThreadShaderMap 0x0000022AFFB33900, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_4 as finished
+[2024.01.06-12.50.35:436][233]LogTemp:Display: Marking material as finished 0x0000022AFF021300
+[2024.01.06-12.50.35:468][234]LogTemp:Display: Finished compile of shader map 0x0000022B0CA62780
+[2024.01.06-12.50.35:468][234]LogTemp:Display: Shader map Amarillo complete, GameThreadShaderMap 0x0000022B0CA62780, marking material Amarillo as finished
+[2024.01.06-12.50.35:468][234]LogTemp:Display: Marking material as finished 0x0000022B00714B80
+[2024.01.06-12.50.38:326][393]LogMaterialEditor: Saving and Compiling material Amarillo
+[2024.01.06-12.50.38:773][393]LogMaterial: Missing cached shader map for material Amarillo, compiling. 
+[2024.01.06-12.50.38:774][393]LogTemp:Display: Added material ShaderMap 0x0000022B0C931600 with Material 0x0000022B00714B80 to ShaderMapsBeingCompiled
+[2024.01.06-12.50.38:788][393]LogTemp:Display: Kicking off shader compilation for Amarillo, GameThreadShaderMap 0x0000022B0C931600
+[2024.01.06-12.50.38:788][393]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.50.38:807][393]LogMaterial: Missing cached shader map for material Amarillo, compiling. 
+[2024.01.06-12.50.38:807][393]LogTemp:Display: Added material ShaderMap 0x0000022B0CB17580 with Material 0x0000022AFFF2CB80 to ShaderMapsBeingCompiled
+[2024.01.06-12.50.38:827][393]LogTemp:Display: Kicking off shader compilation for Amarillo, GameThreadShaderMap 0x0000022B0CB17580
+[2024.01.06-12.50.38:830][393]LogMaterial: Missing cached shader map for material Amarillo, compiling. 
+[2024.01.06-12.50.38:830][393]LogTemp:Display: Added material ShaderMap 0x0000022A9214B900 with Material 0x0000022AFFF2CB80 to ShaderMapsBeingCompiled
+[2024.01.06-12.50.38:847][393]LogTemp:Display: Kicking off shader compilation for Amarillo, GameThreadShaderMap 0x0000022A9214B900
+[2024.01.06-12.50.38:848][393]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2024.01.06-12.50.38:873][393]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Amarillo, compiling. 
+[2024.01.06-12.50.38:874][393]LogTemp:Display: Added material ShaderMap 0x0000022B0C7FEE80 with Material 0x0000022B0CA65000 to ShaderMapsBeingCompiled
+[2024.01.06-12.50.39:164][393]LogTemp:Display: Finished compile of shader map 0x0000022B0C7FEE80
+[2024.01.06-12.50.39:164][393]LogTemp:Display: Shader map FDebugViewModeMaterialProxy Amarillo complete, GameThreadShaderMap 0x0000022B0C7FEE80, marking material FDebugViewModeMaterialProxy Amarillo as finished
+[2024.01.06-12.50.39:164][393]LogTemp:Display: Marking material as finished 0x0000022B0CA65000
+[2024.01.06-12.50.39:168][393]TextureStreamingBuild:Display: Compiling optional shaders took 0.301 seconds.
+[2024.01.06-12.50.40:327][393]LogTemp:Display: Finished compile of shader map 0x0000022A9214B900
+[2024.01.06-12.50.40:327][393]LogTemp:Display: Shader map Amarillo complete, GameThreadShaderMap 0x0000022A9214B900, marking material Amarillo as finished
+[2024.01.06-12.50.40:327][393]LogTemp:Display: Marking material as finished 0x0000022AFFF2CB80
+[2024.01.06-12.50.40:334][393]LogTemp:Display: Finished compile of shader map 0x0000022B0C931600
+[2024.01.06-12.50.40:334][393]LogTemp:Display: Shader map Amarillo complete, GameThreadShaderMap 0x0000022B0C931600, marking material Amarillo as finished
+[2024.01.06-12.50.40:334][393]LogTemp:Display: Marking material as finished 0x0000022B00714B80
+[2024.01.06-12.50.40:376][393]LogSavePackage: Save=9.53ms
+[2024.01.06-12.50.40:376][393]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/AmarilloD3E0B6CE4B218FAA9A0E5D829FCF64F1.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Amarillo.uasset'
+[2024.01.06-12.50.40:378][393]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Amarillo.uasset
+[2024.01.06-12.51.35:152][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio17/Auto" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Auto.uasset" SILENT=true
+[2024.01.06-12.51.35:178][171]LogSavePackage: Save=9.62ms
+[2024.01.06-12.51.35:178][171]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/AutoDAE4CF8A428836F576B62A98E62FA42B.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Auto.uasset'
+[2024.01.06-12.51.35:179][171]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Auto.uasset
+[2024.01.06-12.51.36:475][249]BlueprintLog: New page: Compile Auto
+[2024.01.06-12.51.40:946][459]LogTemp: Repeting last play command: Selected Viewport
+[2024.01.06-12.51.40:957][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.06-12.51.40:964][459]PIE: New page: PIE session: Nivel (Jan 6, 2024, 6:51:40 AM)
+[2024.01.06-12.51.40:965][459]LogPlayLevel: Creating play world package: /Game/Ejercicios/Ejercicio17/UEDPIE_0_Nivel
+[2024.01.06-12.51.40:966][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001927s)
+[2024.01.06-12.51.40:967][459]LogAIModule: Creating AISystem for world Nivel
+[2024.01.06-12.51.40:967][459]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2024.01.06-12.51.40:967][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ejercicios/Ejercicio17/Nivel.Nivel to /Game/Ejercicios/Ejercicio17/UEDPIE_0_Nivel.Nivel (0.002928s)
+[2024.01.06-12.51.40:992][459]LogInit: XAudio2 using 'Auriculares (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.01.06-12.51.41:010][459]LogInit: FAudioDevice initialized.
+[2024.01.06-12.51.41:085][459]LogLoad: Game class is 'GameModeBase'
+[2024.01.06-12.51.41:089][459]LogWorld: Bringing World /Game/Ejercicios/Ejercicio17/UEDPIE_0_Nivel.Nivel up for play (max tick rate 60) at 2024.01.06-09.51.41
+[2024.01.06-12.51.41:089][459]LogWorld: Bringing up level for play took: 0.000918
+[2024.01.06-12.51.41:131][459]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2024.01.06-12.51.41:132][459]PIE: Info Play in editor start time for /Game/Ejercicios/Ejercicio17/UEDPIE_0_Nivel 0.843
+[2024.01.06-12.51.45:390][698]LogEditorViewport: Clicking on Actor (LMB): Auto_C (Auto)
+[2024.01.06-12.51.51:774][ 39]Cmd: DELETE
+[2024.01.06-12.51.51:774][ 39]Cmd: ACTOR DELETE
+[2024.01.06-12.51.51:775][ 39]LogEditorActor: Deleted Actor: Auto_C
+[2024.01.06-12.51.51:806][ 39]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2024.01.06-12.52.00:194][527]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2024.01.06-12.52.01:448][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2024.01.06-12.52.01:941][619]LogSavePackage: Save=22.29ms
+[2024.01.06-12.52.01:941][619]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/NivelD2D3C841402B9973AC70958B7D1B5E5A.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel.umap'
+[2024.01.06-12.52.01:943][619]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel.umap
+[2024.01.06-12.52.03:326][700]LogTemp: Repeting last play command: Selected Viewport
+[2024.01.06-12.52.03:336][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.06-12.52.03:337][700]PIE: New page: PIE session: Nivel (Jan 6, 2024, 6:52:03 AM)
+[2024.01.06-12.52.03:337][700]LogPlayLevel: Creating play world package: /Game/Ejercicios/Ejercicio17/UEDPIE_0_Nivel
+[2024.01.06-12.52.03:338][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001631s)
+[2024.01.06-12.52.03:339][700]LogAIModule: Creating AISystem for world Nivel
+[2024.01.06-12.52.03:339][700]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2024.01.06-12.52.03:339][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ejercicios/Ejercicio17/Nivel.Nivel to /Game/Ejercicios/Ejercicio17/UEDPIE_0_Nivel.Nivel (0.002677s)
+[2024.01.06-12.52.03:351][700]LogTemp:Display: Removed shader map 0x0000022B0013F900 from material 0x0000022B00714B80
+[2024.01.06-12.52.03:351][700]LogTemp:Display: Removed shader map 0x0000022B00306400 from material 0x0000022B008AB380
+[2024.01.06-12.52.03:352][700]LogTemp:Display: Removed shader map 0x0000022AEBEF5600 from material 0x0000022ADA1A9D00
+[2024.01.06-12.52.03:355][700]LogTemp:Display: Removed shader map 0x0000022B00893580 from material 0x0000022A833BF600
+[2024.01.06-12.52.03:356][700]LogTemp:Display: Removed shader map 0x0000022AFDACD280 from material 0x0000022AEBF33600
+[2024.01.06-12.52.03:370][700]LogInit: XAudio2 using 'Auriculares (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.01.06-12.52.03:387][700]LogInit: FAudioDevice initialized.
+[2024.01.06-12.52.03:420][700]LogLoad: Game class is 'GameModeBase'
+[2024.01.06-12.52.03:423][700]LogWorld: Bringing World /Game/Ejercicios/Ejercicio17/UEDPIE_0_Nivel.Nivel up for play (max tick rate 60) at 2024.01.06-09.52.03
+[2024.01.06-12.52.03:423][700]LogWorld: Bringing up level for play took: 0.000906
+[2024.01.06-12.52.03:424][700]PIE: Info Play in editor start time for /Game/Ejercicios/Ejercicio17/UEDPIE_0_Nivel -0.864
+[2024.01.06-12.52.26:908][976]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2024.01.06-12.52.27:632][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2024.01.06-12.52.28:927][ 83]LogSavePackage: Save=23.87ms
+[2024.01.06-12.52.28:927][ 83]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Nivel9D89BFB8473ED0D7BC6DA1859A7C9904.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel.umap'
+[2024.01.06-12.52.28:928][ 83]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel.umap
+[2024.01.06-12.52.29:841][136]LogTemp: Repeting last play command: Selected Viewport
+[2024.01.06-12.52.29:852][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.06-12.52.29:852][136]PIE: New page: PIE session: Nivel (Jan 6, 2024, 6:52:29 AM)
+[2024.01.06-12.52.29:852][136]LogPlayLevel: Creating play world package: /Game/Ejercicios/Ejercicio17/UEDPIE_0_Nivel
+[2024.01.06-12.52.29:854][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001617s)
+[2024.01.06-12.52.29:855][136]LogAIModule: Creating AISystem for world Nivel
+[2024.01.06-12.52.29:855][136]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2024.01.06-12.52.29:855][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ejercicios/Ejercicio17/Nivel.Nivel to /Game/Ejercicios/Ejercicio17/UEDPIE_0_Nivel.Nivel (0.002619s)
+[2024.01.06-12.52.29:881][136]LogInit: XAudio2 using 'Auriculares (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.01.06-12.52.29:898][136]LogInit: FAudioDevice initialized.
+[2024.01.06-12.52.29:931][136]LogLoad: Game class is 'GameModeBase'
+[2024.01.06-12.52.29:934][136]LogWorld: Bringing World /Game/Ejercicios/Ejercicio17/UEDPIE_0_Nivel.Nivel up for play (max tick rate 60) at 2024.01.06-09.52.29
+[2024.01.06-12.52.29:934][136]LogWorld: Bringing up level for play took: 0.000897
+[2024.01.06-12.52.29:935][136]PIE: Info Play in editor start time for /Game/Ejercicios/Ejercicio17/UEDPIE_0_Nivel -0.354
+[2024.01.06-12.52.54:334][588]LogSavePackage: Save=24.61ms
+[2024.01.06-12.52.54:334][588]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Nivel5ED4D00049D2C2AECF1B42953503E0F7.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel.umap'
+[2024.01.06-12.52.54:335][588]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/Nivel.umap
+[2024.01.06-12.53.02:732][937]LogSavePackage: Save=1.73ms
+[2024.01.06-12.53.02:732][937]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/NewMaterial1A7170C747B38BBDB1A8938198B8074D.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/NewMaterial.uasset'
+[2024.01.06-12.53.02:734][937]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio17/NewMaterial.uasset
+[2024.01.06-12.53.03:034][938]Cmd: QUIT_EDITOR
+[2024.01.06-12.53.03:873][938]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2024.01.06-12.53.03:894][938]LogExit: Preparing to exit.
+[2024.01.06-12.53.04:658][938]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/' was aborted.
+[2024.01.06-12.53.04:683][938]LogExit: Editor shut down
+[2024.01.06-12.53.04:683][938]LogExit: Transaction tracking system shut down
+[2024.01.06-12.53.04:684][938]LogTemp:Display: Removed shader map 0x0000022B0CB17580 from material 0x0000022AFFF2CB80
+[2024.01.06-12.53.04:684][938]LogTemp:Display: Removed shader map 0x0000022B004F9280 from material 0x0000022A80474400
+[2024.01.06-12.53.04:684][938]LogTemp:Display: Removed shader map 0x0000022AB6E24100 from material 0x0000022A81BF5300
+[2024.01.06-12.53.04:684][938]LogTemp:Display: Removed shader map 0x0000022A925CCF00 from material 0x0000022A8562BA00
+[2024.01.06-12.53.04:684][938]LogTemp:Display: Removed shader map 0x0000022A83DA0B80 from material 0x0000022A81C10D00
+[2024.01.06-12.53.04:758][938]LogObj: Freed 0b from 0 cluster array pools.
+[2024.01.06-12.53.04:758][938]LogExit: Object subsystem successfully closed.
+[2024.01.06-12.53.04:770][938]LogD3D11RHI: Shutdown
+[2024.01.06-12.53.04:770][938]LogD3D11RHI: CleanupD3DDevice
+[2024.01.06-12.53.04:857][938]LogD3D11RHI: ~FD3D11DynamicRHI
+[2024.01.06-12.53.04:869][938]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (490)
+[2024.01.06-12.53.04:869][938]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (488)
+[2024.01.06-12.53.04:869][938]LogModuleManager: Shutting down and abandoning module MaterialEditor (486)
+[2024.01.06-12.53.04:869][938]LogModuleManager: Shutting down and abandoning module BlueprintGraph (484)
+[2024.01.06-12.53.04:869][938]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (482)
+[2024.01.06-12.53.04:870][938]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (480)
+[2024.01.06-12.53.04:870][938]LogModuleManager: Shutting down and abandoning module CrashTracker (478)
+[2024.01.06-12.53.04:870][938]LogModuleManager: Shutting down and abandoning module SceneOutliner (476)
+[2024.01.06-12.53.04:870][938]LogModuleManager: Shutting down and abandoning module AddContentDialog (474)
+[2024.01.06-12.53.04:870][938]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Unreal Engine 4 (4.15.0)/FeaturePacks/' was aborted.
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module WidgetCarousel (473)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module EditorWidgets (470)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module CollectionManager (468)
+[2024.01.06-12.53.04:871][938]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Collections/' was aborted.
+[2024.01.06-12.53.04:871][938]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Developers/MelchioT/Collections/' was aborted.
+[2024.01.06-12.53.04:871][938]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Collections/' was aborted.
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module StatsViewer (466)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module FoliageEdit (464)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module LandscapeEditor (462)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (460)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module ActorPickerMode (458)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module GeometryMode (456)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module TextureAlignMode (454)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module BspMode (452)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module HardwareSurvey (450)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (448)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module AutomationWorker (446)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (444)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (442)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module PlacementMode (441)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (438)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (436)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module MfMediaFactory (434)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module MfMediaEditor (432)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (430)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (428)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (426)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module Media (425)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (422)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module CharacterAI (420)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module AudioCapture (418)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module SequenceRecorder (417)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module SmartSnapping (414)
+[2024.01.06-12.53.04:871][938]LogModuleManager: Shutting down and abandoning module SessionServices (412)
+[2024.01.06-12.53.04:872][938]LogModuleManager: Shutting down and abandoning module ViewportSnapping (410)
+[2024.01.06-12.53.04:872][938]LogModuleManager: Shutting down and abandoning module ViewportInteraction (408)
+[2024.01.06-12.53.04:872][938]LogModuleManager: Shutting down and abandoning module LogVisualizer (406)
+[2024.01.06-12.53.04:872][938]LogModuleManager: Shutting down and abandoning module IntroTutorials (404)
+[2024.01.06-12.53.04:872][938]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (403)
+[2024.01.06-12.53.04:872][938]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (400)
+[2024.01.06-12.53.04:872][938]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (398)
+[2024.01.06-12.53.04:872][938]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (396)
+[2024.01.06-12.53.04:872][938]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (394)
+[2024.01.06-12.53.04:872][938]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (393)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (390)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (388)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module InputBindingEditor (386)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module NiagaraEditor (384)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module MergeActors (382)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module SizeMap (380)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module TreeMap (378)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module ReferenceViewer (376)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (374)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module LocalizationService (373)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module HardwareTargeting (370)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (368)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module UndoHistory (366)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module UserFeedback (364)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module XmlParser (362)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module Blutility (360)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (358)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (357)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (354)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module SettingsEditor (352)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module ProjectLauncher (350)
+[2024.01.06-12.53.05:167][938]LogModuleManager: Shutting down and abandoning module SessionFrontend (348)
+[2024.01.06-12.53.05:168][938]LogModuleManager: Shutting down and abandoning module ProfilerClient (346)
+[2024.01.06-12.53.05:168][938]LogModuleManager: Shutting down and abandoning module DeviceManager (344)
+[2024.01.06-12.53.05:168][938]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (343)
+[2024.01.06-12.53.05:210][938]LogModuleManager: Shutting down and abandoning module AutomationController (340)
+[2024.01.06-12.53.05:210][938]LogModuleManager: Shutting down and abandoning module AutomationWindow (338)
+[2024.01.06-12.53.05:210][938]LogModuleManager: Shutting down and abandoning module Layers (336)
+[2024.01.06-12.53.05:210][938]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (334)
+[2024.01.06-12.53.05:210][938]LogModuleManager: Shutting down and abandoning module DetailCustomizations (332)
+[2024.01.06-12.53.05:210][938]LogModuleManager: Shutting down and abandoning module PackagesDialog (330)
+[2024.01.06-12.53.05:210][938]LogModuleManager: Shutting down and abandoning module Persona (328)
+[2024.01.06-12.53.05:211][938]LogModuleManager: Shutting down and abandoning module AnimGraph (327)
+[2024.01.06-12.53.05:211][938]LogModuleManager: Shutting down and abandoning module Kismet (324)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module GraphEditor (322)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module ClassViewer (320)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module Toolbox (318)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module ModuleUI (316)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module MovieSceneTools (314)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module OutputLog (312)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module GammaUI (310)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module Documentation (308)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module Niagara (306)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (304)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module AnalyticsET (302)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module PortalServices (300)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module PortalRpc (298)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module MessagingRpc (296)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module AIModule (294)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module GameplayDebugger (293)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module AITestSuite (291)
+[2024.01.06-12.53.05:216][938]LogModuleManager: Shutting down and abandoning module ProfilerService (288)
+[2024.01.06-12.53.05:401][938]LogModuleManager: Shutting down and abandoning module TaskGraph (286)
+[2024.01.06-12.53.05:401][938]LogModuleManager: Shutting down and abandoning module SteamVRController (284)
+[2024.01.06-12.53.05:401][938]LogModuleManager: Shutting down and abandoning module SteamVR (282)
+[2024.01.06-12.53.05:401][938]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (280)
+[2024.01.06-12.53.05:401][938]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (278)
+[2024.01.06-12.53.05:401][938]LogModuleManager: Shutting down and abandoning module OculusLibrary (276)
+[2024.01.06-12.53.05:401][938]LogModuleManager: Shutting down and abandoning module OculusInput (274)
+[2024.01.06-12.53.05:401][938]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (272)
+[2024.01.06-12.53.05:401][938]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (270)
+[2024.01.06-12.53.05:401][938]LogModuleManager: Shutting down and abandoning module CableComponent (268)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (266)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (262)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module HTML5Networking (260)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module AlembicImporter (258)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module AlembicLibrary (257)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module GeometryCache (256)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (255)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (250)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module SuperSearch (249)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (246)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module PluginBrowser (244)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (242)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module EpicSurvey (240)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (238)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module DesktopPlatform (237)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module UObjectPlugin (234)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (232)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (230)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module GitSourceControl (228)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module SourceControl (227)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (224)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (222)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (220)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module Paper2DEditor (218)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module MeshPaint (217)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module LevelEditor (215)
+[2024.01.06-12.53.05:402][938]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (214)
+[2024.01.06-12.53.05:403][938]LogModuleManager: Shutting down and abandoning module MainFrame (212)
+[2024.01.06-12.53.05:403][938]LogModuleManager: Shutting down and abandoning module HotReload (211)
+[2024.01.06-12.53.05:403][938]LogModuleManager: Shutting down and abandoning module ContentBrowser (207)
+[2024.01.06-12.53.05:404][938]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (204)
+[2024.01.06-12.53.05:404][938]LogModuleManager: Shutting down and abandoning module PhysXVehicles (202)
+[2024.01.06-12.53.05:404][938]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (200)
+[2024.01.06-12.53.05:404][938]LogModuleManager: Shutting down and abandoning module UdpMessaging (198)
+[2024.01.06-12.53.05:504][938]LogModuleManager: Shutting down and abandoning module TcpMessaging (196)
+[2024.01.06-12.53.05:605][938]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (194)
+[2024.01.06-12.53.05:605][938]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (192)
+[2024.01.06-12.53.05:605][938]LogModuleManager: Shutting down and abandoning module FacialAnimation (190)
+[2024.01.06-12.53.05:605][938]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (188)
+[2024.01.06-12.53.05:605][938]LogModuleManager: Shutting down and abandoning module Paper2D (186)
+[2024.01.06-12.53.05:605][938]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (184)
+[2024.01.06-12.53.05:605][938]LogModuleManager: Shutting down and abandoning module WmfMedia (182)
+[2024.01.06-12.53.05:606][938]LogModuleManager: Shutting down and abandoning module MfMedia (180)
+[2024.01.06-12.53.05:606][938]LogModuleManager: Shutting down and abandoning module MediaAssets (178)
+[2024.01.06-12.53.05:606][938]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (176)
+[2024.01.06-12.53.05:607][938]LogModuleManager: Shutting down and abandoning module VREditor (174)
+[2024.01.06-12.53.05:607][938]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (172)
+[2024.01.06-12.53.05:607][938]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (170)
+[2024.01.06-12.53.05:607][938]LogModuleManager: Shutting down and abandoning module FunctionalTesting (168)
+[2024.01.06-12.53.05:607][938]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (166)
+[2024.01.06-12.53.05:607][938]LogModuleManager: Shutting down and abandoning module UMG (164)
+[2024.01.06-12.53.05:607][938]LogModuleManager: Shutting down and abandoning module UMGEditor (163)
+[2024.01.06-12.53.05:607][938]LogModuleManager: Shutting down and abandoning module Sequencer (162)
+[2024.01.06-12.53.05:607][938]LogModuleManager: Shutting down and abandoning module AssetTools (160)
+[2024.01.06-12.53.05:607][938]LogModuleManager: Shutting down and abandoning module MessageLog (159)
+[2024.01.06-12.53.05:607][938]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (158)
+[2024.01.06-12.53.05:607][938]LogModuleManager: Shutting down and abandoning module SlateReflector (152)
+[2024.01.06-12.53.05:607][938]LogModuleManager: Shutting down and abandoning module Slate (150)
+[2024.01.06-12.53.05:607][938]LogModuleManager: Shutting down and abandoning module EditorStyle (148)
+[2024.01.06-12.53.05:609][938]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (146)
+[2024.01.06-12.53.05:609][938]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (144)
+[2024.01.06-12.53.05:609][938]LogModuleManager: Shutting down and abandoning module XAudio2 (142)
+[2024.01.06-12.53.05:609][938]LogModuleManager: Shutting down and abandoning module Networking (140)
+[2024.01.06-12.53.05:609][938]LogModuleManager: Shutting down and abandoning module Core (136)
+[2024.01.06-12.53.05:609][938]LogModuleManager: Shutting down and abandoning module AssetRegistry (134)
+[2024.01.06-12.53.05:712][938]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2024.01.06-12.53.05:712][938]LogDirectoryWatcher: A directory notification for '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/' was aborted.
+[2024.01.06-12.53.05:712][938]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2024.01.06-12.53.05:713][938]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (133)
+[2024.01.06-12.53.05:713][938]LogModuleManager: Shutting down and abandoning module KismetCompiler (130)
+[2024.01.06-12.53.05:713][938]LogModuleManager: Shutting down and abandoning module PhysXFormats (128)
+[2024.01.06-12.53.05:713][938]LogModuleManager: Shutting down and abandoning module MeshUtilities (126)
+[2024.01.06-12.53.05:713][938]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (125)
+[2024.01.06-12.53.05:713][938]LogModuleManager: Shutting down and abandoning module PropertyEditor (123)
+[2024.01.06-12.53.05:713][938]LogModuleManager: Shutting down and abandoning module DerivedDataCache (120)
+[2024.01.06-12.53.05:760][938]LogDerivedDataCache: Shutdown
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module TargetPlatform (118)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (117)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (115)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (113)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (111)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (109)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (107)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module ImageWrapper (106)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (103)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (101)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (99)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (97)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (95)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (93)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (91)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module Messaging (89)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (87)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (85)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (79)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (77)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (75)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (73)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (71)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (69)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (63)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (61)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (59)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (55)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (53)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (51)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module InputCore (48)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module Settings (46)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module OculusRift (44)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (42)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (40)
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (36)
+[2024.01.06-12.53.05:760][938]LogOnline:Display: Unloading online subsystem: NULL
+[2024.01.06-12.53.05:760][938]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2024.01.06-12.53.05:760][938]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2024.01.06-12.53.05:760][938]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0946C188-4D4E-3605-5258-499B7EAAA56A%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.15.0-0%2B%2B%2BUE4%2BRelease-4.15&UserID=aa7ec4a94460bf88f1f872b01bef9583%7C8cfcda83180144cdb9bb2bc7d773924e%7C775b68d6-d1f3-44da-96ce-dab51d83f808&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2024.01.06-12.53.05:782][938]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2024.01.06-12.53.05:783][938]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2024.01.06-12.53.05:783][938]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2024.01.06-12.53.05:783][938]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2024.01.06-12.53.05:783][938]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2024.01.06-12.53.05:783][938]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2024.01.06-12.53.05:784][938]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2024.01.06-12.53.05:784][938]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2024.01.06-12.53.05:785][938]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2024.01.06-12.53.05:785][938]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2024.01.06-12.53.05:785][938]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2024.01.06-12.53.05:785][938]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2024.01.06-12.53.05:785][938]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2024.01.06-12.53.05:785][938]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2024.01.06-12.53.05:785][938]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2024.01.06-12.53.05:785][938]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2024.01.06-12.53.05:787][938]LogExit: Exiting.
+[2024.01.06-12.53.05:797][938]Log file closed, 01/06/24 09:53:05
