@@ -1,10 +1,10 @@
-﻿Log file open, 01/06/24 20:47:17
+﻿Log file open, 01/07/24 16:45:57
 LogInit:Display: Running engine for game: MotorUnreal4B
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-899728125) SRandInit(-899728125).
+LogInit:Display: RandInit(1053678285) SRandInit(1053678285).
 LogInit: Using version manifest at CL 0 with build ID '5af06b4c-3232-42c8-80e0-46572b4b0bc8'
 LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.134942
+LogStats: Stats thread started at 0.131618
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -49,414 +49,1200 @@ LogInit: Base directory: C:/Program Files/Unreal Engine 4 (4.15.0)/Engine/Binari
 LogInit: Installed Engine Build: 0
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2024.01.06-23.47.17:382][  0]LogInit: Selected Device Profile: [Windows]
-[2024.01.06-23.47.17:382][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2024.01.06-23.47.17:388][  0]LogInit: Computer: DESKTOP-GOSDJOG
-[2024.01.06-23.47.17:388][  0]LogInit: User: MelchioT
-[2024.01.06-23.47.17:388][  0]LogInit: CPU Page size=65536, Cores=6
-[2024.01.06-23.47.17:388][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2024.01.06-23.47.17:389][  0]LogMemory: Memory total: Physical=31.2GB (32GB approx)
-[2024.01.06-23.47.17:389][  0]LogMemory: Platform Memory Stats for Windows
-[2024.01.06-23.47.17:389][  0]LogMemory: Process Physical Memory: 264.70 MB used, 264.70 MB peak
-[2024.01.06-23.47.17:389][  0]LogMemory: Process Virtual Memory: 268.43 MB used, 268.43 MB peak
-[2024.01.06-23.47.17:389][  0]LogMemory: Physical Memory: 8531.23 MB used,  23444.45 MB free, 31975.68 MB total
-[2024.01.06-23.47.17:389][  0]LogMemory: Virtual Memory: 4760.25 MB used,  23444.45 MB free, 134217728.00 MB total
-[2024.01.06-23.47.17:473][  0]LogInit: Overriding culture en with editor configuration.
-[2024.01.06-23.47.18:024][  0]LogD3D11RHI: D3D11 adapters:
-[2024.01.06-23.47.18:055][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) Graphics' (Feature Level 11_0)
-[2024.01.06-23.47.18:055][  0]LogD3D11RHI:       495/0/15987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2024.01.06-23.47.18:057][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2024.01.06-23.47.18:057][  0]LogD3D11RHI:       0/0/15987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2024.01.06-23.47.18:059][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2024.01.06-23.47.18:059][  0]LogD3D11RHI:       0/0/15987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2024.01.06-23.47.18:059][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2024.01.06-23.47.18:065][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2024.01.06-23.47.18:065][  0]LogD3D11RHI:     GPU DeviceId: 0x1636 (for the marketing name, search the web for "GPU Device Id")
-[2024.01.06-23.47.18:065][  0]LogWindows: EnumDisplayDevices:
-[2024.01.06-23.47.18:065][  0]LogWindows:    0. 'Microsoft Basic Display Driver' (P:0 D:0)
-[2024.01.06-23.47.18:065][  0]LogWindows:    1. 'AMD Radeon(TM) Graphics' (P:1 D:1)
-[2024.01.06-23.47.18:065][  0]LogWindows:    2. 'AMD Radeon(TM) Graphics' (P:0 D:0)
-[2024.01.06-23.47.18:065][  0]LogWindows:    3. 'AMD Radeon(TM) Graphics' (P:0 D:0)
-[2024.01.06-23.47.18:065][  0]LogWindows:    4. 'AMD Radeon(TM) Graphics' (P:0 D:0)
-[2024.01.06-23.47.18:066][  0]LogWindows:    5. 'AMD Radeon(TM) Graphics' (P:0 D:0)
-[2024.01.06-23.47.18:066][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2024.01.06-23.47.18:066][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) Graphics
-[2024.01.06-23.47.18:066][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2024.01.06-23.47.18:066][  0]LogD3D11RHI:      Driver Date: Unknown
-[2024.01.06-23.47.18:066][  0]LogRHI: Texture pool is 347 MB (70% of 495 MB)
-[2024.01.06-23.47.18:104][  0]LogD3D11RHI: Async texture creation enabled
-[2024.01.06-23.47.18:117][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
-[2024.01.06-23.47.18:119][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Intermediate/Shaders/WorkingDirectory/14984/).
-[2024.01.06-23.47.18:119][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MelchioT/AppData/Local/Temp/UnrealShaderWorkingDir/B0DECB4C45B9F14B1920818E6A97A33A/'.
-[2024.01.06-23.47.18:119][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2024.01.06-23.47.18:935][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2024.01.06-23.47.18:985][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2024.01.06-23.47.19:035][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2024.01.06-23.47.19:086][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2024.01.06-23.47.19:129][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2024.01.06-23.47.19:179][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2024.01.06-23.47.19:231][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2024.01.06-23.47.19:284][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2024.01.06-23.47.19:326][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2024.01.06-23.47.19:376][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2024.01.06-23.47.19:424][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2024.01.06-23.47.19:473][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2024.01.06-23.47.19:523][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2024.01.06-23.47.19:573][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2024.01.06-23.47.19:623][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2024.01.06-23.47.19:674][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2024.01.06-23.47.19:724][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2024.01.06-23.47.19:762][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2024.01.06-23.47.19:858][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2024.01.06-23.47.19:892][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2024.01.06-23.47.19:892][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2024.01.06-23.47.20:337][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2024.01.06-23.47.20:377][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/Boot.ddc.
-[2024.01.06-23.47.20:377][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/Boot.ddc
-[2024.01.06-23.47.20:377][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2024.01.06-23.47.20:377][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2024.01.06-23.47.20:377][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2024.01.06-23.47.20:377][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2024.01.06-23.47.20:389][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
-[2024.01.06-23.47.20:389][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2024.01.06-23.47.20:389][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2024.01.06-23.47.20:398][  0]LogSlate: Using Freetype 2.6.0
-[2024.01.06-23.47.20:399][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2024.01.06-23.47.20:399][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2024.01.06-23.47.20:607][  0]LogInit: Selected Device Profile: [Windows]
-[2024.01.06-23.47.20:609][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2024.01.06-23.47.20:793][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2024.01.06-23.47.20:802][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2024.01.06-23.47.20:802][  0]LogMeshUtilities: No automatic mesh merging module available
-[2024.01.06-23.47.20:802][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2024.01.06-23.47.21:380][  0]LogNetVersion: GetLocalNetworkVersion: CL: 0, ProjectName: motorunreal4b, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3893362438
-[2024.01.06-23.47.21:430][  0]LogAssetRegistry: FAssetRegistry took 0.0225 seconds to start up
-[2024.01.06-23.47.21:467][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.011435 seconds
-[2024.01.06-23.47.21:473][  0]LogUObjectArray: 32434 objects as part of root set at end of initial load.
-[2024.01.06-23.47.21:473][  0]LogUObjectAllocator: 7066640 out of 0 bytes used by permanent object pool.
-[2024.01.06-23.47.21:473][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2024.01.06-23.47.21:547][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2024.01.06-23.47.23:121][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2024.01.06-23.47.23:168][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2024.01.06-23.47.23:629][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2024.01.06-23.47.24:005][  0]SourceControl: Info Source control is disabled
-[2024.01.06-23.47.24:049][  0]SourceControl: Info Source control is disabled
-[2024.01.06-23.47.24:102][  0]SourceControl: Info Source control is disabled
-[2024.01.06-23.47.24:153][  0]SourceControl: Info Source control is disabled
-[2024.01.06-23.47.25:513][  0]LogEngine: Initializing Engine...
-[2024.01.06-23.47.25:514][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2024.01.06-23.47.25:727][  0]LogAIModule: Creating AISystem for world Untitled
-[2024.01.06-23.47.25:743][  0]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2024.01.06-23.47.25:765][  0]LogInit: FAudioDevice initialized.
-[2024.01.06-23.47.25:791][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/Boot.ddc.
-[2024.01.06-23.47.25:798][  0]LogInit: Texture streaming: Enabled
-[2024.01.06-23.47.25:903][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2024.01.06-23.47.25:993][  0]LogInit: Transaction tracking system initialized
-[2024.01.06-23.47.26:347][  0]BlueprintLog: New page: Editor Load
-[2024.01.06-23.47.27:293][  0]LocalizationService: Info Localization service is disabled
-[2024.01.06-23.47.27:973][  0]LogConsoleResponse:Display: 
-[2024.01.06-23.47.28:082][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2024.01.06-23.47.28:082][  0]LogCook:Display: Mobile HDR setting 1
-[2024.01.06-23.47.28:109][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/' took 0.01s
-[2024.01.06-23.47.29:274][  0]SourceControl: Info Source control is disabled
-[2024.01.06-23.47.29:275][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2024.01.06-23.47.29:275][  0]LightingResults: New page: Lighting Build
-[2024.01.06-23.47.29:319][  0]MapCheck: New page: Map Check
-[2024.01.06-23.47.29:319][  0]LightingResults: New page: Lighting Build
-[2024.01.06-23.47.29:496][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2024.01.06-23.47.29:497][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2024.01.06-23.47.29:502][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2024.01.06-23.47.29:509][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2024.01.06-23.47.29:539][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.081ms to complete.
-[2024.01.06-23.47.29:539][  0]LogFileHelpers: Loading map 'Template_Default' took 0.265
-[2024.01.06-23.47.29:707][  0]LogCollectionManager: Loaded 0 collections in 0.001408 seconds
-[2024.01.06-23.47.29:793][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Collections/' took 0.01s
-[2024.01.06-23.47.29:793][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Developers/MelchioT/Collections/' took 0.01s
-[2024.01.06-23.47.29:793][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Collections/' took 0.01s
-[2024.01.06-23.47.29:793][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2024.01.06-23.47.29:802][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2243 classes and 448 folders.
-[2024.01.06-23.47.29:805][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2024.01.06-23.47.29:805][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2024.01.06-23.47.29:871][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2024.01.06-23.47.29:901][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2024.01.06-23.47.29:946][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2024.01.06-23.47.30:047][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2024.01.06-23.47.30:059][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2024.01.06-23.47.30:135][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2024.01.06-23.47.30:135][  0]LogLoad: (Engine Initialization) Total time: 14.24 seconds
-[2024.01.06-23.47.30:135][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
-[2024.01.06-23.47.30:135][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2024.01.06-23.47.30:476][  0]LogOcInput: OculusInput pre-init called
-[2024.01.06-23.47.30:495][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2024.01.06-23.47.30:496][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2024.01.06-23.47.30:500][  0]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2024.01.06-23.47.30:505][  0]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2024.01.06-23.47.30:620][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
-[2024.01.06-23.47.30:818][  1]LogAssetRegistry: Asset discovery search completed in 9.4108 seconds
-[2024.01.06-23.47.30:818][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2024.01.06-23.47.30:818][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
-[2024.01.06-23.48.15:264][681]Cmd: QUIT_EDITOR
-[2024.01.06-23.48.15:295][681]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2024.01.06-23.48.15:326][681]LogExit: Preparing to exit.
-[2024.01.06-23.48.16:343][681]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/' was aborted.
-[2024.01.06-23.48.16:357][681]LogExit: Editor shut down
-[2024.01.06-23.48.16:357][681]LogExit: Transaction tracking system shut down
-[2024.01.06-23.48.16:435][681]LogObj: Freed 0b from 0 cluster array pools.
-[2024.01.06-23.48.16:435][681]LogExit: Object subsystem successfully closed.
-[2024.01.06-23.48.16:525][681]LogD3D11RHI: Shutdown
-[2024.01.06-23.48.16:525][681]LogD3D11RHI: CleanupD3DDevice
-[2024.01.06-23.48.16:597][681]LogD3D11RHI: ~FD3D11DynamicRHI
-[2024.01.06-23.48.16:610][681]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (480)
-[2024.01.06-23.48.16:610][681]LogModuleManager: Shutting down and abandoning module CrashTracker (478)
-[2024.01.06-23.48.16:610][681]LogModuleManager: Shutting down and abandoning module SceneOutliner (476)
-[2024.01.06-23.48.16:610][681]LogModuleManager: Shutting down and abandoning module AddContentDialog (474)
-[2024.01.06-23.48.16:610][681]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Unreal Engine 4 (4.15.0)/FeaturePacks/' was aborted.
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module WidgetCarousel (473)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module EditorWidgets (470)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module CollectionManager (468)
-[2024.01.06-23.48.16:611][681]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Collections/' was aborted.
-[2024.01.06-23.48.16:611][681]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Developers/MelchioT/Collections/' was aborted.
-[2024.01.06-23.48.16:611][681]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Collections/' was aborted.
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module StatsViewer (466)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module FoliageEdit (464)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module LandscapeEditor (462)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (460)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module ActorPickerMode (458)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module GeometryMode (456)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module TextureAlignMode (454)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module BspMode (452)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module HardwareSurvey (450)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (448)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module AutomationWorker (446)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (444)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (442)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module PlacementMode (441)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (438)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (436)
-[2024.01.06-23.48.16:611][681]LogModuleManager: Shutting down and abandoning module MfMediaFactory (434)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module MfMediaEditor (432)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (430)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (428)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (426)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module Media (425)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (422)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module CharacterAI (420)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module AudioCapture (418)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module SequenceRecorder (417)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module SmartSnapping (414)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module SessionServices (412)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module ViewportSnapping (410)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module ViewportInteraction (408)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module LogVisualizer (406)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module IntroTutorials (404)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (403)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (400)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (398)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (396)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (394)
-[2024.01.06-23.48.16:612][681]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (393)
-[2024.01.06-23.48.16:698][681]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (390)
-[2024.01.06-23.48.16:698][681]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (388)
-[2024.01.06-23.48.16:698][681]LogModuleManager: Shutting down and abandoning module InputBindingEditor (386)
-[2024.01.06-23.48.16:698][681]LogModuleManager: Shutting down and abandoning module NiagaraEditor (384)
-[2024.01.06-23.48.16:698][681]LogModuleManager: Shutting down and abandoning module MergeActors (382)
-[2024.01.06-23.48.16:698][681]LogModuleManager: Shutting down and abandoning module SizeMap (380)
-[2024.01.06-23.48.16:698][681]LogModuleManager: Shutting down and abandoning module TreeMap (378)
-[2024.01.06-23.48.16:698][681]LogModuleManager: Shutting down and abandoning module ReferenceViewer (376)
-[2024.01.06-23.48.16:698][681]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (374)
-[2024.01.06-23.48.16:698][681]LogModuleManager: Shutting down and abandoning module LocalizationService (373)
-[2024.01.06-23.48.16:698][681]LogModuleManager: Shutting down and abandoning module HardwareTargeting (370)
-[2024.01.06-23.48.16:698][681]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (368)
-[2024.01.06-23.48.16:698][681]LogModuleManager: Shutting down and abandoning module UndoHistory (366)
-[2024.01.06-23.48.16:699][681]LogModuleManager: Shutting down and abandoning module UserFeedback (364)
-[2024.01.06-23.48.16:699][681]LogModuleManager: Shutting down and abandoning module XmlParser (362)
-[2024.01.06-23.48.16:699][681]LogModuleManager: Shutting down and abandoning module Blutility (360)
-[2024.01.06-23.48.16:699][681]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (358)
-[2024.01.06-23.48.16:699][681]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (357)
-[2024.01.06-23.48.16:699][681]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (354)
-[2024.01.06-23.48.16:699][681]LogModuleManager: Shutting down and abandoning module SettingsEditor (352)
-[2024.01.06-23.48.16:699][681]LogModuleManager: Shutting down and abandoning module ProjectLauncher (350)
-[2024.01.06-23.48.16:699][681]LogModuleManager: Shutting down and abandoning module SessionFrontend (348)
-[2024.01.06-23.48.16:699][681]LogModuleManager: Shutting down and abandoning module ProfilerClient (346)
-[2024.01.06-23.48.16:699][681]LogModuleManager: Shutting down and abandoning module DeviceManager (344)
-[2024.01.06-23.48.16:699][681]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (343)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module AutomationController (340)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module AutomationWindow (338)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module Layers (336)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (334)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module DetailCustomizations (332)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module PackagesDialog (330)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module Persona (328)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module AnimGraph (327)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module Kismet (324)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module GraphEditor (322)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module ClassViewer (320)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module Toolbox (318)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module ModuleUI (316)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module MovieSceneTools (314)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module OutputLog (312)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module GammaUI (310)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module Documentation (308)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module Niagara (306)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (304)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module AnalyticsET (302)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module PortalServices (300)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module PortalRpc (298)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module MessagingRpc (296)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module AIModule (294)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module GameplayDebugger (293)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module AITestSuite (291)
-[2024.01.06-23.48.16:743][681]LogModuleManager: Shutting down and abandoning module ProfilerService (288)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module TaskGraph (286)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module SteamVRController (284)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module SteamVR (282)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (280)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (278)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module OculusLibrary (276)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module OculusInput (274)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (272)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (270)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module CableComponent (268)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (266)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (262)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module HTML5Networking (260)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module AlembicImporter (258)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module AlembicLibrary (257)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module GeometryCache (256)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (255)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (250)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module SuperSearch (249)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (246)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module PluginBrowser (244)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (242)
-[2024.01.06-23.48.16:830][681]LogModuleManager: Shutting down and abandoning module EpicSurvey (240)
-[2024.01.06-23.48.16:831][681]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (238)
-[2024.01.06-23.48.16:831][681]LogModuleManager: Shutting down and abandoning module DesktopPlatform (237)
-[2024.01.06-23.48.16:831][681]LogModuleManager: Shutting down and abandoning module UObjectPlugin (234)
-[2024.01.06-23.48.16:831][681]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (232)
-[2024.01.06-23.48.16:831][681]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (230)
-[2024.01.06-23.48.16:831][681]LogModuleManager: Shutting down and abandoning module GitSourceControl (228)
-[2024.01.06-23.48.16:831][681]LogModuleManager: Shutting down and abandoning module SourceControl (227)
-[2024.01.06-23.48.16:831][681]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (224)
-[2024.01.06-23.48.16:831][681]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (222)
-[2024.01.06-23.48.16:831][681]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (220)
-[2024.01.06-23.48.16:831][681]LogModuleManager: Shutting down and abandoning module Paper2DEditor (218)
-[2024.01.06-23.48.16:831][681]LogModuleManager: Shutting down and abandoning module MeshPaint (217)
-[2024.01.06-23.48.16:831][681]LogModuleManager: Shutting down and abandoning module LevelEditor (215)
-[2024.01.06-23.48.16:831][681]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (214)
-[2024.01.06-23.48.16:831][681]LogModuleManager: Shutting down and abandoning module MainFrame (212)
-[2024.01.06-23.48.16:832][681]LogModuleManager: Shutting down and abandoning module HotReload (211)
-[2024.01.06-23.48.16:832][681]LogModuleManager: Shutting down and abandoning module ContentBrowser (207)
-[2024.01.06-23.48.16:833][681]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (204)
-[2024.01.06-23.48.16:833][681]LogModuleManager: Shutting down and abandoning module PhysXVehicles (202)
-[2024.01.06-23.48.16:833][681]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (200)
-[2024.01.06-23.48.16:833][681]LogModuleManager: Shutting down and abandoning module UdpMessaging (198)
-[2024.01.06-23.48.16:934][681]LogModuleManager: Shutting down and abandoning module TcpMessaging (196)
-[2024.01.06-23.48.17:150][681]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (194)
-[2024.01.06-23.48.17:150][681]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (192)
-[2024.01.06-23.48.17:150][681]LogModuleManager: Shutting down and abandoning module FacialAnimation (190)
-[2024.01.06-23.48.17:150][681]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (188)
-[2024.01.06-23.48.17:150][681]LogModuleManager: Shutting down and abandoning module Paper2D (186)
-[2024.01.06-23.48.17:150][681]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (184)
-[2024.01.06-23.48.17:150][681]LogModuleManager: Shutting down and abandoning module WmfMedia (182)
-[2024.01.06-23.48.17:151][681]LogModuleManager: Shutting down and abandoning module MfMedia (180)
-[2024.01.06-23.48.17:152][681]LogModuleManager: Shutting down and abandoning module MediaAssets (178)
-[2024.01.06-23.48.17:152][681]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (176)
-[2024.01.06-23.48.17:152][681]LogModuleManager: Shutting down and abandoning module VREditor (174)
-[2024.01.06-23.48.17:152][681]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (172)
-[2024.01.06-23.48.17:152][681]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (170)
-[2024.01.06-23.48.17:152][681]LogModuleManager: Shutting down and abandoning module FunctionalTesting (168)
-[2024.01.06-23.48.17:152][681]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (166)
-[2024.01.06-23.48.17:152][681]LogModuleManager: Shutting down and abandoning module UMG (164)
-[2024.01.06-23.48.17:152][681]LogModuleManager: Shutting down and abandoning module UMGEditor (163)
-[2024.01.06-23.48.17:152][681]LogModuleManager: Shutting down and abandoning module Sequencer (162)
-[2024.01.06-23.48.17:152][681]LogModuleManager: Shutting down and abandoning module AssetTools (160)
-[2024.01.06-23.48.17:152][681]LogModuleManager: Shutting down and abandoning module MessageLog (159)
-[2024.01.06-23.48.17:152][681]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (158)
-[2024.01.06-23.48.17:152][681]LogModuleManager: Shutting down and abandoning module SlateReflector (152)
-[2024.01.06-23.48.17:152][681]LogModuleManager: Shutting down and abandoning module Slate (150)
-[2024.01.06-23.48.17:152][681]LogModuleManager: Shutting down and abandoning module EditorStyle (148)
-[2024.01.06-23.48.17:154][681]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (146)
-[2024.01.06-23.48.17:154][681]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (144)
-[2024.01.06-23.48.17:154][681]LogModuleManager: Shutting down and abandoning module XAudio2 (142)
-[2024.01.06-23.48.17:154][681]LogModuleManager: Shutting down and abandoning module Networking (140)
-[2024.01.06-23.48.17:154][681]LogModuleManager: Shutting down and abandoning module Core (136)
-[2024.01.06-23.48.17:154][681]LogModuleManager: Shutting down and abandoning module AssetRegistry (134)
-[2024.01.06-23.48.17:259][681]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2024.01.06-23.48.17:259][681]LogDirectoryWatcher: A directory notification for '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/' was aborted.
-[2024.01.06-23.48.17:259][681]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2024.01.06-23.48.17:259][681]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (133)
-[2024.01.06-23.48.17:259][681]LogModuleManager: Shutting down and abandoning module KismetCompiler (130)
-[2024.01.06-23.48.17:259][681]LogModuleManager: Shutting down and abandoning module PhysXFormats (128)
-[2024.01.06-23.48.17:259][681]LogModuleManager: Shutting down and abandoning module MeshUtilities (126)
-[2024.01.06-23.48.17:259][681]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (125)
-[2024.01.06-23.48.17:259][681]LogModuleManager: Shutting down and abandoning module PropertyEditor (123)
-[2024.01.06-23.48.17:259][681]LogModuleManager: Shutting down and abandoning module DerivedDataCache (120)
-[2024.01.06-23.48.17:447][681]LogDerivedDataCache: Shutdown
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module TargetPlatform (118)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (117)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (115)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (113)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (111)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (109)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (107)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module ImageWrapper (106)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (103)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (101)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (99)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (97)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (95)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (93)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (91)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module Messaging (89)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (87)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (85)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (79)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (77)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (75)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (73)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (71)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (69)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (63)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (61)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (59)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (55)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (53)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (51)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module InputCore (48)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module Settings (46)
-[2024.01.06-23.48.17:447][681]LogModuleManager: Shutting down and abandoning module OculusRift (44)
-[2024.01.06-23.48.17:448][681]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (42)
-[2024.01.06-23.48.17:448][681]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (40)
-[2024.01.06-23.48.17:448][681]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (36)
-[2024.01.06-23.48.17:448][681]LogOnline:Display: Unloading online subsystem: NULL
-[2024.01.06-23.48.17:448][681]LogModuleManager: Shutting down and abandoning module HTTP (35)
-[2024.01.06-23.48.17:448][681]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2024.01.06-23.48.17:448][681]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA95436A1-4044-D064-50A7-6B98A509B839%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.15.0-0%2B%2B%2BUE4%2BRelease-4.15&UserID=aa7ec4a94460bf88f1f872b01bef9583%7C8cfcda83180144cdb9bb2bc7d773924e%7C775b68d6-d1f3-44da-96ce-dab51d83f808&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
-[2024.01.06-23.48.17:448][681]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
-[2024.01.06-23.48.17:948][681]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
-[2024.01.06-23.48.18:448][681]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
-[2024.01.06-23.48.18:949][681]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
-[2024.01.06-23.48.19:454][681]LogModuleManager: Shutting down and abandoning module SSL (34)
-[2024.01.06-23.48.19:456][681]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2024.01.06-23.48.19:456][681]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2024.01.06-23.48.19:456][681]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2024.01.06-23.48.19:456][681]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2024.01.06-23.48.19:456][681]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2024.01.06-23.48.19:457][681]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2024.01.06-23.48.19:457][681]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2024.01.06-23.48.19:457][681]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2024.01.06-23.48.19:457][681]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2024.01.06-23.48.19:457][681]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2024.01.06-23.48.19:457][681]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2024.01.06-23.48.19:457][681]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2024.01.06-23.48.19:457][681]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2024.01.06-23.48.19:457][681]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2024.01.06-23.48.19:457][681]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2024.01.06-23.48.19:460][681]LogExit: Exiting.
-[2024.01.06-23.48.19:461][681]Log file closed, 01/06/24 20:48:19
+[2024.01.07-19.45.58:009][  0]LogInit: Selected Device Profile: [Windows]
+[2024.01.07-19.45.58:009][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2024.01.07-19.45.58:015][  0]LogInit: Computer: DESKTOP-GOSDJOG
+[2024.01.07-19.45.58:015][  0]LogInit: User: MelchioT
+[2024.01.07-19.45.58:015][  0]LogInit: CPU Page size=65536, Cores=6
+[2024.01.07-19.45.58:015][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.01.07-19.45.58:015][  0]LogMemory: Memory total: Physical=31.2GB (32GB approx)
+[2024.01.07-19.45.58:015][  0]LogMemory: Platform Memory Stats for Windows
+[2024.01.07-19.45.58:015][  0]LogMemory: Process Physical Memory: 265.12 MB used, 265.13 MB peak
+[2024.01.07-19.45.58:015][  0]LogMemory: Process Virtual Memory: 268.52 MB used, 268.52 MB peak
+[2024.01.07-19.45.58:015][  0]LogMemory: Physical Memory: 10061.34 MB used,  21914.33 MB free, 31975.68 MB total
+[2024.01.07-19.45.58:015][  0]LogMemory: Virtual Memory: 4760.25 MB used,  21914.33 MB free, 134217728.00 MB total
+[2024.01.07-19.45.58:103][  0]LogInit: Overriding culture en with editor configuration.
+[2024.01.07-19.45.58:707][  0]LogD3D11RHI: D3D11 adapters:
+[2024.01.07-19.45.58:740][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) Graphics' (Feature Level 11_0)
+[2024.01.07-19.45.58:740][  0]LogD3D11RHI:       495/0/15987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2024.01.07-19.45.58:742][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.01.07-19.45.58:742][  0]LogD3D11RHI:       0/0/15987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.01.07-19.45.58:744][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.01.07-19.45.58:744][  0]LogD3D11RHI:       0/0/15987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.01.07-19.45.58:744][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2024.01.07-19.45.58:750][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.01.07-19.45.58:750][  0]LogD3D11RHI:     GPU DeviceId: 0x1636 (for the marketing name, search the web for "GPU Device Id")
+[2024.01.07-19.45.58:750][  0]LogWindows: EnumDisplayDevices:
+[2024.01.07-19.45.58:750][  0]LogWindows:    0. 'Microsoft Basic Display Driver' (P:0 D:0)
+[2024.01.07-19.45.58:750][  0]LogWindows:    1. 'AMD Radeon(TM) Graphics' (P:1 D:1)
+[2024.01.07-19.45.58:751][  0]LogWindows:    2. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2024.01.07-19.45.58:751][  0]LogWindows:    3. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2024.01.07-19.45.58:751][  0]LogWindows:    4. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2024.01.07-19.45.58:751][  0]LogWindows:    5. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2024.01.07-19.45.58:751][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2024.01.07-19.45.58:751][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) Graphics
+[2024.01.07-19.45.58:751][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2024.01.07-19.45.58:751][  0]LogD3D11RHI:      Driver Date: Unknown
+[2024.01.07-19.45.58:751][  0]LogRHI: Texture pool is 347 MB (70% of 495 MB)
+[2024.01.07-19.45.58:789][  0]LogD3D11RHI: Async texture creation enabled
+[2024.01.07-19.45.58:802][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2024.01.07-19.45.58:804][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Intermediate/Shaders/WorkingDirectory/9792/).
+[2024.01.07-19.45.58:804][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MelchioT/AppData/Local/Temp/UnrealShaderWorkingDir/325A11FC47D7BE9BBAC264A5791359DA/'.
+[2024.01.07-19.45.58:804][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2024.01.07-19.45.59:638][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2024.01.07-19.45.59:689][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2024.01.07-19.45.59:739][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2024.01.07-19.45.59:790][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2024.01.07-19.45.59:834][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2024.01.07-19.45.59:885][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2024.01.07-19.45.59:937][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2024.01.07-19.45.59:989][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2024.01.07-19.46.00:036][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2024.01.07-19.46.00:086][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2024.01.07-19.46.00:136][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2024.01.07-19.46.00:185][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2024.01.07-19.46.00:235][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2024.01.07-19.46.00:286][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2024.01.07-19.46.00:336][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2024.01.07-19.46.00:385][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2024.01.07-19.46.00:436][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2024.01.07-19.46.00:475][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2024.01.07-19.46.00:573][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2024.01.07-19.46.00:612][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2024.01.07-19.46.00:612][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2024.01.07-19.46.01:155][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2024.01.07-19.46.01:194][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/Boot.ddc.
+[2024.01.07-19.46.01:194][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/Boot.ddc
+[2024.01.07-19.46.01:195][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.01.07-19.46.01:195][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2024.01.07-19.46.01:195][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.01.07-19.46.01:195][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2024.01.07-19.46.01:208][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2024.01.07-19.46.01:208][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2024.01.07-19.46.01:208][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2024.01.07-19.46.01:216][  0]LogSlate: Using Freetype 2.6.0
+[2024.01.07-19.46.01:217][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.01.07-19.46.01:217][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.01.07-19.46.01:429][  0]LogInit: Selected Device Profile: [Windows]
+[2024.01.07-19.46.01:431][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2024.01.07-19.46.01:620][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.01.07-19.46.01:630][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2024.01.07-19.46.01:630][  0]LogMeshUtilities: No automatic mesh merging module available
+[2024.01.07-19.46.01:630][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2024.01.07-19.46.02:221][  0]LogNetVersion: GetLocalNetworkVersion: CL: 0, ProjectName: motorunreal4b, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3893362438
+[2024.01.07-19.46.02:270][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
+[2024.01.07-19.46.02:307][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.011969 seconds
+[2024.01.07-19.46.02:313][  0]LogUObjectArray: 32434 objects as part of root set at end of initial load.
+[2024.01.07-19.46.02:313][  0]LogUObjectAllocator: 7066640 out of 0 bytes used by permanent object pool.
+[2024.01.07-19.46.02:313][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.01.07-19.46.02:386][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2024.01.07-19.46.03:907][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.01.07-19.46.03:953][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.01.07-19.46.04:411][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2024.01.07-19.46.04:780][  0]SourceControl: Info Source control is disabled
+[2024.01.07-19.46.04:823][  0]SourceControl: Info Source control is disabled
+[2024.01.07-19.46.04:877][  0]SourceControl: Info Source control is disabled
+[2024.01.07-19.46.04:930][  0]SourceControl: Info Source control is disabled
+[2024.01.07-19.46.06:292][  0]LogEngine: Initializing Engine...
+[2024.01.07-19.46.06:293][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.01.07-19.46.06:515][  0]LogAIModule: Creating AISystem for world Untitled
+[2024.01.07-19.46.06:531][  0]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.01.07-19.46.06:555][  0]LogInit: FAudioDevice initialized.
+[2024.01.07-19.46.06:581][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/DerivedDataCache/Boot.ddc.
+[2024.01.07-19.46.06:588][  0]LogInit: Texture streaming: Enabled
+[2024.01.07-19.46.06:694][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2024.01.07-19.46.06:786][  0]LogInit: Transaction tracking system initialized
+[2024.01.07-19.46.07:191][  0]BlueprintLog: New page: Editor Load
+[2024.01.07-19.46.08:254][  0]LocalizationService: Info Localization service is disabled
+[2024.01.07-19.46.08:960][  0]LogConsoleResponse:Display: 
+[2024.01.07-19.46.09:072][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2024.01.07-19.46.09:072][  0]LogCook:Display: Mobile HDR setting 1
+[2024.01.07-19.46.09:098][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/' took 0.01s
+[2024.01.07-19.46.10:199][  0]SourceControl: Info Source control is disabled
+[2024.01.07-19.46.10:199][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.01.07-19.46.10:200][  0]LightingResults: New page: Lighting Build
+[2024.01.07-19.46.10:240][  0]MapCheck: New page: Map Check
+[2024.01.07-19.46.10:240][  0]LightingResults: New page: Lighting Build
+[2024.01.07-19.46.10:410][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2024.01.07-19.46.10:411][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2024.01.07-19.46.10:415][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.07-19.46.10:422][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.07-19.46.10:450][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.834ms to complete.
+[2024.01.07-19.46.10:451][  0]LogFileHelpers: Loading map 'Template_Default' took 0.252
+[2024.01.07-19.46.10:636][  0]LogCollectionManager: Loaded 0 collections in 0.001538 seconds
+[2024.01.07-19.46.10:721][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Collections/' took 0.01s
+[2024.01.07-19.46.10:721][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Developers/MelchioT/Collections/' took 0.01s
+[2024.01.07-19.46.10:721][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Collections/' took 0.01s
+[2024.01.07-19.46.10:721][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2024.01.07-19.46.10:730][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2243 classes and 448 folders.
+[2024.01.07-19.46.10:733][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.01.07-19.46.10:733][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.01.07-19.46.10:799][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2024.01.07-19.46.10:833][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2024.01.07-19.46.10:880][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2024.01.07-19.46.11:008][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2024.01.07-19.46.11:033][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2024.01.07-19.46.11:123][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2024.01.07-19.46.11:124][  0]LogLoad: (Engine Initialization) Total time: 14.63 seconds
+[2024.01.07-19.46.11:124][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2024.01.07-19.46.11:124][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2024.01.07-19.46.11:465][  0]LogOcInput: OculusInput pre-init called
+[2024.01.07-19.46.11:485][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.01.07-19.46.11:487][  0]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.01.07-19.46.11:491][  0]LogSlate: Took 0.000389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.01.07-19.46.11:498][  0]LogSlate: Took 0.000584 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.01.07-19.46.11:633][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2024.01.07-19.46.11:846][  1]LogAssetRegistry: Asset discovery search completed in 9.5980 seconds
+[2024.01.07-19.46.11:846][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2024.01.07-19.46.11:846][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2024.01.07-19.46.20:752][390]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2024.01.07-19.46.20:971][390]LogMetaData: Removing '/Game/Ejercicios/Ejercicio20/BalaEnemigo.BalaEnemigo_C' ref from Metadata '/Game/Ejercicios/Ejercicio20/BalaEnemigo_2.PackageMetaData'
+[2024.01.07-19.46.20:971][390]LogMetaData: Removing '/Game/Ejercicios/Ejercicio20/BalaEnemigo.SKEL_BalaEnemigo_C' ref from Metadata '/Game/Ejercicios/Ejercicio20/BalaEnemigo_2.PackageMetaData'
+[2024.01.07-19.46.21:059][390]LogSavePackage: Save=20.78ms
+[2024.01.07-19.46.21:059][390]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/BalaEnemigo998C43C54BDF08BD570854A4643DFB81.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/BalaEnemigo.uasset'
+[2024.01.07-19.46.21:061][390]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/BalaEnemigo.uasset
+[2024.01.07-19.46.21:216][390]LogSavePackage: Save=24.18ms
+[2024.01.07-19.46.21:216][390]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Enemigo_2674CB0D94E1B9B4A192B48BFB836E21D.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Enemigo_2.uasset'
+[2024.01.07-19.46.21:217][390]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Enemigo_2.uasset
+[2024.01.07-19.46.24:025][535]LogMetaData: Removing '/Game/Ejercicios/Ejercicio20/BalaJugador.BalaJugador_C' ref from Metadata '/Game/Ejercicios/Ejercicio20/BalaJugador_2.PackageMetaData'
+[2024.01.07-19.46.24:025][535]LogMetaData: Removing '/Game/Ejercicios/Ejercicio20/BalaJugador.SKEL_BalaJugador_C' ref from Metadata '/Game/Ejercicios/Ejercicio20/BalaJugador_2.PackageMetaData'
+[2024.01.07-19.46.24:112][535]LogSavePackage: Save=20.95ms
+[2024.01.07-19.46.24:112][535]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/BalaJugador696EC30846BADAFB07AF8EA5A14DADF0.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/BalaJugador.uasset'
+[2024.01.07-19.46.24:114][535]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/BalaJugador.uasset
+[2024.01.07-19.46.24:273][535]LogSavePackage: Save=27.29ms
+[2024.01.07-19.46.24:273][535]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Jugador_2ED24711240E5E39825DED1AB74E0148A.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Jugador_2.uasset'
+[2024.01.07-19.46.24:274][535]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Jugador_2.uasset
+[2024.01.07-19.46.27:632][677]LogMetaData: Removing '/Game/Ejercicios/Ejercicio20/Enemigo.Enemigo_C' ref from Metadata '/Game/Ejercicios/Ejercicio20/Enemigo_2.PackageMetaData'
+[2024.01.07-19.46.27:632][677]LogMetaData: Removing '/Game/Ejercicios/Ejercicio20/Enemigo.SKEL_Enemigo_C' ref from Metadata '/Game/Ejercicios/Ejercicio20/Enemigo_2.PackageMetaData'
+[2024.01.07-19.46.27:680][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio20/Enemigo" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Enemigo.uasset" SILENT=true
+[2024.01.07-19.46.27:707][677]LogSavePackage: Save=25.55ms
+[2024.01.07-19.46.27:707][677]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/EnemigoFE3C2158403E6A0E639E9BB5EF55FDDA.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Enemigo.uasset'
+[2024.01.07-19.46.27:709][677]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Enemigo.uasset
+[2024.01.07-19.46.27:834][677]LogSavePackage: Save=8.40ms
+[2024.01.07-19.46.27:834][677]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Spawner_2746D35E34C3DD4F1980FBD8FC4146445.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Spawner_2.uasset'
+[2024.01.07-19.46.27:836][677]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Spawner_2.uasset
+[2024.01.07-19.46.27:873][677]LogSavePackage: Save=13.94ms
+[2024.01.07-19.46.27:873][677]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/BalaJugadorFDC22C4440F758F046F1B591BCF840A3.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/BalaJugador.uasset'
+[2024.01.07-19.46.27:874][677]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/BalaJugador.uasset
+[2024.01.07-19.46.30:402][804]LogMetaData: Removing '/Game/Ejercicios/Ejercicio20/Jugador.Jugador_C' ref from Metadata '/Game/Ejercicios/Ejercicio20/Jugador_2.PackageMetaData'
+[2024.01.07-19.46.30:402][804]LogMetaData: Removing '/Game/Ejercicios/Ejercicio20/Jugador.SKEL_Jugador_C' ref from Metadata '/Game/Ejercicios/Ejercicio20/Jugador_2.PackageMetaData'
+[2024.01.07-19.46.30:455][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio20/Jugador" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Jugador.uasset" SILENT=true
+[2024.01.07-19.46.30:489][804]LogSavePackage: Save=32.28ms
+[2024.01.07-19.46.30:489][804]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Jugador2F08D93745E1039BE3F8D38B6F81311A.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Jugador.uasset'
+[2024.01.07-19.46.30:491][804]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Jugador.uasset
+[2024.01.07-19.46.30:623][804]LogSavePackage: Save=11.27ms
+[2024.01.07-19.46.30:623][804]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/ModoJuego_25E4A92604DD2AC2B9CBA3BA529EEA7C8.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/ModoJuego_2.uasset'
+[2024.01.07-19.46.30:624][804]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/ModoJuego_2.uasset
+[2024.01.07-19.46.30:658][804]LogSavePackage: Save=13.37ms
+[2024.01.07-19.46.30:659][804]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/BalaEnemigoC12D10B044818E92E6AA4DB3E8752C36.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/BalaEnemigo.uasset'
+[2024.01.07-19.46.30:660][804]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/BalaEnemigo.uasset
+[2024.01.07-19.46.33:248][941]LogMetaData: Removing '/Game/Ejercicios/Ejercicio20/ModoJuego.ModoJuego_C' ref from Metadata '/Game/Ejercicios/Ejercicio20/ModoJuego_2.PackageMetaData'
+[2024.01.07-19.46.33:248][941]LogMetaData: Removing '/Game/Ejercicios/Ejercicio20/ModoJuego.SKEL_ModoJuego_C' ref from Metadata '/Game/Ejercicios/Ejercicio20/ModoJuego_2.PackageMetaData'
+[2024.01.07-19.46.33:284][941]LogSavePackage: Save=13.65ms
+[2024.01.07-19.46.33:284][941]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/ModoJuego8298BC9645069D49DA401A905B3F4BDB.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/ModoJuego.uasset'
+[2024.01.07-19.46.33:286][941]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/ModoJuego.uasset
+[2024.01.07-19.46.33:317][941]LogSavePackage: Save=4.75ms
+[2024.01.07-19.46.33:317][941]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/ModoJuego_2F97948AB4EE630C346689F839C7CC948.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/ModoJuego_2.uasset'
+[2024.01.07-19.46.33:319][941]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/ModoJuego_2.uasset
+[2024.01.07-19.46.34:006][967]LogAIModule: Creating AISystem for world Nivel_2
+[2024.01.07-19.46.36:259][ 92]LogSavePackage: Save=27.70ms
+[2024.01.07-19.46.36:259][ 92]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Nivel0A25398045552485F253FC90A5C14A58.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Nivel.umap'
+[2024.01.07-19.46.36:261][ 92]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Nivel.umap
+[2024.01.07-19.46.36:265][ 92]LogFileHelpers: Saving map 'Nivel' took 0.076
+[2024.01.07-19.46.38:647][220]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Nivel, Actor: /Game/Ejercicios/Ejercicio20/Nivel.Nivel:PersistentLevel.REINST_Spawner_C_0
+[2024.01.07-19.46.38:647][220]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Nivel, Actor: /Game/Ejercicios/Ejercicio20/Nivel.Nivel:PersistentLevel.REINST_Spawner_C_3
+[2024.01.07-19.46.38:647][220]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Nivel, Actor: /Game/Ejercicios/Ejercicio20/Nivel.Nivel:PersistentLevel.REINST_Spawner_C_6
+[2024.01.07-19.46.38:648][220]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Nivel, Actor: /Game/Ejercicios/Ejercicio20/Nivel.Nivel:PersistentLevel.REINST_Spawner_C_9
+[2024.01.07-19.46.38:648][220]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Nivel, Actor: /Game/Ejercicios/Ejercicio20/Nivel.Nivel:PersistentLevel.REINST_Spawner_C_12
+[2024.01.07-19.46.38:861][220]LogMetaData: Removing '/Game/Ejercicios/Ejercicio20/Spawner.Spawner_C' ref from Metadata '/Game/Ejercicios/Ejercicio20/Spawner_2.PackageMetaData'
+[2024.01.07-19.46.38:861][220]LogMetaData: Removing '/Game/Ejercicios/Ejercicio20/Spawner.SKEL_Spawner_C' ref from Metadata '/Game/Ejercicios/Ejercicio20/Spawner_2.PackageMetaData'
+[2024.01.07-19.46.38:881][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ejercicios/Ejercicio20/Spawner" FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Spawner.uasset" SILENT=true
+[2024.01.07-19.46.38:891][220]LogSavePackage: Save=8.83ms
+[2024.01.07-19.46.38:891][220]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Spawner595AED9C4AB7DCB5EBD3F9AAA125A490.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Spawner.uasset'
+[2024.01.07-19.46.38:892][220]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Spawner.uasset
+[2024.01.07-19.46.38:916][220]LogSavePackage: Save=1.93ms
+[2024.01.07-19.46.38:917][220]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Spawner_220FBD4B24D81C4B8AE476A9ABAF25E3B.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Spawner_2.uasset'
+[2024.01.07-19.46.38:918][220]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Spawner_2.uasset
+[2024.01.07-19.46.39:451][242]LogAIModule: Creating AISystem for world Victoria_2
+[2024.01.07-19.46.41:258][341]LogSavePackage: Save=28.87ms
+[2024.01.07-19.46.41:258][341]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Victoria0BB7993E43807A9A19A1CA9EDDBB53AA.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Victoria.umap'
+[2024.01.07-19.46.41:260][341]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Victoria.umap
+[2024.01.07-19.46.41:262][341]LogFileHelpers: Saving map 'Victoria' took 0.075
+[2024.01.07-19.46.44:020][425]LogSavePackage: Save=24.91ms
+[2024.01.07-19.46.44:020][425]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/NivelA1F56FB3433A1179C512C0A8354C366D.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Nivel.umap'
+[2024.01.07-19.46.44:022][425]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Nivel.umap
+[2024.01.07-19.46.44:025][425]LogFileHelpers: Saving map 'Nivel' took 0.089
+[2024.01.07-19.46.44:114][425]LogSavePackage: Save=27.18ms
+[2024.01.07-19.46.44:114][425]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/VictoriaF5C9379448FA05F6739AF59E994194C7.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Victoria.umap'
+[2024.01.07-19.46.44:116][425]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Victoria.umap
+[2024.01.07-19.46.44:117][425]LogFileHelpers: Saving map 'Victoria' took 0.092
+[2024.01.07-19.46.44:119][425]Cmd: MAP LOAD FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Nivel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.01.07-19.46.44:120][425]LightingResults: New page: Lighting Build
+[2024.01.07-19.46.44:121][425]LoadErrors: New page: Loading map: Nivel.umap
+[2024.01.07-19.46.44:121][425]MapCheck: New page: Map Check
+[2024.01.07-19.46.44:121][425]LightingResults: New page: Lighting Build
+[2024.01.07-19.46.45:230][425]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.01.07-19.46.45:292][425]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.07-19.46.45:314][425]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.07-19.46.45:349][425]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.554ms to complete.
+[2024.01.07-19.46.45:350][425]LogFileHelpers: Loading map 'Nivel' took 1.231
+[2024.01.07-19.46.47:503][543]LogTemp: Repeting last play command: Selected Viewport
+[2024.01.07-19.46.47:516][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.07-19.46.47:516][543]PIE: New page: PIE session: Nivel (Jan 7, 2024, 1:46:47 PM)
+[2024.01.07-19.46.47:516][543]LogPlayLevel: Creating play world package: /Game/Ejercicios/Ejercicio20/UEDPIE_0_Nivel
+[2024.01.07-19.46.47:520][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003330s)
+[2024.01.07-19.46.47:520][543]LogAIModule: Creating AISystem for world Nivel
+[2024.01.07-19.46.47:520][543]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2024.01.07-19.46.47:521][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ejercicios/Ejercicio20/Nivel.Nivel to /Game/Ejercicios/Ejercicio20/UEDPIE_0_Nivel.Nivel (0.004487s)
+[2024.01.07-19.46.47:536][543]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.01.07-19.46.47:556][543]LogInit: FAudioDevice initialized.
+[2024.01.07-19.46.47:606][543]LogLoad: Game class is 'ModoJuego_C'
+[2024.01.07-19.46.47:609][543]LogWorld: Bringing World /Game/Ejercicios/Ejercicio20/UEDPIE_0_Nivel.Nivel up for play (max tick rate 60) at 2024.01.07-16.46.47
+[2024.01.07-19.46.47:609][543]LogWorld: Bringing up level for play took: 0.000929
+[2024.01.07-19.46.47:654][543]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2024.01.07-19.46.47:655][543]PIE: Info Play in editor start time for /Game/Ejercicios/Ejercicio20/UEDPIE_0_Nivel -0.196
+[2024.01.07-19.46.47:656][543]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:698][544]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:714][545]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:731][546]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:747][547]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:764][548]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:783][549]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:799][550]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:816][551]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:832][552]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:849][553]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:866][554]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:882][555]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:899][556]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:916][557]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:932][558]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:952][559]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:966][560]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:982][561]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.47:999][562]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:016][563]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:033][564]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:049][565]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:067][566]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:083][567]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:099][568]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:116][569]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:132][570]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:150][571]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:166][572]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:183][573]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:199][574]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:216][575]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:233][576]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:249][577]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:266][578]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:283][579]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:299][580]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:317][581]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:332][582]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:349][583]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:366][584]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:383][585]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:399][586]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:415][587]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:432][588]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:449][589]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:466][590]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:484][591]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:499][592]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:516][593]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:532][594]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:549][595]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:566][596]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:583][597]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:599][598]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:616][599]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:633][600]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:650][601]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:666][602]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:682][603]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:700][604]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:716][605]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:733][606]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:750][607]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:767][608]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:782][609]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:799][610]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:817][611]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:833][612]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:849][613]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:866][614]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:883][615]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:899][616]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:916][617]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:933][618]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:949][619]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:967][620]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.48:983][621]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:001][622]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:016][623]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:033][624]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:050][625]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:066][626]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:082][627]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:099][628]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:116][629]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:133][630]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:150][631]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:167][632]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:185][633]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:200][634]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:217][635]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:234][636]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:251][637]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:267][638]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:284][639]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:301][640]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:317][641]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:334][642]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:350][643]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:368][644]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:384][645]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:401][646]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:417][647]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:434][648]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:451][649]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:467][650]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:484][651]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:501][652]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:517][653]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:534][654]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:552][655]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:567][656]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:584][657]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:600][658]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:617][659]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:634][660]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:650][661]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:669][662]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:685][663]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:702][664]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:719][665]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:736][666]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:754][667]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:769][668]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:785][669]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:802][670]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:819][671]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:836][672]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:852][673]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:869][674]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:885][675]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:902][676]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:919][677]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:937][678]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:952][679]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:969][680]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.49:985][681]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:002][682]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:020][683]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:036][684]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:053][685]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:069][686]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:085][687]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:105][688]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:126][689]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:139][690]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:156][691]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:172][692]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:189][693]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:206][694]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:223][695]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:239][696]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:255][697]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:273][698]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:289][699]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:306][700]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:324][701]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:339][702]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:355][703]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:372][704]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:389][705]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:406][706]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:422][707]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:439][708]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:456][709]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:473][710]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:489][711]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:507][712]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:522][713]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:539][714]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:556][715]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:573][716]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:589][717]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:607][718]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:623][719]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:640][720]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:656][721]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:673][722]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:690][723]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:707][724]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:723][725]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:740][726]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:756][727]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:773][728]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:789][729]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:806][730]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:822][731]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:839][732]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:856][733]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:873][734]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:889][735]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:906][736]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:922][737]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:939][738]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:956][739]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:972][740]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.50:989][741]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:006][742]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:023][743]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:039][744]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:056][745]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:072][746]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:089][747]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:106][748]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:122][749]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:139][750]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:156][751]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:173][752]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:189][753]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:206][754]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:222][755]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:240][756]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:256][757]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:273][758]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:290][759]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:307][760]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:323][761]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:340][762]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:357][763]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:373][764]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:390][765]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:407][766]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:423][767]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:439][768]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:456][769]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:473][770]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:489][771]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:506][772]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:523][773]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:539][774]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:556][775]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:573][776]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:589][777]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:606][778]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:623][779]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:640][780]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.51:656][781]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:673][782]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:690][783]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:707][784]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:723][785]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:740][786]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:757][787]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:773][788]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:790][789]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:807][790]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:824][791]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:840][792]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:857][793]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:873][794]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:890][795]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:907][796]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:923][797]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:940][798]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:957][799]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:973][800]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.51:990][801]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:007][802]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:024][803]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:040][804]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:056][805]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:073][806]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:090][807]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:106][808]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:123][809]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:140][810]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:156][811]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:173][812]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:190][813]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:206][814]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:223][815]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:240][816]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:256][817]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:273][818]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:290][819]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:306][820]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:323][821]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:340][822]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:356][823]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.52:373][824]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.46.53:597][883]LogSavePackage: Save=24.01ms
+[2024.01.07-19.46.53:597][883]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Nivel27BA0BEC440D53FD0C7F18BDFFCB240F.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Nivel.umap'
+[2024.01.07-19.46.53:599][883]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Nivel.umap
+[2024.01.07-19.46.55:595][927]LogSavePackage: Save=26.82ms
+[2024.01.07-19.46.55:595][927]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Victoria8CB6F26441C9073F9D6A0F85FBA243F3.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Victoria.umap'
+[2024.01.07-19.46.55:597][927]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Victoria.umap
+[2024.01.07-19.46.55:599][927]LogFileHelpers: Saving map 'Victoria' took 0.092
+[2024.01.07-19.46.55:601][927]Cmd: MAP LOAD FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Victoria.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.01.07-19.46.55:601][927]LightingResults: New page: Lighting Build
+[2024.01.07-19.46.55:603][927]LoadErrors: New page: Loading map: Victoria.umap
+[2024.01.07-19.46.55:603][927]MapCheck: New page: Map Check
+[2024.01.07-19.46.55:603][927]LightingResults: New page: Lighting Build
+[2024.01.07-19.46.55:673][927]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.07-19.46.55:696][927]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.07-19.46.55:727][927]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.802ms to complete.
+[2024.01.07-19.46.55:728][927]LogFileHelpers: Loading map 'Victoria' took 0.128
+[2024.01.07-19.46.56:941][988]LogAIModule: Creating AISystem for world Nivel
+[2024.01.07-19.46.58:126][988]LogSavePackage: Save=27.71ms
+[2024.01.07-19.46.58:126][988]LogSavePackage: Moving '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Victoria04E656764900F0945488B1BC63D18DF7.tmp' to '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Victoria.umap'
+[2024.01.07-19.46.58:128][988]LogSavePackage:Display: Finished SavePackage ../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Victoria.umap
+[2024.01.07-19.46.58:148][988]LogFileHelpers: Saving map 'Victoria' took 0.110
+[2024.01.07-19.46.58:149][988]Cmd: MAP LOAD FILE="../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Ejercicios/Ejercicio20/Nivel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.01.07-19.46.58:149][988]LightingResults: New page: Lighting Build
+[2024.01.07-19.46.58:150][988]LoadErrors: New page: Loading map: Nivel.umap
+[2024.01.07-19.46.58:151][988]MapCheck: New page: Map Check
+[2024.01.07-19.46.58:151][988]LightingResults: New page: Lighting Build
+[2024.01.07-19.46.58:243][988]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.07-19.46.58:264][988]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.07-19.46.58:296][988]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.401ms to complete.
+[2024.01.07-19.46.58:296][988]LogFileHelpers: Loading map 'Nivel' took 0.148
+[2024.01.07-19.46.58:960][ 23]LogTemp: Repeting last play command: Selected Viewport
+[2024.01.07-19.46.58:971][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.07-19.46.58:971][ 23]PIE: New page: PIE session: Nivel (Jan 7, 2024, 1:46:58 PM)
+[2024.01.07-19.46.58:971][ 23]LogPlayLevel: Creating play world package: /Game/Ejercicios/Ejercicio20/UEDPIE_0_Nivel
+[2024.01.07-19.46.58:973][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002337s)
+[2024.01.07-19.46.58:974][ 23]LogAIModule: Creating AISystem for world Nivel
+[2024.01.07-19.46.58:974][ 23]LogPlayLevel: PIE: World Init took: (0.000834s)
+[2024.01.07-19.46.58:974][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Ejercicios/Ejercicio20/Nivel.Nivel to /Game/Ejercicios/Ejercicio20/UEDPIE_0_Nivel.Nivel (0.003397s)
+[2024.01.07-19.46.58:990][ 23]LogInit: XAudio2 using 'Altavoces (Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2024.01.07-19.46.59:009][ 23]LogInit: FAudioDevice initialized.
+[2024.01.07-19.46.59:044][ 23]LogLoad: Game class is 'ModoJuego_C'
+[2024.01.07-19.46.59:046][ 23]LogWorld: Bringing World /Game/Ejercicios/Ejercicio20/UEDPIE_0_Nivel.Nivel up for play (max tick rate 60) at 2024.01.07-16.46.59
+[2024.01.07-19.46.59:046][ 23]LogWorld: Bringing up level for play took: 0.000869
+[2024.01.07-19.46.59:048][ 23]PIE: Info Play in editor start time for /Game/Ejercicios/Ejercicio20/UEDPIE_0_Nivel -0.804
+[2024.01.07-19.46.59:048][ 23]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:069][ 24]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:086][ 25]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:106][ 26]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:123][ 27]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:140][ 28]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:156][ 29]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:173][ 30]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:190][ 31]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:206][ 32]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:223][ 33]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:239][ 34]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:256][ 35]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:273][ 36]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:289][ 37]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:306][ 38]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:323][ 39]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:339][ 40]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:356][ 41]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:373][ 42]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:389][ 43]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:406][ 44]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:423][ 45]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:439][ 46]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:456][ 47]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:472][ 48]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:489][ 49]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:506][ 50]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:522][ 51]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:539][ 52]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:556][ 53]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:572][ 54]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:589][ 55]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:606][ 56]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:622][ 57]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:639][ 58]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:656][ 59]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:672][ 60]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:691][ 61]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:706][ 62]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:722][ 63]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:739][ 64]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:756][ 65]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:772][ 66]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:789][ 67]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:806][ 68]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:822][ 69]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:839][ 70]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:855][ 71]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:872][ 72]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:889][ 73]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:906][ 74]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:923][ 75]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:939][ 76]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:956][ 77]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:973][ 78]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.46.59:989][ 79]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:006][ 80]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:023][ 81]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:039][ 82]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:056][ 83]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:073][ 84]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:090][ 85]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:107][ 86]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:123][ 87]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:139][ 88]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:156][ 89]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:173][ 90]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:189][ 91]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:206][ 92]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:223][ 93]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:239][ 94]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:256][ 95]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:272][ 96]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:289][ 97]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:307][ 98]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:322][ 99]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:339][100]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:355][101]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:372][102]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:389][103]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:406][104]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:422][105]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:439][106]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:455][107]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:472][108]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:490][109]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:505][110]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:523][111]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:539][112]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:556][113]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:573][114]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:589][115]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:606][116]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:622][117]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:639][118]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:656][119]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:673][120]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:689][121]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:705][122]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:722][123]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:739][124]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:756][125]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:773][126]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:789][127]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:805][128]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:822][129]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:840][130]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:856][131]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:874][132]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:889][133]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:905][134]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:922][135]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:939][136]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:956][137]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:973][138]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.00:989][139]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:006][140]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:022][141]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:039][142]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:057][143]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:075][144]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:090][145]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:107][146]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:123][147]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:140][148]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:156][149]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:173][150]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:189][151]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:206][152]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:223][153]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:243][154]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:256][155]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:273][156]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:290][157]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:306][158]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:323][159]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:339][160]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:356][161]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:373][162]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:389][163]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:406][164]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:424][165]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:439][166]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:456][167]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:472][168]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:489][169]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:506][170]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:523][171]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:539][172]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:555][173]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:572][174]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:589][175]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:607][176]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:623][177]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:639][178]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:656][179]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:673][180]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:690][181]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:706][182]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:723][183]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:739][184]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:756][185]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:773][186]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:789][187]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:806][188]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:823][189]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:840][190]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:857][191]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:873][192]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:890][193]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:908][194]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:923][195]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:940][196]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:956][197]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:973][198]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.01:990][199]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:007][200]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:023][201]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:040][202]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:057][203]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:073][204]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:090][205]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:108][206]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:123][207]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:140][208]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:157][209]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:173][210]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:189][211]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:207][212]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:223][213]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:240][214]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:257][215]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:273][216]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:289][217]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:306][218]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:323][219]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:340][220]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:356][221]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:373][222]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:389][223]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:406][224]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:423][225]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:439][226]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:456][227]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:473][228]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:489][229]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:506][230]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:523][231]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:539][232]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:556][233]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:573][234]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:589][235]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:606][236]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:623][237]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:639][238]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:656][239]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:673][240]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:689][241]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:706][242]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:722][243]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:739][244]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:755][245]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:773][246]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:789][247]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:806][248]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:822][249]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:839][250]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:856][251]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:873][252]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:889][253]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:906][254]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:922][255]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:939][256]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:956][257]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:972][258]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.02:989][259]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:006][260]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:023][261]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:039][262]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:056][263]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:072][264]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:089][265]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:106][266]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:123][267]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:140][268]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:156][269]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:173][270]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:190][271]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:206][272]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:223][273]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:239][274]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:256][275]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:273][276]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:289][277]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:306][278]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:322][279]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:339][280]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:356][281]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 0
+[2024.01.07-19.47.03:373][282]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:389][283]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:406][284]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:422][285]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:439][286]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:455][287]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:472][288]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:489][289]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:505][290]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:522][291]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:539][292]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:556][293]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:573][294]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:590][295]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:607][296]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:622][297]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:639][298]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:656][299]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:673][300]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:690][301]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:706][302]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:723][303]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:740][304]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:756][305]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:772][306]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:789][307]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:806][308]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:823][309]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:839][310]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:856][311]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:873][312]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:890][313]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:906][314]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:922][315]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:939][316]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:956][317]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:972][318]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.03:989][319]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:006][320]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:023][321]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:039][322]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:057][323]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:073][324]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:090][325]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:106][326]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:122][327]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:139][328]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:156][329]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:173][330]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:189][331]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:206][332]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:223][333]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:239][334]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:256][335]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:272][336]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:289][337]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:306][338]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:323][339]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:339][340]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:356][341]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:372][342]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:390][343]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:406][344]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:423][345]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:440][346]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:456][347]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:472][348]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:489][349]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 1
+[2024.01.07-19.47.04:506][350]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 2
+[2024.01.07-19.47.04:522][351]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 2
+[2024.01.07-19.47.04:539][352]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 2
+[2024.01.07-19.47.04:556][353]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 2
+[2024.01.07-19.47.04:572][354]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 2
+[2024.01.07-19.47.04:589][355]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 2
+[2024.01.07-19.47.04:606][356]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 2
+[2024.01.07-19.47.04:623][357]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 2
+[2024.01.07-19.47.04:639][358]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 2
+[2024.01.07-19.47.04:656][359]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 2
+[2024.01.07-19.47.04:672][360]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 2
+[2024.01.07-19.47.04:689][361]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 2
+[2024.01.07-19.47.04:706][362]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 2
+[2024.01.07-19.47.04:723][363]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 2
+[2024.01.07-19.47.04:739][364]LogBlueprintUserMessages: [ModoJuego_C_0] Puntaje: 2
+[2024.01.07-19.47.04:773][366]LogNet: Browse: /Game/Ejercicios/Ejercicio15/Victoria
+[2024.01.07-19.47.04:773][366]LogLoad: LoadMap: /Game/Ejercicios/Ejercicio15/Victoria
+[2024.01.07-19.47.04:785][366]Cmd: MEM
+[2024.01.07-19.47.04:792][366]LogMemory: Platform Memory Stats for Windows
+[2024.01.07-19.47.04:792][366]LogMemory: Process Physical Memory: 1946.07 MB used, 2016.42 MB peak
+[2024.01.07-19.47.04:792][366]LogMemory: Process Virtual Memory: 1982.04 MB used, 2104.19 MB peak
+[2024.01.07-19.47.04:792][366]LogMemory: Physical Memory: 11145.99 MB used,  20829.68 MB free, 31975.68 MB total
+[2024.01.07-19.47.04:792][366]LogMemory: Virtual Memory: 7062.63 MB used,  20829.68 MB free, 134217728.00 MB total
+[2024.01.07-19.47.04:792][366]LogMemory: 
+[2024.01.07-19.47.04:792][366]Allocator Stats for TBB: (not implemented)
+[2024.01.07-19.47.04:876][366]LogAIModule: Creating AISystem for world Victoria
+[2024.01.07-19.47.04:877][366]LogLoad: Game class is 'GameModeBase'
+[2024.01.07-19.47.04:880][366]LogWorld: Bringing World /Game/Ejercicios/Ejercicio15/UEDPIE_0_Victoria.Victoria up for play (max tick rate 60) at 2024.01.07-16.47.04
+[2024.01.07-19.47.04:881][366]LogWorld: Bringing up level for play took: 0.001987
+[2024.01.07-19.47.04:882][366]LogLoad: Took 0.109097 seconds to LoadMap(/Game/Ejercicios/Ejercicio15/Victoria)
+[2024.01.07-19.47.08:234][537]Cmd: QUIT_EDITOR
+[2024.01.07-19.47.08:780][537]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2024.01.07-19.47.08:846][537]LogExit: Preparing to exit.
+[2024.01.07-19.47.09:126][537]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/' was aborted.
+[2024.01.07-19.47.09:150][537]LogExit: Editor shut down
+[2024.01.07-19.47.09:151][537]LogExit: Transaction tracking system shut down
+[2024.01.07-19.47.09:212][537]LogObj: Freed 0b from 0 cluster array pools.
+[2024.01.07-19.47.09:212][537]LogExit: Object subsystem successfully closed.
+[2024.01.07-19.47.09:368][537]LogD3D11RHI: Shutdown
+[2024.01.07-19.47.09:368][537]LogD3D11RHI: CleanupD3DDevice
+[2024.01.07-19.47.09:708][537]LogD3D11RHI: ~FD3D11DynamicRHI
+[2024.01.07-19.47.09:718][537]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (482)
+[2024.01.07-19.47.09:718][537]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (480)
+[2024.01.07-19.47.09:718][537]LogModuleManager: Shutting down and abandoning module CrashTracker (478)
+[2024.01.07-19.47.09:718][537]LogModuleManager: Shutting down and abandoning module SceneOutliner (476)
+[2024.01.07-19.47.09:718][537]LogModuleManager: Shutting down and abandoning module AddContentDialog (474)
+[2024.01.07-19.47.09:718][537]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Unreal Engine 4 (4.15.0)/FeaturePacks/' was aborted.
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module WidgetCarousel (473)
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module EditorWidgets (470)
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module CollectionManager (468)
+[2024.01.07-19.47.09:719][537]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Collections/' was aborted.
+[2024.01.07-19.47.09:719][537]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/Developers/MelchioT/Collections/' was aborted.
+[2024.01.07-19.47.09:719][537]LogDirectoryWatcher: A directory notification for 'C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Saved/Collections/' was aborted.
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module StatsViewer (466)
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module FoliageEdit (464)
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module LandscapeEditor (462)
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (460)
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module ActorPickerMode (458)
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module GeometryMode (456)
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module TextureAlignMode (454)
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module BspMode (452)
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module HardwareSurvey (450)
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (448)
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module AutomationWorker (446)
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (444)
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (442)
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module PlacementMode (441)
+[2024.01.07-19.47.09:719][537]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (438)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (436)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module MfMediaFactory (434)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module MfMediaEditor (432)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (430)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (428)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (426)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module Media (425)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (422)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module CharacterAI (420)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module AudioCapture (418)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module SequenceRecorder (417)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module SmartSnapping (414)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module SessionServices (412)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module ViewportSnapping (410)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module ViewportInteraction (408)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module LogVisualizer (406)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module IntroTutorials (404)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (403)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (400)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (398)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (396)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (394)
+[2024.01.07-19.47.09:720][537]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (393)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (390)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (388)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module InputBindingEditor (386)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module NiagaraEditor (384)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module MergeActors (382)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module SizeMap (380)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module TreeMap (378)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module ReferenceViewer (376)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (374)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module LocalizationService (373)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module HardwareTargeting (370)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (368)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module UndoHistory (366)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module UserFeedback (364)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module XmlParser (362)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module Blutility (360)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (358)
+[2024.01.07-19.47.10:682][537]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (357)
+[2024.01.07-19.47.10:683][537]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (354)
+[2024.01.07-19.47.10:683][537]LogModuleManager: Shutting down and abandoning module SettingsEditor (352)
+[2024.01.07-19.47.10:683][537]LogModuleManager: Shutting down and abandoning module ProjectLauncher (350)
+[2024.01.07-19.47.10:683][537]LogModuleManager: Shutting down and abandoning module SessionFrontend (348)
+[2024.01.07-19.47.10:683][537]LogModuleManager: Shutting down and abandoning module ProfilerClient (346)
+[2024.01.07-19.47.10:683][537]LogModuleManager: Shutting down and abandoning module DeviceManager (344)
+[2024.01.07-19.47.10:683][537]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (343)
+[2024.01.07-19.47.10:727][537]LogModuleManager: Shutting down and abandoning module AutomationController (340)
+[2024.01.07-19.47.10:727][537]LogModuleManager: Shutting down and abandoning module AutomationWindow (338)
+[2024.01.07-19.47.10:727][537]LogModuleManager: Shutting down and abandoning module Layers (336)
+[2024.01.07-19.47.10:727][537]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (334)
+[2024.01.07-19.47.10:727][537]LogModuleManager: Shutting down and abandoning module DetailCustomizations (332)
+[2024.01.07-19.47.10:727][537]LogModuleManager: Shutting down and abandoning module PackagesDialog (330)
+[2024.01.07-19.47.10:727][537]LogModuleManager: Shutting down and abandoning module Persona (328)
+[2024.01.07-19.47.10:727][537]LogModuleManager: Shutting down and abandoning module AnimGraph (327)
+[2024.01.07-19.47.10:727][537]LogModuleManager: Shutting down and abandoning module Kismet (324)
+[2024.01.07-19.47.10:727][537]LogModuleManager: Shutting down and abandoning module GraphEditor (322)
+[2024.01.07-19.47.10:728][537]LogModuleManager: Shutting down and abandoning module ClassViewer (320)
+[2024.01.07-19.47.10:728][537]LogModuleManager: Shutting down and abandoning module Toolbox (318)
+[2024.01.07-19.47.10:728][537]LogModuleManager: Shutting down and abandoning module ModuleUI (316)
+[2024.01.07-19.47.10:728][537]LogModuleManager: Shutting down and abandoning module MovieSceneTools (314)
+[2024.01.07-19.47.10:728][537]LogModuleManager: Shutting down and abandoning module OutputLog (312)
+[2024.01.07-19.47.10:728][537]LogModuleManager: Shutting down and abandoning module GammaUI (310)
+[2024.01.07-19.47.10:728][537]LogModuleManager: Shutting down and abandoning module Documentation (308)
+[2024.01.07-19.47.10:728][537]LogModuleManager: Shutting down and abandoning module Niagara (306)
+[2024.01.07-19.47.10:728][537]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (304)
+[2024.01.07-19.47.10:728][537]LogModuleManager: Shutting down and abandoning module AnalyticsET (302)
+[2024.01.07-19.47.10:728][537]LogModuleManager: Shutting down and abandoning module PortalServices (300)
+[2024.01.07-19.47.10:728][537]LogModuleManager: Shutting down and abandoning module PortalRpc (298)
+[2024.01.07-19.47.10:728][537]LogModuleManager: Shutting down and abandoning module MessagingRpc (296)
+[2024.01.07-19.47.10:728][537]LogModuleManager: Shutting down and abandoning module AIModule (294)
+[2024.01.07-19.47.10:728][537]LogModuleManager: Shutting down and abandoning module GameplayDebugger (293)
+[2024.01.07-19.47.10:728][537]LogModuleManager: Shutting down and abandoning module AITestSuite (291)
+[2024.01.07-19.47.10:728][537]LogModuleManager: Shutting down and abandoning module ProfilerService (288)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module TaskGraph (286)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module SteamVRController (284)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module SteamVR (282)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (280)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (278)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module OculusLibrary (276)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module OculusInput (274)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (272)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (270)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module CableComponent (268)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (266)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (262)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module HTML5Networking (260)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module AlembicImporter (258)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module AlembicLibrary (257)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module GeometryCache (256)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (255)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (250)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module SuperSearch (249)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (246)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module PluginBrowser (244)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (242)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module EpicSurvey (240)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (238)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module DesktopPlatform (237)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module UObjectPlugin (234)
+[2024.01.07-19.47.10:873][537]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (232)
+[2024.01.07-19.47.10:874][537]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (230)
+[2024.01.07-19.47.10:874][537]LogModuleManager: Shutting down and abandoning module GitSourceControl (228)
+[2024.01.07-19.47.10:874][537]LogModuleManager: Shutting down and abandoning module SourceControl (227)
+[2024.01.07-19.47.10:874][537]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (224)
+[2024.01.07-19.47.10:874][537]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (222)
+[2024.01.07-19.47.10:874][537]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (220)
+[2024.01.07-19.47.10:874][537]LogModuleManager: Shutting down and abandoning module Paper2DEditor (218)
+[2024.01.07-19.47.10:874][537]LogModuleManager: Shutting down and abandoning module MeshPaint (217)
+[2024.01.07-19.47.10:874][537]LogModuleManager: Shutting down and abandoning module LevelEditor (215)
+[2024.01.07-19.47.10:874][537]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (214)
+[2024.01.07-19.47.10:874][537]LogModuleManager: Shutting down and abandoning module MainFrame (212)
+[2024.01.07-19.47.10:874][537]LogModuleManager: Shutting down and abandoning module HotReload (211)
+[2024.01.07-19.47.10:875][537]LogModuleManager: Shutting down and abandoning module ContentBrowser (207)
+[2024.01.07-19.47.10:876][537]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (204)
+[2024.01.07-19.47.10:876][537]LogModuleManager: Shutting down and abandoning module PhysXVehicles (202)
+[2024.01.07-19.47.10:876][537]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (200)
+[2024.01.07-19.47.10:876][537]LogModuleManager: Shutting down and abandoning module UdpMessaging (198)
+[2024.01.07-19.47.10:976][537]LogModuleManager: Shutting down and abandoning module TcpMessaging (196)
+[2024.01.07-19.47.11:077][537]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (194)
+[2024.01.07-19.47.11:077][537]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (192)
+[2024.01.07-19.47.11:077][537]LogModuleManager: Shutting down and abandoning module FacialAnimation (190)
+[2024.01.07-19.47.11:077][537]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (188)
+[2024.01.07-19.47.11:077][537]LogModuleManager: Shutting down and abandoning module Paper2D (186)
+[2024.01.07-19.47.11:077][537]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (184)
+[2024.01.07-19.47.11:077][537]LogModuleManager: Shutting down and abandoning module WmfMedia (182)
+[2024.01.07-19.47.11:080][537]LogModuleManager: Shutting down and abandoning module MfMedia (180)
+[2024.01.07-19.47.11:080][537]LogModuleManager: Shutting down and abandoning module MediaAssets (178)
+[2024.01.07-19.47.11:080][537]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (176)
+[2024.01.07-19.47.11:080][537]LogModuleManager: Shutting down and abandoning module VREditor (174)
+[2024.01.07-19.47.11:080][537]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (172)
+[2024.01.07-19.47.11:080][537]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (170)
+[2024.01.07-19.47.11:080][537]LogModuleManager: Shutting down and abandoning module FunctionalTesting (168)
+[2024.01.07-19.47.11:080][537]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (166)
+[2024.01.07-19.47.11:080][537]LogModuleManager: Shutting down and abandoning module UMG (164)
+[2024.01.07-19.47.11:080][537]LogModuleManager: Shutting down and abandoning module UMGEditor (163)
+[2024.01.07-19.47.11:080][537]LogModuleManager: Shutting down and abandoning module Sequencer (162)
+[2024.01.07-19.47.11:080][537]LogModuleManager: Shutting down and abandoning module AssetTools (160)
+[2024.01.07-19.47.11:080][537]LogModuleManager: Shutting down and abandoning module MessageLog (159)
+[2024.01.07-19.47.11:080][537]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (158)
+[2024.01.07-19.47.11:080][537]LogModuleManager: Shutting down and abandoning module SlateReflector (152)
+[2024.01.07-19.47.11:081][537]LogModuleManager: Shutting down and abandoning module Slate (150)
+[2024.01.07-19.47.11:081][537]LogModuleManager: Shutting down and abandoning module EditorStyle (148)
+[2024.01.07-19.47.11:084][537]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (146)
+[2024.01.07-19.47.11:084][537]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (144)
+[2024.01.07-19.47.11:084][537]LogModuleManager: Shutting down and abandoning module XAudio2 (142)
+[2024.01.07-19.47.11:084][537]LogModuleManager: Shutting down and abandoning module Networking (140)
+[2024.01.07-19.47.11:084][537]LogModuleManager: Shutting down and abandoning module Core (136)
+[2024.01.07-19.47.11:084][537]LogModuleManager: Shutting down and abandoning module AssetRegistry (134)
+[2024.01.07-19.47.11:232][537]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2024.01.07-19.47.11:232][537]LogDirectoryWatcher: A directory notification for '../../../../../Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/Content/' was aborted.
+[2024.01.07-19.47.11:232][537]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2024.01.07-19.47.11:232][537]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (133)
+[2024.01.07-19.47.11:233][537]LogModuleManager: Shutting down and abandoning module KismetCompiler (130)
+[2024.01.07-19.47.11:233][537]LogModuleManager: Shutting down and abandoning module PhysXFormats (128)
+[2024.01.07-19.47.11:233][537]LogModuleManager: Shutting down and abandoning module MeshUtilities (126)
+[2024.01.07-19.47.11:233][537]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (125)
+[2024.01.07-19.47.11:233][537]LogModuleManager: Shutting down and abandoning module PropertyEditor (123)
+[2024.01.07-19.47.11:233][537]LogModuleManager: Shutting down and abandoning module DerivedDataCache (120)
+[2024.01.07-19.47.11:274][537]LogDerivedDataCache: Shutdown
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module TargetPlatform (118)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (117)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (115)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (113)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (111)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (109)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (107)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module ImageWrapper (106)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (103)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (101)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (99)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (97)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (95)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (93)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (91)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module Messaging (89)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (87)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (85)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (79)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (77)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (75)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (73)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (71)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (69)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2024.01.07-19.47.11:274][537]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2024.01.07-19.47.11:275][537]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (63)
+[2024.01.07-19.47.11:275][537]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (61)
+[2024.01.07-19.47.11:275][537]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (59)
+[2024.01.07-19.47.11:275][537]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2024.01.07-19.47.11:275][537]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (55)
+[2024.01.07-19.47.11:275][537]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (53)
+[2024.01.07-19.47.11:275][537]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (51)
+[2024.01.07-19.47.11:275][537]LogModuleManager: Shutting down and abandoning module InputCore (48)
+[2024.01.07-19.47.11:275][537]LogModuleManager: Shutting down and abandoning module Settings (46)
+[2024.01.07-19.47.11:275][537]LogModuleManager: Shutting down and abandoning module OculusRift (44)
+[2024.01.07-19.47.11:275][537]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (42)
+[2024.01.07-19.47.11:275][537]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (40)
+[2024.01.07-19.47.11:275][537]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (36)
+[2024.01.07-19.47.11:275][537]LogOnline:Display: Unloading online subsystem: NULL
+[2024.01.07-19.47.11:275][537]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2024.01.07-19.47.11:275][537]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2024.01.07-19.47.11:275][537]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4D349619-4C22-6D79-47BB-5CB089D1F467%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.15.0-0%2B%2B%2BUE4%2BRelease-4.15&UserID=aa7ec4a94460bf88f1f872b01bef9583%7C8cfcda83180144cdb9bb2bc7d773924e%7C775b68d6-d1f3-44da-96ce-dab51d83f808&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2024.01.07-19.47.11:284][537]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2024.01.07-19.47.11:285][537]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2024.01.07-19.47.11:285][537]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2024.01.07-19.47.11:285][537]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2024.01.07-19.47.11:285][537]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2024.01.07-19.47.11:285][537]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2024.01.07-19.47.11:287][537]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2024.01.07-19.47.11:287][537]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2024.01.07-19.47.11:287][537]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2024.01.07-19.47.11:287][537]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2024.01.07-19.47.11:287][537]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2024.01.07-19.47.11:287][537]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2024.01.07-19.47.11:287][537]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2024.01.07-19.47.11:287][537]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2024.01.07-19.47.11:287][537]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2024.01.07-19.47.11:287][537]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2024.01.07-19.47.11:293][537]LogExit: Exiting.
+[2024.01.07-19.47.11:294][537]Log file closed, 01/07/24 16:47:11
