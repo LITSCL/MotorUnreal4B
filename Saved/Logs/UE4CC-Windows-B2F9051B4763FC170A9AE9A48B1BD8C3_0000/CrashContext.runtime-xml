@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Windows-B2F9051B4763FC170A9AE9A48B1BD8C3_0000</CrashGUID>
+<ProcessId>1652</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>true</IsSourceDistribution>
+<IsEnsure>true</IsEnsure>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<SecondsSinceStart>3088</SecondsSinceStart>
+<GameName>UE4-MotorUnreal4B</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineModeEx>Dirty</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.15.0-0+++UE4+Release-4.15</EngineVersion>
+<CommandLine>&quot;C:/Users/MelchioT/Documents/workUnrealEngine4/MotorUnreal4B/MotorUnreal4B.uproject&quot;</CommandLine>
+<LanguageLCID>13322</LanguageLCID>
+<AppDefaultLocale>es_CL</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.15-CL-0</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/Program Files/Unreal Engine 4 (4.15.0)/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Program Files/Unreal Engine 4 (4.15.0)/</RootDir>
+<MachineId>AA7EC4A94460BF88F1F872B01BEF9583</MachineId>
+<LoginId>aa7ec4a94460bf88f1f872b01bef9583</LoginId>
+<EpicAccountId>8cfcda83180144cdb9bb2bc7d773924e</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint>Layout=&quot;ContentBrowserTab1&quot; Label=&quot;Content Browser&quot; Content=SBox</UserActivityHint>
+<ErrorMessage>Ensure condition failed: MyOwnerWorld [File:C:\Users\MelchioT\Desktop\UE\Engine\Source\Runtime\Engine\Private\Components\ActorComponent.cpp] [Line: 986] &nl;&nl;</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>6</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+<Misc.CPUBrand>AMD Ryzen 5 PRO 4650U with Radeon Graphics</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>AMD Radeon(TM) Graphics</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>33528926208</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>17941790720</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140724315848704</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>6827790336</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>6827872256</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>7207403520</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>7207403520</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+</FGenericCrashContext>
